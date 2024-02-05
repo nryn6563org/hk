@@ -35,7 +35,7 @@
   @apply text-[#2073EF]
 }
 .issueCard .top .price{
-  @apply absolute top-[33px] right-0 text-[15px] leading-[22px] text-black
+  @apply absolute top-[33px] right-0 text-[15px] leading-[22px] text-black font-medium
 }
 .issueCard .top .stockInfo{
   @apply absolute bottom-0 left-0 rounded-full bg-[#F4F6F9] flex justify-center h-6 items-center w-full

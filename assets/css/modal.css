@@ -53,7 +53,7 @@
   @apply absolute top-2.5 right-5
 }
 .item-sch .modal-content .modal-body{
-  @apply p-[20px_20px_80px] w-full max-h-[calc(100%-47px)] overflow-y-scroll
+  @apply p-[20px] w-full max-h-[calc(100%-47px)] overflow-y-scroll
 }
 
 .item-sch .modal-content .modal-body .sch-modal-wrap{
