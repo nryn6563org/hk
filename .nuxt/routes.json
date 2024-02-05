@@ -1,0 +1,32 @@
+[
+  {
+    "name": "accodianEx",
+    "path": "/accodianEx",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/accodianEx.vue",
+    "chunkName": "pages/accodianEx"
+  },
+  {
+    "name": "modalEx",
+    "path": "/modalEx",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/modalEx.vue",
+    "chunkName": "pages/modalEx"
+  },
+  {
+    "name": "modalTween",
+    "path": "/modalTween",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/modalTween.vue",
+    "chunkName": "pages/modalTween"
+  },
+  {
+    "name": "sub",
+    "path": "/sub",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/sub.vue",
+    "chunkName": "pages/sub"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
