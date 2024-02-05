@@ -296,6 +296,7 @@
       <!-- 상단 -->
 
       <CatchTab></CatchTab>
+      <CatchTab2></CatchTab2>
       <!-- 최근3&12개월 -->
     </div>
     <!-- 신호캐치 -->
@@ -422,6 +423,7 @@
 import ItemCard from "~/components/SignalCatch/ItemCard";
 import SignalList from "~/components/SignalCatch/SignalList";
 import CatchTab from "~/components/SignalCatch/CatchTab";
+import CatchTab2 from "~/components/SignalCatch/CatchTabNotJoin";
 import Modal from "~/components/ModalWrap";
 import SchBox from "~/components/SignalCatch/SearchWrap";
 import SettingAlarm from "~/components/SignalCatch/SettingAlarm";
@@ -434,6 +436,7 @@ export default {
     Modal,
     SchBox,
     SettingAlarm,
+    CatchTab2
   },
   data() {
     return {

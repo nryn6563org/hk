@@ -316,9 +316,9 @@
             >
 
             <div class="list">
-              <span> 개장전 이슈와 주도주 알림! <em>(매일8:50)</em> </span>
-              <span>장중 실시간 이슈& 주도주 확인!</span>
-              <span>
+              <span class="on"> 개장전 이슈와 주도주 알림! <em>(매일8:50)</em> </span>
+              <span class="on">장중 실시간 이슈& 주도주 확인!</span>
+              <span class="on">
                 퇴근길 한발빠른 종목 추천! <br />
                 <em>(매일 최대5종목)</em>
               </span>
@@ -347,9 +347,9 @@
             >
 
             <div class="list">
-              <span>전종목 매매신호 조회!</span>
-              <span>실시간 매매타이밍 알림! <em>(최대50종목)</em></span>
-              <span>잘 팔아야 수익, 진짜 매도 잘 하는 AI!</span>
+              <span class="on">전종목 매매신호 조회!</span>
+              <span class="on">실시간 매매타이밍 알림! <em>(최대50종목)</em></span>
+              <span class="on">잘 팔아야 수익, 진짜 매도 잘 하는 AI!</span>
             </div>
           </div>
           <!-- 시그널 -->

@@ -306,9 +306,9 @@ export default {
   data() {
     return {
       showModal:false,
+      allChecked: false,
       modals: {
         settingAlarm: false,
-        allChecked: false,
       },
       items: [
         {
