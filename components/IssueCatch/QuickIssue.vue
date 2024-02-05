@@ -218,7 +218,7 @@
                 <!-- num -->
                 <div class="obj">
                   <span class="txt">한국경제TV</span>
-                  <span class="bullet up">매도</span>
+                  <span class="bullet dn">매도</span>
                   <!-- bullet - up,dn,mid -->
                 </div>
                 <!-- obj -->
@@ -242,7 +242,7 @@
                 <!-- num -->
                 <div class="obj">
                   <span class="txt">한국경제TV</span>
-                  <span class="bullet up">종목교체</span>
+                  <span class="bullet mid">종목교체</span>
                   <!-- bullet - up,dn,mid -->
                 </div>
                 <!-- obj -->
@@ -283,7 +283,7 @@
                 <!-- num -->
                 <div class="obj">
                   <span class="txt">한국경제TV</span>
-                  <span class="bullet up">보유중</span>
+                  <span class="bullet mid">보유중</span>
                   <!-- bullet - up,dn,mid -->
                 </div>
                 <!-- obj -->
@@ -307,7 +307,7 @@
                 <!-- num -->
                 <div class="obj">
                   <span class="txt">한국경제TV</span>
-                  <span class="bullet up">매도</span>
+                  <span class="bullet dn">매도</span>
                   <!-- bullet - up,dn,mid -->
                 </div>
                 <!-- obj -->
@@ -331,7 +331,7 @@
                 <!-- num -->
                 <div class="obj">
                   <span class="txt">한국경제TV</span>
-                  <span class="bullet up">종목교체</span>
+                  <span class="bullet mid">종목교체</span>
                   <!-- bullet - up,dn,mid -->
                 </div>
                 <!-- obj -->
@@ -556,7 +556,7 @@
         </div>
         <!--  -->
 
-        <div ref="contRef" class="cont" @scroll="handleScroll">
+        <div ref="contRef" class="cont">
           <div class="issue">
             <strong
               ><svg
@@ -768,22 +768,6 @@ export default {
     },
     closeModal(modalId) {
       this.$set(this.modals, modalId, false);
-    },
-    handleScroll() {
-      // Get the reference to the container element
-      const contElement = this.$refs.contRef;
-
-      // Get all the .list spans
-      const listSpans = contElement.querySelectorAll('.list span');
-
-      // Loop through each span and check if it is in the viewport
-      listSpans.forEach((span) => {
-        const rect = span.getBoundingClientRect();
-        if (rect.top <= contElement.clientHeight + 100) {
-          // Add the 'on' class if the span is in the viewport
-          span.classList.add('on');
-        } 
-      });
     },
   },
 };

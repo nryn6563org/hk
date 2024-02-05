@@ -1,5 +1,6 @@
 <template>
-  <div class="list_w notJoin">
+  <!-- 비가입자 일 경우 list_w 에 notJoin 추가 -->
+  <div class="list_w">
     <div class="tab">
       <button
         :class="{ active: activeTab === 'month3' }"

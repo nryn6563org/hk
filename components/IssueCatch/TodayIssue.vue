@@ -298,7 +298,7 @@
         </div>
         <!--  -->
 
-        <div ref="contRef" class="cont" @scroll="handleScroll">
+        <div ref="contRef" class="cont">
           <div class="issue">
             <strong
               ><svg
@@ -497,22 +497,6 @@ export default {
     },
     closeModal(modalId) {
       this.$set(this.modals, modalId, false);
-    },
-    handleScroll() {
-      // Get the reference to the container element
-      const contElement = this.$refs.contRef;
-
-      // Get all the .list spans
-      const listSpans = contElement.querySelectorAll(".list span");
-
-      // Loop through each span and check if it is in the viewport
-      listSpans.forEach((span) => {
-        const rect = span.getBoundingClientRect();
-        if (rect.top <= contElement.clientHeight + 100) {
-          // Add the 'on' class if the span is in the viewport
-          span.classList.add("on");
-        }
-      });
     },
   },
 };
