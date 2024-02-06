@@ -231,7 +231,7 @@
   bg-no-repeat font-medium
 }
 .aiCatchsv .modal-content .modal-body .cont .list span.on{
-  @apply bg-[url('~assets/img/cOn.png')]
+  @apply bg-[url('~assets/img/c_on.png')]
 }
 .aiCatchsv .modal-content .modal-body .cont .list span em{
   @apply text-[#666] text-[14px] not-italic
