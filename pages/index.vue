@@ -2,7 +2,7 @@
   <div id="container">
     <div class="catch_wrap">
       <div class="catch_tab">
-        <button :class="{active: activeTab === 'issue'}" @click="changeTab('issue')">이슈캐치</button>
+        <button :class="{active: activeTab === 'issue'}" @click="changeTab('issue')">이슈캐치1</button>
         <button :class="{active: activeTab === 'signal'}" @click="changeTab('signal')">신호캐치</button>
       </div>
       <!-- catch 탭 -->
