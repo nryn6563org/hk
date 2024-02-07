@@ -33,25 +33,25 @@
 </template>
 
 <script>
-import TodayIssue from "~/components/IssueCatch/TodayIssue";
-import QuickIssue from "~/components/IssueCatch/QuickIssue";
-import CatchAlarm from "~/components/IssueCatch/CatchAlarm";
+import TodayIssue from '~/components/IssueCatch/TodayIssue'
+import QuickIssue from '~/components/IssueCatch/QuickIssue'
+import CatchAlarm from '~/components/IssueCatch/CatchAlarm'
 
 export default {
   components: {
     TodayIssue,
     QuickIssue,
-    CatchAlarm,
+    CatchAlarm
   },
   data() {
     return {
-      activeTab: "today", // Default active tab
-    };
+      activeTab: 'today' // Default active tab
+    }
   },
   methods: {
     changeTab(tab) {
-      this.activeTab = tab;
-    },
-  },
-};
+      this.activeTab = tab
+    }
+  }
+}
 </script>

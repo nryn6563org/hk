@@ -719,58 +719,58 @@
 </template>
 
 <script>
-import Modal from "~/components/ModalWrap";
+import Modal from '~/components/ModalWrap'
 
 export default {
   components: {
-    Modal,
+    Modal
   },
   data() {
     return {
       modals: {
-        catchJoin: false,
+        catchJoin: false
       },
       isOffcanvasOpen: false,
-      isAccodianOpen: false,
-    };
+      isAccodianOpen: false
+    }
   },
   mounted() {
-    const script = document.createElement("script");
+    const script = document.createElement('script')
     script.src =
-      "https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js";
-    script.async = true;
-    document.body.appendChild(script);
+      'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
+    script.async = true
+    document.body.appendChild(script)
 
     script.onload = () => {
-      const swiper = new Swiper(".todayCatch", {
+      const swiper = new Swiper('.todayCatch', {
         spaceBetween: 20,
         slidesPerView: 1,
         pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      }).mount();
+          el: '.swiper-pagination',
+          clickable: true
+        }
+      }).mount()
       //
-    };
+    }
   },
   methods: {
     toggleOffcanvas() {
-      this.isOffcanvasOpen = !this.isOffcanvasOpen;
+      this.isOffcanvasOpen = !this.isOffcanvasOpen
     },
     closeOffcanvas() {
-      this.isOffcanvasOpen = false;
+      this.isOffcanvasOpen = false
     },
     toggleAccodian() {
-      this.isAccodianOpen = !this.isAccodianOpen;
+      this.isAccodianOpen = !this.isAccodianOpen
     },
     openModal(modalId) {
-      this.$set(this.modals, modalId, true);
+      this.$set(this.modals, modalId, true)
     },
     closeModal(modalId) {
-      this.$set(this.modals, modalId, false);
-    },
-  },
-};
+      this.$set(this.modals, modalId, false)
+    }
+  }
+}
 </script>
 
 <style scoped>

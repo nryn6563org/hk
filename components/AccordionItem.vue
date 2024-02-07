@@ -20,15 +20,15 @@ export default {
   props: {
     item: {
       type: Object,
-      required: true,
-    },
+      required: true
+    }
   },
   methods: {
     toggleAccordion() {
-      this.$emit("toggle", this.item);
-    },
-  },
-};
+      this.$emit('toggle', this.item)
+    }
+  }
+}
 </script>
 
 <style>

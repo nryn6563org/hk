@@ -3,30 +3,35 @@
     "name": "accodianEx",
     "path": "/accodianEx",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/accodianEx.vue",
-    "chunkName": "pages/accodianEx"
+    "chunkName": "pages/accodianEx",
+    "_name": "_09514a33"
   },
   {
     "name": "modalEx",
     "path": "/modalEx",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/modalEx.vue",
-    "chunkName": "pages/modalEx"
+    "chunkName": "pages/modalEx",
+    "_name": "_3c47d010"
   },
   {
     "name": "modalTween",
     "path": "/modalTween",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/modalTween.vue",
-    "chunkName": "pages/modalTween"
+    "chunkName": "pages/modalTween",
+    "_name": "_7109471e"
   },
   {
     "name": "sub",
     "path": "/sub",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/sub.vue",
-    "chunkName": "pages/sub"
+    "chunkName": "pages/sub",
+    "_name": "_65f9de10"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_166d7cbc"
   }
 ]

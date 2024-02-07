@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import ContentOne from "~/components/IssueCatch/ContentOne";
-import ContentTwo from "~/components/SignalCatch/ContentTwo";
+import ContentOne from '~/components/IssueCatch/ContentOne'
+import ContentTwo from '~/components/SignalCatch/ContentTwo'
 export default {
   components: {
     ContentOne,
@@ -26,16 +26,16 @@ export default {
   layout: 'defaultLayout',
   data() {
     return {
-      activeTab: "issue", // Default active tab
-      showModal: false,
-    };
+      activeTab: 'issue', // Default active tab
+      showModal: false
+    }
   },
   methods: {
     changeTab(tab) {
-      this.activeTab = tab;
-    },
-  },
-};
+      this.activeTab = tab
+    }
+  }
+}
 </script>
 
 <style scoped>

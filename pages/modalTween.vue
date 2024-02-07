@@ -24,26 +24,26 @@
 </template>
 
 <script>
-import Modal from '~/components/ModalWrap';
+import Modal from '~/components/ModalWrap'
 
 export default {
   components: {
-    Modal,
+    Modal
   },
   data() {
     return {
-      showModal: false,
-    };
+      showModal: false
+    }
   },
   methods: {
     openModal() {
-      this.showModal = true;
+      this.showModal = true
     },
     closeModal() {
-      this.showModal = false;
-    },
-  },
-};
+      this.showModal = false
+    }
+  }
+}
 </script>
 <style>
 @import "~/assets/css/modal.css";

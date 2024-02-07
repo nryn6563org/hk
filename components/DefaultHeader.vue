@@ -29,10 +29,10 @@
 export default {
   methods: {
     goBack() {
-      this.$router.go(-1); // 뒤로가기
-    },
-  },
-};
+      this.$router.go(-1) // 뒤로가기
+    }
+  }
+}
 </script>
 
 <style scoped>

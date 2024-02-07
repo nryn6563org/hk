@@ -49,28 +49,28 @@
 </template>
 
 <script>
-import Modal from "~/components/ModalWrap";
+import Modal from '~/components/ModalWrap'
 
 export default {
   components: {
-    Modal,
+    Modal
   },
   data() {
     return {
       modals: {
-        alarm: false,
-      },
-    };
+        alarm: false
+      }
+    }
   },
   methods: {
     openModal(modalId) {
-      this.$set(this.modals, modalId, true);
+      this.$set(this.modals, modalId, true)
     },
     closeModal(modalId) {
-      this.$set(this.modals, modalId, false);
-    },
-  },
-};
+      this.$set(this.modals, modalId, false)
+    }
+  }
+}
 </script>
 <style>
 @import "~/assets/css/modal.css";

@@ -1,7 +1,32 @@
 <template>
   <div id="tab01" class="tabContent">
     <div class="quick_catch">
-      <img src="~/assets/img/quick_catch.png" alt="" />
+      <div class="chart-w">
+        <div class="top">
+          <span>한발 빠른 이슈 캐치! </span>
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <path
+                d="M13.3658 6.65138L13.3723 6.65546L13.379 6.65933C14.4292 7.27158 14.4292 8.69656 13.379 9.3088L13.3723 9.31268L13.3658 9.31676L4.93688 14.5847C3.81561 15.2593 2.5 14.4725 2.5 13.2542V2.78718C2.5 1.51477 3.80421 0.766084 4.94531 1.38868L13.3658 6.65138Z"
+                stroke="white"
+              />
+            </svg>
+            Play
+          </button>
+        </div>
+        <!-- top -->
+
+        <div class="chartbox">
+          <img src="~/assets/img/quick_catch.png" alt="">
+        </div>
+        <!-- chartbox -->
+      </div>
     </div>
     <!-- 한발빠른 이슈 캐치 -->
 
@@ -316,7 +341,9 @@
             >
 
             <div class="list">
-              <span class="on"> 개장전 이슈와 주도주 알림! <em>(매일8:50)</em> </span>
+              <span class="on">
+                개장전 이슈와 주도주 알림! <em>(매일8:50)</em>
+              </span>
               <span class="on">장중 실시간 이슈& 주도주 확인!</span>
               <span class="on">
                 퇴근길 한발빠른 종목 추천! <br />
@@ -348,7 +375,9 @@
 
             <div class="list">
               <span class="on">전종목 매매신호 조회!</span>
-              <span class="on">실시간 매매타이밍 알림! <em>(최대50종목)</em></span>
+              <span class="on"
+                >실시간 매매타이밍 알림! <em>(최대50종목)</em></span
+              >
               <span class="on">잘 팔아야 수익, 진짜 매도 잘 하는 AI!</span>
             </div>
           </div>

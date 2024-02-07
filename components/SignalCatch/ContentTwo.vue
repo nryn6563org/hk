@@ -238,7 +238,7 @@
               <div class="txt">
                 <span>
                   알림받기는 최대 50개까지 <br>
-                  등록가능합니다. 
+                  등록가능합니다.
                 </span>
                 <em>알림설정에서 종목 삭제 후 등록해주세요.</em>
               </div>
@@ -420,13 +420,13 @@
 </template>
 
 <script>
-import ItemCard from "~/components/SignalCatch/ItemCard";
-import SignalList from "~/components/SignalCatch/SignalList";
-import CatchTab from "~/components/SignalCatch/CatchTab";
-import CatchTab2 from "~/components/SignalCatch/CatchTabNotJoin";
-import Modal from "~/components/ModalWrap";
-import SchBox from "~/components/SignalCatch/SearchWrap";
-import SettingAlarm from "~/components/SignalCatch/SettingAlarm";
+import ItemCard from '~/components/SignalCatch/ItemCard'
+import SignalList from '~/components/SignalCatch/SignalList'
+import CatchTab from '~/components/SignalCatch/CatchTab'
+import CatchTab2 from '~/components/SignalCatch/CatchTabNotJoin'
+import Modal from '~/components/ModalWrap'
+import SchBox from '~/components/SignalCatch/SearchWrap'
+import SettingAlarm from '~/components/SignalCatch/SettingAlarm'
 
 export default {
   components: {
@@ -444,52 +444,52 @@ export default {
       popoverType: null,
       showModal: false,
       modals: {
-        alarm: false,
-      },
-    };
+        alarm: false
+      }
+    }
   },
   methods: {
     toggleAlarm() {
-      this.alarmOn = !this.alarmOn;
+      this.alarmOn = !this.alarmOn
       // 여기에 필요한 추가 로직을 추가할 수 있습니다.
       if (this.alarmOn) {
-        this.showPopover("register");
+        this.showPopover('register')
         setTimeout(() => {
-          this.hidePopover();
-        }, 5000);
+          this.hidePopover()
+        }, 5000)
       } else {
-        this.showPopover("delete");
+        this.showPopover('delete')
         setTimeout(() => {
-          this.hidePopover();
-        }, 5000);
+          this.hidePopover()
+        }, 5000)
       }
     },
 
     togglePopover(type) {
-      this.popoverType = this.popoverType === type ? null : type;
+      this.popoverType = this.popoverType === type ? null : type
       if (this.popoverType) {
         setTimeout(() => {
-          this.hidePopover();
-        }, 5000);
+          this.hidePopover()
+        }, 5000)
       }
     },
 
     showPopover(type) {
-      this.popoverType = type;
+      this.popoverType = type
     },
 
     hidePopover() {
-      this.popoverType = null;
+      this.popoverType = null
     },
 
     openModal(modalId) {
-      this.$set(this.modals, modalId, true);
+      this.$set(this.modals, modalId, true)
     },
     closeModal(modalId) {
-      this.$set(this.modals, modalId, false);
-    },
-  },
-};
+      this.$set(this.modals, modalId, false)
+    }
+  }
+}
 </script>
 
 <style scoped>

@@ -221,7 +221,7 @@
                       <div class="chkbox">
                         <input
                           :id="'chk' + item.id"
-                          v-model="item.checked" 
+                          v-model="item.checked"
                           type="checkbox"
                           class="chk"
                           @change="handleItemCheck"
@@ -297,85 +297,85 @@
   </div>
 </template>
 <script>
-import Modal from "~/components/ModalWrap";
+import Modal from '~/components/ModalWrap'
 
 export default {
   components: {
-    Modal,
+    Modal
   },
   data() {
     return {
-      showModal:false,
+      showModal: false,
       allChecked: false,
       modals: {
-        settingAlarm: false,
+        settingAlarm: false
       },
       items: [
         {
           id: 1,
-          name: "스튜디오산타",
-          price: "331,000",
-          change: "+0.6%",
-          checked: false,
+          name: '스튜디오산타',
+          price: '331,000',
+          change: '+0.6%',
+          checked: false
         },
         {
           id: 2,
-          name: "스튜디오산타2",
-          price: "331,000",
-          change: "-0.6%",
-          checked: false,
+          name: '스튜디오산타2',
+          price: '331,000',
+          change: '-0.6%',
+          checked: false
         },
         {
           id: 3,
-          name: "스튜디오산타",
-          price: "331,000",
-          change: "+0.6%",
-          checked: false,
+          name: '스튜디오산타',
+          price: '331,000',
+          change: '+0.6%',
+          checked: false
         },
         {
           id: 4,
-          name: "스튜디오산타2",
-          price: "331,000",
-          change: "-0.6%",
-          checked: false,
+          name: '스튜디오산타2',
+          price: '331,000',
+          change: '-0.6%',
+          checked: false
         },
         {
           id: 5,
-          name: "스튜디오산타",
-          price: "331,000",
-          change: "+0.6%",
-          checked: false,
+          name: '스튜디오산타',
+          price: '331,000',
+          change: '+0.6%',
+          checked: false
         },
         {
           id: 6,
-          name: "스튜디오산타2",
-          price: "331,000",
-          change: "-0.6%",
-          checked: false,
-        },
+          name: '스튜디오산타2',
+          price: '331,000',
+          change: '-0.6%',
+          checked: false
+        }
         // Add more items as needed
-      ],
-    };
+      ]
+    }
   },
   methods: {
     openModal(modalId) {
-      this.$set(this.modals, modalId, true);
+      this.$set(this.modals, modalId, true)
     },
     closeModal(modalId) {
-      this.$set(this.modals, modalId, false);
+      this.$set(this.modals, modalId, false)
     },
     handleAllCheck() {
       // allCheck 체크 상태에 따라 모든 항목의 체크 상태 업데이트
       this.items.forEach((item) => {
-        item.checked = this.allChecked;
-      });
+        item.checked = this.allChecked
+      })
     },
     handleItemCheck() {
       // 하나의 항목 체크 상태에 따라 allCheck 체크 상태 업데이트
-      this.allChecked = this.items.every((item) => item.checked);
-    },
-  },
-};
+      this.allChecked = this.items.every(item => item.checked)
+    }
+  }
+}
 </script>
 
 <style scoped>

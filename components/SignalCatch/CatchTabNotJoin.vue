@@ -180,7 +180,7 @@
         </span> -->
       </div>
       <!-- txt -->
-      
+
       <div class="btn">
         <button class="complete">
           매매신호 확인하기
@@ -191,8 +191,7 @@
       <!-- btn -->
     </div>
     <!-- 비회원 -->
-    
-  </div>
+</div>
   <!-- 최근3&12개월 -->
 </template>
 <script>
@@ -200,13 +199,13 @@
 export default {
   data() {
     return {
-      activeTab: "month3",
-    };
+      activeTab: 'month3'
+    }
   },
   methods: {
     changeTab(tab) {
-      this.activeTab = tab;
-    },
-  },
-};
+      this.activeTab = tab
+    }
+  }
+}
 </script>

@@ -27,53 +27,53 @@
 </template>
 
 <script>
-const ANIMATE_SLIDE_IN = 'animate__slideInDown';
-const ANIMATE_BOUNCE_OUT = 'animate__bounceOutUp';
+const ANIMATE_SLIDE_IN = 'animate__slideInDown'
+const ANIMATE_BOUNCE_OUT = 'animate__bounceOutUp'
 
 export default {
   props: {
     modalId: {
       type: String,
-      required: true,
+      required: true
     },
     showModal: {
       type: Boolean,
-      required: true,
+      required: true
     },
     closeModal: {
       type: Function,
-      required: true,
+      required: true
     },
     hasHeader: {
       type: Boolean,
-      default: true,
+      default: true
     },
     hasBody: {
       type: Boolean,
-      default: true,
+      default: true
     },
     hasFooter: {
       type: Boolean,
-      default: true,
-    },
+      default: true
+    }
   },
   data() {
     return {
-      contentClass: ANIMATE_SLIDE_IN,
-    };
+      contentClass: ANIMATE_SLIDE_IN
+    }
   },
   methods: {
     toggleClass(el, add, remove) {
-      const content = el.querySelector('.modal-content');
-      content.classList.remove(remove);
-      content.classList.add(add);
+      const content = el.querySelector('.modal-content')
+      content.classList.remove(remove)
+      content.classList.add(add)
     },
     beforeEnter(el) {
-      this.toggleClass(el, ANIMATE_SLIDE_IN, ANIMATE_BOUNCE_OUT);
+      this.toggleClass(el, ANIMATE_SLIDE_IN, ANIMATE_BOUNCE_OUT)
     },
     beforeLeave(el) {
-      this.toggleClass(el, ANIMATE_BOUNCE_OUT, ANIMATE_SLIDE_IN);
-    },
-  },
-};
+      this.toggleClass(el, ANIMATE_BOUNCE_OUT, ANIMATE_SLIDE_IN)
+    }
+  }
+}
 </script>

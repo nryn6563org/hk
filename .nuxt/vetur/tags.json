@@ -11,6 +11,18 @@
   "SampleComp": {
     "description": "Auto imported from components/SampleComp.vue"
   },
+  "IssueCatchAlarm": {
+    "description": "Auto imported from components/IssueCatch/CatchAlarm.vue"
+  },
+  "IssueCatchContentOne": {
+    "description": "Auto imported from components/IssueCatch/ContentOne.vue"
+  },
+  "IssueCatchQuickIssue": {
+    "description": "Auto imported from components/IssueCatch/QuickIssue.vue"
+  },
+  "IssueCatchTodayIssue": {
+    "description": "Auto imported from components/IssueCatch/TodayIssue.vue"
+  },
   "SignalCatchTab": {
     "description": "Auto imported from components/SignalCatch/CatchTab.vue"
   },
@@ -31,17 +43,5 @@
   },
   "SignalList": {
     "description": "Auto imported from components/SignalCatch/SignalList.vue"
-  },
-  "IssueCatchAlarm": {
-    "description": "Auto imported from components/IssueCatch/CatchAlarm.vue"
-  },
-  "IssueCatchContentOne": {
-    "description": "Auto imported from components/IssueCatch/ContentOne.vue"
-  },
-  "IssueCatchQuickIssue": {
-    "description": "Auto imported from components/IssueCatch/QuickIssue.vue"
-  },
-  "IssueCatchTodayIssue": {
-    "description": "Auto imported from components/IssueCatch/TodayIssue.vue"
   }
 }

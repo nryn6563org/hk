@@ -88,24 +88,24 @@
 <script>
 export default {
   mounted() {
-    const script = document.createElement("script");
+    const script = document.createElement('script')
     script.src =
-      "https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js";
-    script.async = true;
-    document.body.appendChild(script);
+      'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
+    script.async = true
+    document.body.appendChild(script)
 
     script.onload = () => {
-      const swiper = new Swiper(".card_w", {
+      const swiper = new Swiper('.card_w', {
         spaceBetween: 20,
         slidesPerView: 1,
         centeredSlides: true,
         pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      }).mount();
+          el: '.swiper-pagination',
+          clickable: true
+        }
+      }).mount()
       //
-    };
-  },
-};
+    }
+  }
+}
 </script>

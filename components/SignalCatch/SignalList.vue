@@ -77,26 +77,26 @@
 <script>
 export default {
   mounted() {
-    const script = document.createElement("script");
+    const script = document.createElement('script')
     script.src =
-      "https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js";
-    script.async = true;
-    document.body.appendChild(script);
+      'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
+    script.async = true
+    document.body.appendChild(script)
 
     script.onload = () => {
-      const swiper = new Swiper(".signalList", {
-        direction: "vertical",
+      const swiper = new Swiper('.signalList', {
+        direction: 'vertical',
         loop: true,
         spaceBetween: 12,
         slidesPerView: 2,
         autoplay: {
           delay: 3500,
-          disableOnInteraction: false,
+          disableOnInteraction: false
         },
-        pagination: false,
-      }).mount();
+        pagination: false
+      }).mount()
       //
-    };
-  },
-};
+    }
+  }
+}
 </script>
