@@ -4,7 +4,7 @@
       <div class="chart-w">
         <div class="top">
           <span>한발 빠른 이슈 캐치! </span>
-          <button>
+          <button @click="toggleOffcanvas">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -23,10 +23,231 @@
         <!-- top -->
 
         <div class="chartbox">
-          <img src="~/assets/img/quick_catch.png" alt="">
+          <img src="~/assets/img/quick_catch.png" alt="" />
         </div>
         <!-- chartbox -->
       </div>
+
+      <div
+        id="chartPlay"
+        :class="{ 'offcanvas-open': isOffcanvasOpen }"
+        class="offcanvas-wrap"
+      >
+        <div class="offcanvas-bottom">
+          <!-- Offcanvas Content -->
+          <div class="offcanvas-content">
+            <div class="offcanvas-header">
+              <strong>날짜선택</strong>
+
+              <button class="close-button" @click="closeOffcanvas">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+                    stroke="#111111"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <!-- 오프캔버스 헤더 -->
+            <div class="offcanvas-body">
+              <div class="ch-date">
+                <button class="active">
+                  <span>2024.01.31 (오늘)</span>
+                  <em>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="12"
+                      viewBox="0 0 18 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M1.5 4.99995L8.23183 11L16.5 1"
+                        stroke="#2151D1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </em>
+                </button>
+                <button>
+                  <span>2024.01.30</span>
+                  <em>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="12"
+                      viewBox="0 0 18 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M1.5 4.99995L8.23183 11L16.5 1"
+                        stroke="#2151D1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </em>
+                </button>
+                <button>
+                  <span>2024.01.29</span>
+                  <em>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="12"
+                      viewBox="0 0 18 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M1.5 4.99995L8.23183 11L16.5 1"
+                        stroke="#2151D1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </em>
+                </button>
+                <button>
+                  <span>2024.01.28</span>
+                  <em>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="12"
+                      viewBox="0 0 18 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M1.5 4.99995L8.23183 11L16.5 1"
+                        stroke="#2151D1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </em>
+                </button>
+                <button>
+                  <span>2024.01.27</span>
+                  <em>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="12"
+                      viewBox="0 0 18 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M1.5 4.99995L8.23183 11L16.5 1"
+                        stroke="#2151D1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </em>
+                </button>
+                <button>
+                  <span>2024.01.26</span>
+                  <em>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="12"
+                      viewBox="0 0 18 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M1.5 4.99995L8.23183 11L16.5 1"
+                        stroke="#2151D1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </em>
+                </button>
+                <button>
+                  <span>2024.01.25</span>
+                  <em>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="12"
+                      viewBox="0 0 18 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M1.5 4.99995L8.23183 11L16.5 1"
+                        stroke="#2151D1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </em>
+                </button>
+                <button>
+                  <span>2024.01.24</span>
+                  <em>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="12"
+                      viewBox="0 0 18 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M1.5 4.99995L8.23183 11L16.5 1"
+                        stroke="#2151D1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </em>
+                </button>
+                <button>
+                  <span>2024.01.23</span>
+                  <em>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="12"
+                      viewBox="0 0 18 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M1.5 4.99995L8.23183 11L16.5 1"
+                        stroke="#2151D1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </em>
+                </button>
+              </div>
+            </div>
+            <!-- 오프캔버스 내용 -->
+          </div>
+        </div>
+        <div class="offcanvas-overlay" @click="closeOffcanvas"></div>
+      </div>
+      <!-- 리스트 상세 내용 -->
     </div>
     <!-- 한발빠른 이슈 캐치 -->
 
@@ -491,46 +712,54 @@
 </template>
 
 <script>
-import Modal from "~/components/ModalWrap";
+import Modal from '~/components/ModalWrap'
 
 export default {
   components: {
-    Modal,
+    Modal
   },
   data() {
     return {
       modals: {
-        catchJoin: false,
+        catchJoin: false
       },
-    };
+      isOffcanvasOpen: false
+    }
   },
   mounted() {
-    const script = document.createElement("script");
+    const script = document.createElement('script')
     script.src =
-      "https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js";
-    script.async = true;
-    document.body.appendChild(script);
+      'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
+    script.async = true
+    document.body.appendChild(script)
 
     script.onload = () => {
-      const swiper = new Swiper(".issue_list", {
-        slidesPerView: "auto",
+      const swiper = new Swiper('.issue_list', {
+        slidesPerView: 'auto',
         spaceBetween: 4,
-        pagination: false,
-      }).mount();
+        pagination: false
+      }).mount()
       //
-    };
+    }
   },
   methods: {
     openModal(modalId) {
-      this.$set(this.modals, modalId, true);
+      this.$set(this.modals, modalId, true)
     },
     closeModal(modalId) {
-      this.$set(this.modals, modalId, false);
+      this.$set(this.modals, modalId, false)
     },
-  },
-};
+    toggleOffcanvas() {
+      this.isOffcanvasOpen = !this.isOffcanvasOpen
+    },
+    closeOffcanvas() {
+      this.isOffcanvasOpen = false
+    }
+  }
+}
 </script>
 
 <style scoped>
 @import "~/assets/css/todayIssue.css";
+@import "~/assets/css/offcanvas.css";
 </style>

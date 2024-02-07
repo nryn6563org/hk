@@ -92,3 +92,32 @@
 .offcanvas-body .item-detail table tbody tr td .info_txt.infoActive{
   @apply py-[15px] h-auto
 }
+
+/* 날짜선택 */
+#chartPlay .offcanvas-bottom{
+  @apply px-0 h-[330px]
+}
+#chartPlay .offcanvas-bottom .offcanvas-header{
+  @apply px-5
+}
+#chartPlay .offcanvas-bottom .offcanvas-header button{
+  @apply right-5
+}
+.offcanvas-body .ch-date{
+  @apply w-full h-[275px] overflow-y-auto pt-5
+}
+.offcanvas-body .ch-date button{
+  @apply flex w-full px-5 h-[55px] items-center justify-between
+}
+.offcanvas-body .ch-date button span{
+  @apply text-[16px] text-[#141414] 
+}
+.offcanvas-body .ch-date button em{
+  @apply hidden
+}
+.offcanvas-body .ch-date button.active{
+  @apply bg-[#F4F6FD]
+}
+.offcanvas-body .ch-date button.active em{
+  @apply block
+}
