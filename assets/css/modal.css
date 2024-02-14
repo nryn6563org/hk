@@ -171,45 +171,109 @@
 .aiCatchsv .modal-content .modal-body{
   @apply relative w-full h-full overflow-hidden
 }
-.aiCatchsv .modal-content .modal-body .top{
+.aiCatchsv .modal-content .modal-body > .top{
   @apply w-full bg-[#5368ff] p-[12px_17px_20px] bg-[url('~/assets/img/vi_banner.png')] bg-no-repeat bg-[235px_65px] bg-[length:86px_78px]
 }
-.aiCatchsv .modal-content .modal-body .top button{
+.aiCatchsv .modal-content .modal-body > .top > button{
   @apply absolute top-3 right-[18px]
 }
-.aiCatchsv .modal-content .modal-body .top .bullet{
+.aiCatchsv .modal-content .modal-body > .top .bullet{
   @apply absolute top-5 left-5 w-[125px] h-[30px] flex justify-center 
   items-center rounded-full bg-[#20198c] text-[16px] text-white font-medium
 }
-.aiCatchsv .modal-content .modal-body .top .txt{
+.aiCatchsv .modal-content .modal-body >.top .txt{
   @apply pt-[60px] text-[22px] text-white font-medium leading-[31px]
 }
-.aiCatchsv .modal-content .modal-body .top .txt em{
+.aiCatchsv .modal-content .modal-body > .top .txt_s{
+  @apply pt-[60px] text-[20px] text-white font-medium leading-[27px]
+}
+.aiCatchsv .modal-content .modal-body > .top .txt em,.aiCatchsv .modal-content .modal-body .top .txt_s em{
   @apply text-[#FFFA7B] not-italic
 }
-.aiCatchsv .modal-content .modal-body .top .txt span{
+.aiCatchsv .modal-content .modal-body > .top .txt span{
   @apply text-[24px]
 }
-.aiCatchsv .modal-content .modal-body .top .price{
+.aiCatchsv .modal-content .modal-body > .top .price{
   @apply block w-full mt-5 py-4 px-3 rounded-[16px] bg-[#1E368C80] bg-opacity-50
 }
-.aiCatchsv .modal-content .modal-body .top .price > div:first-child{
+.aiCatchsv .modal-content .modal-body > .top .price > div:first-child{
   @apply block w-full leading-6 text-[18px] font-medium text-white text-center
 }
-.aiCatchsv .modal-content .modal-body .top .price > div:first-child span{
+.aiCatchsv .modal-content .modal-body  >.top .price > div:first-child span{
   @apply block
 }
-.aiCatchsv .modal-content .modal-body .top .price > div:first-child em{
+.aiCatchsv .modal-content .modal-body > .top .price > div:first-child em{
   @apply text-[#fffa7b] font-bold not-italic
 }
-.aiCatchsv .modal-content .modal-body .top .price > div:last-child{
+.aiCatchsv .modal-content .modal-body > .top .price > div:last-child{
   @apply block w-full text-center mt-2 text-[18px] text-white leading-[30px]
 }
-.aiCatchsv .modal-content .modal-body .top .price > div:last-child em{
+.aiCatchsv .modal-content .modal-body > .top .price > div:last-child em{
   @apply text-[24px] font-bold not-italic
 }
+.aiCatchsv .modal-content .modal-body > .top .priceChk{
+  @apply flex w-full flex-col gap-[5px] pt-[26px]
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk > div{
+  @apply w-full flex justify-center h-[81px] bg-white items-center rounded-[8px] relative
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk > button{
+  @apply w-full mt-5 h-[46px] rounded-[8px] flex justify-center items-center bg-[#f3eb21] text-black text-[18px] font-bold
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input[type="radio"]{
+  @apply absolute left-[-9999em]
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input+label{
+  @apply flex gap-4 items-center px-6 justify-between w-full
+  before:content-[''] before:w-[22px] before:h-[22px] before:rounded-[5px] before:border-[2px] before:border-[#bebebe] before:overflow-hidden
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input:checked+label{
+  @apply before:bg-[url(~/assets/img/check.png)] before:bg-no-repeat before:bg-[length:18px_18px]  before:border-[#5368ff]
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input+label > div{
+  @apply w-[calc(100%-38px)] flex flex-col gap-[6px]
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input+label > div .top{
+  @apply w-full h-[22px] leading-[22px] text-[15px] text-[#333] font-bold 
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input+label > div .top em{
+  @apply not-italic text-[#ff3e3e]
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input+label > div .prc{
+  @apply w-full flex text-[12px] leading-[18px] text-[#666] items-end gap-[6px]
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input+label > div .prc del{
+  @apply text-[#666] text-[14px] leading-6 font-medium
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input+label > div .prc span{
+  @apply text-[#333] text-[16px] font-medium leading-6
+}
+.aiCatchsv .modal-content .modal-body > .top .priceChk div input+label > div .prc em{
+  @apply text-[#5368ff] text-[16px] font-bold leading-6 not-italic
+}
+
+.aiCatchsv .modal-content .modal-body > .top .priceMonth > div{
+  @apply mt-4 w-full bg-[#1e368c] bg-opacity-20 rounded-[8px] flex items-end justify-center h-[70px] gap-[5px] py-[22px]
+  text-[12px] text-[#b7b7b7] 
+}
+.aiCatchsv .modal-content .modal-body > .top .priceMonth > div span{
+  @apply text-white leading-6 h-6 text-[16px] font-medium
+}
+.aiCatchsv .modal-content .modal-body > .top .priceMonth > div em{
+  @apply text-[#FFFA7B] font-bold leading-6 h-6 text-[16px] not-italic
+}
+.aiCatchsv .modal-content .modal-body > .top .priceMonth > button{
+  @apply w-full mt-5 h-[46px] rounded-[8px] flex justify-center items-center bg-[#f3eb21] text-black text-[18px] font-bold
+}
+
 .aiCatchsv .modal-content .modal-body .cont{
   @apply w-full h-[calc(100%-295px)] p-[25px_20px_0] flex flex-col gap-6 overflow-y-scroll
+}
+.aiCatchsv.aiCatchsv2 .modal-content .modal-body .cont{
+  @apply h-[calc(100%-428px)] pb-5
+}
+.aiCatchsv.aiCatchsv3 .modal-content .modal-body .cont{
+  @apply h-[calc(100%-335px)] pb-5
 }
 .aiCatchsv .modal-content .modal-body .cont .issue strong, 
 .aiCatchsv .modal-content .modal-body .cont .signal strong{
@@ -258,9 +322,35 @@
   @apply pl-5 leading-5 min-h-[20px] w-full flex gap-2 text-[14px] text-[#666] not-italic
   before:content-['\00b7'] before:text-[20px] before:font-bold before:text-[#999]
 }
+.aiCatchsv .modal-content .modal-body .cont .txt-guide{
+  @apply w-full before:content-['\00b7'] before:text-[20px] before:font-bold flex gap-[3px] items-start text-[13px] text-[#999] leading-[17px]
+}
 .aiCatchsv .modal-content .modal-footer{
-  @apply p-5 w-full
+  @apply p-[10px_20px] w-full hidden
 }
 .aiCatchsv .modal-content .modal-footer button{
   @apply w-full h-10 rounded-[6px] font-bold flex items-center justify-center bg-[#5368ff] text-[16px] text-white
+}
+
+/* 시간 */
+.alarmTime .modal-content{
+  @apply w-[calc(100%-20px)]
+}
+.alarmTime .modal-content .modal-header{
+  @apply flex w-full h-[48px] items-center px-5 justify-center relative
+}
+.alarmTime .modal-content .modal-header button{
+  @apply absolute top-3 right-5
+}
+.alarmTime .modal-content .modal-header strong{
+  @apply font-bold text-[18px] text-black
+}
+.alarmTime .modal-content .modal-body{
+  @apply relative p-5
+}
+.alarmTime .modal-content .modal-footer{
+  @apply p-[10px_20px_20px] w-full 
+}
+.alarmTime .modal-content .modal-footer button{
+  @apply w-full h-10 rounded-[6px] bg-[#5368ff] flex justify-center items-center text-[18px] text-white font-medium
 }

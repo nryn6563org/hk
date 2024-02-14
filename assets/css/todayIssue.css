@@ -193,7 +193,7 @@
   @apply hidden !important
 }
 .notJoinAlarm{
-  @apply absolute inset-0 w-full h-[150px] z-10  flex-col items-center justify-center gap-4 text-center !important;
+  @apply absolute inset-0 w-full h-[150px] z-10  flex-col items-center justify-center gap-5 text-center !important;
 }
 .notJoin .notJoinAlarm{
   @apply flex !important;
@@ -202,5 +202,5 @@
   @apply text-[14px] leading-5 font-medium text-[#333] !important
 }
 .notJoinAlarm button{
-  @apply flex w-[135px] h-10 justify-center items-center rounded-full text-white text-[14px] font-bold bg-[#5368ff]
+  @apply h-10 text-[#5368ff] text-[14px] font-medium underline
 }

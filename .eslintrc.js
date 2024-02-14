@@ -2,11 +2,11 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true,
+    node: true
   },
   parserOptions: {
     parser: '@babel/eslint-parser',
-    requireConfigFile: false,
+    requireConfigFile: false
   },
   extends: ['@nuxtjs', 'plugin:nuxt/recommended'],
   plugins: [],
@@ -31,5 +31,5 @@ module.exports = {
     'eol-last': 'off',
     'no-new': 'off',
     'vue/comment-directive': 'off'
-  },
+  }
 }

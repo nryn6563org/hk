@@ -5,9 +5,72 @@
       <!--  -->
 
       <div class="banner">
-          <button><em>‘이슈캐치’</em> 언제 무엇을 알려주나요??</button>
-        </div>
-        <!-- 이슈활용 안내 -->
+        <button @click="openModal('altime')">
+          <em>‘이슈캐치’</em> 언제 무엇을 알려주나요??
+        </button>
+
+        <Modal
+          class="alarmTime"
+          :modal-id="'altime'"
+          :show-modal="modals.altime"
+          :close-modal="() => closeModal('altime')"
+        >
+          <template #header>
+            <strong>이슈캐치 알림시간</strong>
+            <button @click="closeModal('altime')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M19 19L10 10M10 10L1 1M10 10L19.0001 1M10 10L1 19.0001"
+                  stroke="#111111"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </template>
+          <template #body>
+            <div class="timeList">
+              <div class="list">
+                <em>08:50</em>
+                <span>개장전 이슈 주도주 알림</span>
+              </div>
+
+              <div class="list">
+                <em>11:50</em>
+                <span>장중 실시간 이슈 & 주도주 알림</span>
+              </div>
+
+              <div class="list">
+                <em>장중</em>
+                <span>추천종목 대응전략 알림</span>
+              </div>
+
+              <div class="list">
+                <em>18:00</em>
+                <span>퇴근길 한발빠른 종목 추천</span>
+              </div>
+
+              <div class="list">
+                <em>18:10</em>
+                <span>시간외 특징주 알림</span>
+              </div>
+            </div>
+          </template>
+          <template #footer>
+            <!-- 푸터 내용 -->
+            <button type="button">확인</button>
+          </template>
+        </Modal>
+        <!-- modal -->
+      </div>
+      <!-- 이슈활용 안내 -->
 
       <div class="dayList">
         <div class="list">
@@ -181,6 +244,31 @@
     </div>
   </div>
 </template>
+
+<script>
+import Modal from '~/components/ModalWrap'
+
+export default {
+  components: {
+    Modal
+  },
+  data() {
+    return {
+      modals: {
+        catchJoin: false
+      }
+    }
+  },
+  methods: {
+    openModal(modalId) {
+      this.$set(this.modals, modalId, true)
+    },
+    closeModal(modalId) {
+      this.$set(this.modals, modalId, false)
+    }
+  }
+}
+</script>
 
 <style scoped>
 @import "~/assets/css/catchAlarm.css";

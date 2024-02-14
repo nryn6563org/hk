@@ -165,28 +165,28 @@
 
     <div class="notJoinBox">
       <div class="txt">
-        <span>
+        <!-- <span>
           신호캐치는 <br />
           <em>매일 3종목</em> 무료로 이용할 수 있습니다. <br />
           한국경제TV의 매매타이밍을 <br />
           지금 확인하시겠습니까?
-        </span>
-
-        <!-- <span>
-          오늘 무료 이용 가능 횟수를 <br />
-          모두 사용했습니다. <br />
-          서비스 가입 시, <em>신호캐치 무제한 조회</em>와 <br />
-          <em>매매타이밍 실시간 알림</em>이 제공됩니다
         </span> -->
+
+        <span>
+          오늘 무료 이용 가능 횟수를 <br>
+          모두 사용했습니다. <br>
+          화면 아래의 <em>[AI캐치 상품안내] <br>
+          버튼을 클릭</em>해주세요
+        </span>
       </div>
       <!-- txt -->
 
       <div class="btn">
-        <button class="complete">
+        <!-- <button class="complete">
           매매신호 확인하기
           <em>(이용가능 횟수 2/3회)</em>
-        </button>
-        <!-- <button>AI캐치 가입하기</button> -->
+        </button> -->
+        <button>AI캐치 상품안내 ></button>
       </div>
       <!-- btn -->
     </div>

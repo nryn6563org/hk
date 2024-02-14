@@ -10,6 +10,7 @@ You can directly use them in pages and other components without the need to impo
 - `<DefaultHeader>` | `<default-header>` (components/DefaultHeader.vue)
 - `<ModalWrap>` | `<modal-wrap>` (components/ModalWrap.vue)
 - `<SampleComp>` | `<sample-comp>` (components/SampleComp.vue)
+- `<SubHeader>` | `<sub-header>` (components/SubHeader.vue)
 - `<IssueCatchAlarm>` | `<issue-catch-alarm>` (components/IssueCatch/CatchAlarm.vue)
 - `<IssueCatchContentOne>` | `<issue-catch-content-one>` (components/IssueCatch/ContentOne.vue)
 - `<IssueCatchQuickIssue>` | `<issue-catch-quick-issue>` (components/IssueCatch/QuickIssue.vue)

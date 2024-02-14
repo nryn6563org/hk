@@ -407,7 +407,10 @@
             </div>
             <!--  -->
 
-            <button @click="openModal('catchJoin')">AI캐치 가입하기</button>
+            <button @click="openModal('catchJoin')">
+              <span>AI캐치 상품 안내</span>
+              <span>></span>
+            </button>
           </div>
           <!-- 미가입자 팝업 -->
         </div>

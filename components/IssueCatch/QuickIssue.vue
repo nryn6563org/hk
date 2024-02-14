@@ -259,8 +259,14 @@
             <!--  -->
 
             <div class="notJoinBox">
-              <span> 서비스 가입 후 <br />확인 가능합니다. </span>
-              <button @click="openModal('catchJoin')">AI캐치 가입하기</button>
+              <span
+                >화면 아래의 <br />[AI캐치 가입하기]버튼을
+                <br />클릭해주세요</span
+              >
+              <button @click="openModal('catchJoin')">
+                <span>AI캐치 상품 안내</span>
+                <span>></span>
+              </button>
             </div>
             <!-- 가입안내 -->
           </div>
@@ -270,7 +276,7 @@
 
         <div class="issue_item">
           <div class="top">
-            <strong>01월19일</strong>
+            <strong>01월18일</strong>
           </div>
           <!-- top -->
 
@@ -348,8 +354,109 @@
             <!--  -->
 
             <div class="notJoinBox">
-              <span> 서비스 가입 후 <br />확인 가능합니다. </span>
-              <button @click="openModal('catchJoin')">AI캐치 가입하기</button>
+              <span
+                >화면 아래의 <br />[AI캐치 가입하기]버튼을
+                <br />클릭해주세요</span
+              >
+              <button @click="openModal('catchJoin2')">
+                <span>AI캐치 상품 안내</span>
+                <span>></span>
+              </button>
+            </div>
+            <!-- 가입안내 -->
+          </div>
+          <!-- list -->
+        </div>
+        <!-- 이슈종목 -->
+
+        <div class="issue_item">
+          <div class="top">
+            <strong>01월17일</strong>
+          </div>
+          <!-- top -->
+
+          <div class="list notJoin">
+            <div @click="toggleOffcanvas">
+              <div class="top">
+                <div class="num">
+                  <span>000000</span>
+                </div>
+                <!-- num -->
+                <div class="obj">
+                  <span class="txt">한국경제TV</span>
+                  <span class="bullet mid">보유중</span>
+                  <!-- bullet - up,dn,mid -->
+                </div>
+                <!-- obj -->
+              </div>
+              <!-- top -->
+
+              <div class="info">
+                <div><span>매수가</span><em>71,000원</em></div>
+
+                <div><span>현재가</span><em class="mid">1,077,000원</em></div>
+              </div>
+              <!-- info -->
+            </div>
+            <!--  -->
+
+            <div @click="toggleOffcanvas">
+              <div class="top">
+                <div class="num">
+                  <span>000000</span>
+                </div>
+                <!-- num -->
+                <div class="obj">
+                  <span class="txt">한국경제TV</span>
+                  <span class="bullet dn">매도</span>
+                  <!-- bullet - up,dn,mid -->
+                </div>
+                <!-- obj -->
+              </div>
+              <!-- top -->
+
+              <div class="info">
+                <div><span>매수가</span><em>71,000원</em></div>
+
+                <div><span>수익률</span><em class="up">+5.3%</em></div>
+              </div>
+              <!-- info -->
+            </div>
+            <!--  -->
+
+            <div @click="toggleOffcanvas">
+              <div class="top">
+                <div class="num">
+                  <span>000000</span>
+                </div>
+                <!-- num -->
+                <div class="obj">
+                  <span class="txt">한국경제TV</span>
+                  <span class="bullet mid">종목교체</span>
+                  <!-- bullet - up,dn,mid -->
+                </div>
+                <!-- obj -->
+              </div>
+              <!-- top -->
+
+              <div class="info">
+                <div><span>매수가</span><em>71,000원</em></div>
+
+                <div><span>수익률</span><em class="dn">-5.3%</em></div>
+              </div>
+              <!-- info -->
+            </div>
+            <!--  -->
+
+            <div class="notJoinBox">
+              <span
+                >화면 아래의 <br />[AI캐치 가입하기]버튼을
+                <br />클릭해주세요</span
+              >
+              <button @click="openModal('catchJoin3')">
+                <span>AI캐치 상품 안내</span>
+                <span>></span>
+              </button>
             </div>
             <!-- 가입안내 -->
           </div>
@@ -574,7 +681,9 @@
             >
 
             <div class="list">
-              <span class="on"> 개장전 이슈와 주도주 알림! <em>(매일8:50)</em> </span>
+              <span class="on">
+                개장전 이슈와 주도주 알림! <em>(매일8:50)</em>
+              </span>
               <span class="on">장중 실시간 이슈& 주도주 확인!</span>
               <span class="on">
                 퇴근길 한발빠른 종목 추천! <br />
@@ -606,7 +715,9 @@
 
             <div class="list">
               <span class="on">전종목 매매신호 조회!</span>
-              <span class="on">실시간 매매타이밍 알림! <em>(최대50종목)</em></span>
+              <span class="on"
+                >실시간 매매타이밍 알림! <em>(최대50종목)</em></span
+              >
               <span class="on">잘 팔아야 수익, 진짜 매도 잘 하는 AI!</span>
             </div>
           </div>
@@ -709,9 +820,339 @@
         </div>
         <!--  -->
       </template>
-      <template #footer>
-        <!-- 푸터 내용 -->
-        <button type="button">AI포착 가입하기</button>
+    </Modal>
+    <!-- modal -->
+
+    <Modal
+      class="aiCatchsv aiCatchsv2"
+      :modal-id="'catchJoin2'"
+      :show-modal="modals.catchJoin2"
+      :close-modal="() => closeModal('catchJoin2')"
+    >
+      <template #body>
+        <div class="top">
+          <div class="txt_s">
+            한발 빠른 <em>이슈캐치</em>, <br />
+            정확한 <em>신호캐치 !!</em> <br />
+            높은 투자 수익 확보~!
+          </div>
+          <!-- txt -->
+
+          <div class="priceChk">
+            <div>
+              <input type="radio" name="prChk" id="prchk01" checked />
+              <label for="prchk01">
+                <div>
+                  <div class="top">매월 정기결제<em>(50%할인)</em></div>
+                  <div class="prc">
+                    <del>198,000원</del>
+                    <em>99,000원/월</em>
+                    (VAT포함)
+                  </div>
+                </div>
+              </label>
+            </div>
+            <!--  -->
+            <div>
+              <input type="radio" name="prChk" id="prchk02" />
+              <label for="prchk02">
+                <div>
+                  <div class="top">1개월 단건 결제</div>
+                  <div class="prc">
+                    <span>198,000원/월</span>
+                    (VAT포함)
+                  </div>
+                </div>
+              </label>
+            </div>
+            <!--  -->
+            <button>결제하기</button>
+          </div>
+          <!-- price -->
+
+          <span class="bullet">AI캐치 서비스</span>
+          <!-- bullet -->
+
+          <button @click="closeModal('catchJoin2')">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <!-- button -->
+        </div>
+        <!--  -->
+
+        <div ref="contRef" class="cont">
+          <div class="txt">
+            <strong>AI캐치 서비스 한줄 안내</strong>
+
+            <div>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_297_6412)">
+                    <path
+                      d="M10.7785 7.66663L4.66743 13.7777L1.88965 11"
+                      stroke="#666666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_297_6412">
+                      <rect width="13" height="22" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                이슈캐치: 하루2번 알림제공
+              </span>
+              <em>08:50 개장전 이슈 주도주 알림</em>
+              <em>11:50 장중 실시간 이슈 & 주도주 알림</em>
+            </div>
+
+            <div>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_297_6412)">
+                    <path
+                      d="M10.7785 7.66663L4.66743 13.7777L1.88965 11"
+                      stroke="#666666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_297_6412">
+                      <rect width="13" height="22" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                이슈캐치: 한발빠른이슈 종목 추천
+              </span>
+              <em>18:00 퇴근길 한발빠른 종목 추천 </em>
+              <em>18:10 시간외특징주알림 </em>
+              <em>장 중 추천종목 대응전략알림 </em>
+            </div>
+
+            <div>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_297_6412)">
+                    <path
+                      d="M10.7785 7.66663L4.66743 13.7777L1.88965 11"
+                      stroke="#666666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_297_6412">
+                      <rect width="13" height="22" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                신호캐치:전 종목 조회& 최대50종목 알림제공
+              </span>
+              <em>장 중 실시간 매매 타이밍 알림</em>
+            </div>
+          </div>
+          <!-- 한줄안내 -->
+
+          <div class="txt-guide">
+            AI캐치 서비스는 투자전략 수립을 위한 참고용 자료일 뿐, 투자권유 또는
+            주식 거래를 목적으로 하지 않습니다. 제공된 주식정보에 따른 투자
+            책임은 투자자 본인에게 있습니다.
+          </div>
+        </div>
+        <!--  -->
+      </template>
+    </Modal>
+    <!-- modal -->
+
+    <Modal
+      class="aiCatchsv aiCatchsv3 "
+      :modal-id="'catchJoin3'"
+      :show-modal="modals.catchJoin3"
+      :close-modal="() => closeModal('catchJoin3')"
+    >
+      <template #body>
+        <div class="top">
+          <div class="txt_s">
+            한발 빠른 <em>이슈캐치</em>, <br />
+            정확한 <em>신호캐치 !!</em> <br />
+            높은 투자 수익 확보~!
+          </div>
+          <!-- txt -->
+
+          <div class="priceMonth">
+            <div>
+              <span>1개월</span>
+              <em>198,000원/월</em>
+              (VAT포함)
+            </div>
+            <button>1개월 결제하기</button>
+          </div>
+          <!-- price -->
+
+          <span class="bullet">AI캐치 서비스</span>
+          <!-- bullet -->
+
+          <button @click="closeModal('catchJoin3')">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <!-- button -->
+        </div>
+        <!--  -->
+
+        <div ref="contRef" class="cont">
+          <div class="txt">
+            <strong>AI캐치 서비스 한줄 안내</strong>
+
+            <div>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_297_6412)">
+                    <path
+                      d="M10.7785 7.66663L4.66743 13.7777L1.88965 11"
+                      stroke="#666666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_297_6412">
+                      <rect width="13" height="22" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                이슈캐치: 하루2번 알림제공
+              </span>
+              <em>08:50 개장전 이슈 주도주 알림</em>
+              <em>11:50 장중 실시간 이슈 & 주도주 알림</em>
+            </div>
+
+            <div>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_297_6412)">
+                    <path
+                      d="M10.7785 7.66663L4.66743 13.7777L1.88965 11"
+                      stroke="#666666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_297_6412">
+                      <rect width="13" height="22" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                이슈캐치: 한발빠른이슈 종목 추천
+              </span>
+              <em>18:00 퇴근길 한발빠른 종목 추천 </em>
+              <em>18:10 시간외특징주알림 </em>
+              <em>장 중 추천종목 대응전략알림 </em>
+            </div>
+
+            <div>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_297_6412)">
+                    <path
+                      d="M10.7785 7.66663L4.66743 13.7777L1.88965 11"
+                      stroke="#666666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_297_6412">
+                      <rect width="13" height="22" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                신호캐치:전 종목 조회& 최대50종목 알림제공
+              </span>
+              <em>장 중 실시간 매매 타이밍 알림</em>
+            </div>
+          </div>
+          <!-- 한줄안내 -->
+
+          <div class="txt-guide">
+            AI캐치 서비스는 투자전략 수립을 위한 참고용 자료일 뿐, 투자권유 또는
+            주식 거래를 목적으로 하지 않습니다. 제공된 주식정보에 따른 투자
+            책임은 투자자 본인에게 있습니다.
+          </div>
+        </div>
+        <!--  -->
       </template>
     </Modal>
     <!-- modal -->

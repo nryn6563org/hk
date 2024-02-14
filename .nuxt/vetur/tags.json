@@ -11,6 +11,9 @@
   "SampleComp": {
     "description": "Auto imported from components/SampleComp.vue"
   },
+  "SubHeader": {
+    "description": "Auto imported from components/SubHeader.vue"
+  },
   "IssueCatchAlarm": {
     "description": "Auto imported from components/IssueCatch/CatchAlarm.vue"
   },

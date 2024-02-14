@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import DefaultHeader from "~/components/DefaultHeader";
+import DefaultHeader from '~/components/DefaultHeader'
 export default {
-  name: "DefaultLayout",
+  name: 'DefaultLayout',
   components: {
-    DefaultHeader,
-  },
-};
+    DefaultHeader
+  }
+}
 </script>

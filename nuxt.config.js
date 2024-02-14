@@ -4,7 +4,7 @@ const config = {
   head: {
     title: 'stockwin-thinkpool',
     htmlAttrs: {
-      lang: 'ko',
+      lang: 'ko'
     },
     meta: [
       { charset: 'utf-8' },
@@ -14,39 +14,39 @@ const config = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
+        rel: 'stylesheet',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'
       },
       {
-        rel: "stylesheet",
-        href: "//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css",
+        rel: 'stylesheet',
+        href: '//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css'
       },
       {
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
-      },
-  ],
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'
+      }
+    ],
     script: [
-      { src: 'https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js'}
+      { src: 'https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js' }
     ]
   },
 
-  css: ["~/assets/css/tailwind.css"],
+  css: ['~/assets/css/tailwind.css'],
 
   plugins: [
     // { src: '~/plugins/nuxtClientInit' },
     // { src: '~/plugins/apexcharts'},
-    { src: '~/plugins/axios'},
+    { src: '~/plugins/axios' },
     { src: '~/plugins/number', mode: 'client' },
     { src: '~/plugins/eventBus', mode: 'client' },
-    { src: '~/plugins/nuxtClientInit', mode: 'client' },
-   // { src: '~/plugins/isSignalBlur' }
+    { src: '~/plugins/nuxtClientInit', mode: 'client' }
+    // { src: '~/plugins/isSignalBlur' }
   ],
 
   components: true,
 
   buildModules: [
-    '@nuxtjs/eslint-module',
+    '@nuxtjs/eslint-module'
   ],
 
   modules: [

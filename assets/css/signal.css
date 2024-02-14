@@ -220,10 +220,10 @@
   @apply flex w-full justify-center
 }
 .signal_catch_w .list_w .notJoinBox .btn button{
-  @apply box-content w-fit h-fit rounded-full p-[10px_30px] text-[16px] text-white font-bold flex flex-col bg-[#5368ff]
+  @apply h-10 text-[#5368ff] text-[14px] font-medium underline mt-[80px]
 }
 .signal_catch_w .list_w .notJoinBox .btn button.complete{
-  @apply rounded-[8px]
+  @apply mt-0 rounded-[8px] box-content w-fit h-fit p-[10px_30px] text-[16px] text-white font-bold flex flex-col bg-[#5368ff]
 }
 .signal_catch_w .list_w .notJoinBox .btn button em{
   @apply not-italic text-[12px] font-normal block

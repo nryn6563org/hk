@@ -188,7 +188,7 @@
   @apply w-full rounded-[4px] h-[45px] border-[1px] border-[#dfe3e7] bg-[#f8f8f8] gap-[2px] flex justify-center items-center text-[14px] text-[#666]
 }
 .quickIssueItem .catch_item_list .issue_item .list .notJoinBox{
-  @apply absolute inset-0 w-full h-full bg-[#2b324a] bg-opacity-40 hidden justify-center items-center flex-col gap-[15px] backdrop-blur-sm
+  @apply absolute inset-0 w-full h-full bg-[#2b324a] bg-opacity-40 hidden justify-center items-center flex-col gap-[70px] backdrop-blur-[7.5px]
 }
 .quickIssueItem .catch_item_list .issue_item .list.notJoin .notJoinBox *{
   @apply blur-none !important
@@ -196,9 +196,9 @@
 .quickIssueItem .catch_item_list .issue_item .list.notJoin .notJoinBox{
   @apply flex
 }
-.quickIssueItem .catch_item_list .issue_item .list .notJoinBox span{
+.quickIssueItem .catch_item_list .issue_item .list .notJoinBox > span{
   @apply text-center text-[14px] font-medium text-white leading-[21px]
 }
 .quickIssueItem .catch_item_list .issue_item .list .notJoinBox button{
-  @apply p-[10px_20px] rounded-full bg-[#5368ff] text-[14px] font-bold text-white
+  @apply text-[#5368ff] text-[14px] font-medium underline
 }

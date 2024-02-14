@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _09514a33 = () => interopDefault(import('../pages/accodianEx.vue' /* webpackChunkName: "pages/accodianEx" */))
+const _0c40e2fb = () => interopDefault(import('../pages/boardView.vue' /* webpackChunkName: "pages/boardView" */))
 const _3c47d010 = () => interopDefault(import('../pages/modalEx.vue' /* webpackChunkName: "pages/modalEx" */))
 const _7109471e = () => interopDefault(import('../pages/modalTween.vue' /* webpackChunkName: "pages/modalTween" */))
 const _65f9de10 = () => interopDefault(import('../pages/sub.vue' /* webpackChunkName: "pages/sub" */))
@@ -25,6 +26,10 @@ export const routerOptions = {
     path: "/accodianEx",
     component: _09514a33,
     name: "accodianEx"
+  }, {
+    path: "/boardView",
+    component: _0c40e2fb,
+    name: "boardView"
   }, {
     path: "/modalEx",
     component: _3c47d010,
