@@ -27,10 +27,15 @@
 
 <script>
 export default {
-  props: {
-    title: {
-      type: String,
-      default: '서브타이틀'
+  computed: {
+    title() {
+      return this.$store.state.pageTitle
+    },
+    customButtonText() {
+      return this.$store.state.customButtonText
+    },
+    customButtonLink() {
+      return this.$store.state.customButtonLink
     }
   },
   methods: {

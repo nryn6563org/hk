@@ -3,7 +3,8 @@ export const state = () => ({
   member: {
     login: false,
     userId: undefined
-  }
+  },
+  pageTitle: '서브페이지'
 })
 
 export const getters = {
@@ -24,6 +25,9 @@ export const mutations = {
    */
   setMember: (state, payLoad) => {
     state.member = payLoad
+  },
+  setPageTitle(state, title) {
+    state.pageTitle = title
   }
 }
 
