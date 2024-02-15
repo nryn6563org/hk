@@ -77,7 +77,7 @@ export default {
         return
       }
       this._connecting = true
-      this.sse = new EventSource('/%3Crepository-name%3E/_loading/sse')
+      this.sse = new EventSource('/HKTV/_loading/sse')
       this.sse.addEventListener('message', event => this.onSseMessage(event))
     },
     onSseMessage (message) {

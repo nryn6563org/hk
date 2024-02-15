@@ -101,7 +101,7 @@
   @apply w-full pt-[10px]
 }
 .setting-list .btn-group{
-  @apply w-full flex justify-between py-5
+  @apply w-full flex justify-end py-5
 }
 .setting-list .list{
   @apply w-full 
@@ -169,7 +169,7 @@
   @apply w-[calc(100%-20px)] h-[calc(100%-40px)] overflow-hidden
 }
 .aiCatchsv .modal-content .modal-body{
-  @apply relative w-full h-full overflow-hidden
+  @apply relative w-full h-full overflow-hidden pb-5
 }
 .aiCatchsv .modal-content .modal-body > .top{
   @apply w-full bg-[#5368ff] p-[12px_17px_20px] bg-[url('~/assets/img/vi_banner.png')] bg-no-repeat bg-[235px_65px] bg-[length:86px_78px]

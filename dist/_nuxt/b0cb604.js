@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{389:function(t,e,n){"use strict";n.r(e);var o={layout:"SubLayout",asyncData:function(t){var e=t.store;return e.commit("setPageTitle","페이지 타이틀"),e.commit("setHeaderClass","녀ㅠ"),{}}},c=n(16),component=Object(c.a)(o,(function(){return(0,this._self._c)("div")}),[],!1,null,null,null);e.default=component.exports}}]);

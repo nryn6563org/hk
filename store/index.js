@@ -4,7 +4,8 @@ export const state = () => ({
     login: false,
     userId: undefined
   },
-  pageTitle: '서브페이지'
+  pageTitle: '서브페이지',
+  headerClass: 'sub'
 })
 
 export const getters = {
@@ -28,6 +29,9 @@ export const mutations = {
   },
   setPageTitle(state, title) {
     state.pageTitle = title
+  },
+  setHeaderClass(state, headerClass) {
+    state.headerClass = headerClass
   }
 }
 

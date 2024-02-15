@@ -199,7 +199,7 @@
   @apply text-white
 }
 .signal_catch_w .list_w{
-  @apply w-full mt-[30px] relative
+  @apply w-full mt-[30px] min-h-[613px] relative
 }
 .signal_catch_w .list_w.notJoin{
   @apply overflow-hidden rounded-3xl

@@ -1,5 +1,5 @@
 <template>
-  <header id="header" class="sub">
+  <header id="header" :class="headerClass">
     <button @click="goBack">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -31,11 +31,8 @@ export default {
     title() {
       return this.$store.state.pageTitle
     },
-    customButtonText() {
-      return this.$store.state.customButtonText
-    },
-    customButtonLink() {
-      return this.$store.state.customButtonLink
+    headerClass() {
+      return this.$store.state.headerClass
     }
   },
   methods: {
