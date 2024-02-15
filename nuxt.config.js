@@ -24,15 +24,10 @@ const config = {
       {
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/aos@next/dist/aos.css'
       }
     ],
     script: [
-      { src: 'https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js' },
-      { src: 'https://unpkg.com/aos@2.3.1/dist/aos.js' }
+      { src: 'https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js' }
     ]
   },
 

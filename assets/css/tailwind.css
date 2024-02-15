@@ -6,3 +6,7 @@
 *{
   @apply antialiased font-spoqa !important
 }
+
+body.modal-open{
+  overflow:hidden;
+}

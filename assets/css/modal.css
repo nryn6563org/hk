@@ -15,7 +15,7 @@
 
 /* alarm_modal */
 #alarm_modal .modal-content{
-  @apply w-[calc(100%-20px)]
+  @apply w-[calc(100%-40px)]
 }
 #alarm_modal .modal-content .modal-header{
   @apply flex w-full h-[48px] items-center px-5 justify-end
@@ -60,10 +60,10 @@
   @apply relative w-full
 }
 .sch-modal-wrap .sch-bar{
-  @apply relative flex justify-center w-full
+  @apply relative flex justify-center items-center w-full h-[42px] rounded-full border-[1px] border-[#5368ff]
 }
 .sch-modal-wrap .sch-bar input{
-  @apply h-10 w-full rounded-full border-[1px] border-[#5368ff] text-center text-[16px] text-black
+  @apply h-10 w-full rounded-full text-center text-[16px] text-black
   placeholder:text-[14px] placeholder:text-[#999] placeholder:tracking-[-0.35px]
 }
 .sch-modal-wrap .sch-bar button{
