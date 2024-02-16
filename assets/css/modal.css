@@ -21,7 +21,7 @@
   @apply flex w-full h-[48px] items-center px-5 justify-end
 }
 #alarm_modal .modal-content .modal-body{
-  @apply w-full px-5
+  @apply w-full px-5 min-h-[106px] flex flex-col justify-center
 }
 #alarm_modal .modal-content .modal-body .txt{
   @apply block w-full text-center leading-6 pb-2.5
@@ -41,7 +41,7 @@
 
 /* item-sch */
 .item-sch .modal-content{
-  @apply w-[calc(100%-20px)] max-h-[calc(100%-40px)]
+  @apply w-[calc(100%-20px)] h-[calc(100%-40px)] justify-start
 }
 .item-sch .modal-content .modal-header{
   @apply relative flex w-full justify-center py-2.5 px-5

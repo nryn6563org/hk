@@ -271,7 +271,7 @@
       <!-- 이슈 항목 -->
 
       <div class="banner">
-        <button><em>'오늘의이슈'</em> 어떻게 활용하면 좋을까요?</button>
+        <button @click="goToPage"><em>'오늘의이슈'</em> 어떻게 활용하면 좋을까요?</button>
       </div>
       <!-- 이슈활용 안내 -->
 
@@ -746,6 +746,9 @@ export default {
     }
   },
   methods: {
+    goToPage() {
+      this.$router.push('/todayIssueTip/')
+    },
     openModal(modalId) {
       this.$set(this.modals, modalId, true)
     },

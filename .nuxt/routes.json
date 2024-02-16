@@ -28,6 +28,13 @@
     "_name": "_7109471e"
   },
   {
+    "name": "quickIssueTip",
+    "path": "/quickIssueTip",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/quickIssueTip.vue",
+    "chunkName": "pages/quickIssueTip",
+    "_name": "_5e0b0c5f"
+  },
+  {
     "name": "sub",
     "path": "/sub",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/sub.vue",

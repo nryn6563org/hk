@@ -100,10 +100,10 @@
   @apply w-full flex gap-[15px] pb-[15px] border-b-[1px] border-[#eee] px-[5px] items-center
 }
 .today-section-04 .almList > div .bullet{
-  @apply w-[50px] h-[50px] flex rounded-full bg-[#bdbdbd] items-center justify-center text-[14px] text-white font-medium tracking-[-0.35px]
+  @apply w-[50px] h-[50px] flex rounded-full bg-[#bdbdbd] items-center justify-center text-[14px] text-white font-medium tracking-[-0.35px] leading-[18px] text-center
 }
 .today-section-04 .almList > div.on .bullet{
-  @apply bg-[#5368ff]
+  @apply bg-[#5368ff] font-bold
 }
 .today-section-04 .almList > div .alm_txt{
   @apply w-[calc(100%-65px)] flex flex-col gap-2

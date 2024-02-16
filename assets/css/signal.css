@@ -31,14 +31,21 @@
 .item_info_catch .item_info .top .info span:last-child{
   @apply after:hidden;
 }
+
 .item_info_catch .item_info .price{
   @apply flex w-full h-6 gap-4 items-center
 }
+.item_info_catch .item_info .price.up{
+  @apply text-[#e81a1a]
+}
+.item_info_catch .item_info .price.dn{
+  @apply text-[#5368ff]
+}
 .item_info_catch .item_info .price strong{
-  @apply text-[#E81A1A] text-[24px] font-bold
+  @apply  text-[24px] font-bold
 }
 .item_info_catch .item_info .price span{
-  @apply text-[16px] font-medium text-[#e81a1a]
+  @apply text-[16px] font-medium 
 }
 .item_info_catch .item_card{
   @apply w-full mt-4

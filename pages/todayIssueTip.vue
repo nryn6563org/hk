@@ -131,8 +131,8 @@
         <div
           class="img02"
           data-aos="zoom-in"
-          data-aos-delay="2000"
-          data-aos-duration="1000"
+          data-aos-delay="1500"
+          data-aos-duration="700"
         >
           <img
             src="~/assets/img/todayTipAlmPop.png"
@@ -242,11 +242,11 @@ export default {
       const section = this.$refs.todaySection04
       const almListDivs = this.$refs.almList.children
 
-      if (section.getBoundingClientRect().top <= 0) {
+      if (section.getBoundingClientRect().top <= 120) {
         Array.from(almListDivs).forEach((div, index) => {
           setTimeout(() => {
             div.classList.add('on')
-          }, index * 1000) // Adjust the timeout duration as needed
+          }, index * 800) // Adjust the timeout duration as needed
         })
       }
     },

@@ -147,7 +147,7 @@
       <!--  -->
 
       <div class="banner">
-        <button><em>'한발빠른이슈'</em> 는 이렇게 활용하세요.</button>
+        <button @click="goToPage"><em>'한발빠른이슈'</em> 는 이렇게 활용하세요.</button>
       </div>
       <!--  -->
 
@@ -1195,6 +1195,9 @@ export default {
     }
   },
   methods: {
+    goToPage() {
+      this.$router.push('/quickIssueTip/')
+    },
     toggleOffcanvas() {
       this.isOffcanvasOpen = !this.isOffcanvasOpen
     },

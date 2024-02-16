@@ -8,6 +8,7 @@ const _09514a33 = () => interopDefault(import('../pages/accodianEx.vue' /* webpa
 const _0c40e2fb = () => interopDefault(import('../pages/boardView.vue' /* webpackChunkName: "pages/boardView" */))
 const _3c47d010 = () => interopDefault(import('../pages/modalEx.vue' /* webpackChunkName: "pages/modalEx" */))
 const _7109471e = () => interopDefault(import('../pages/modalTween.vue' /* webpackChunkName: "pages/modalTween" */))
+const _5e0b0c5f = () => interopDefault(import('../pages/quickIssueTip.vue' /* webpackChunkName: "pages/quickIssueTip" */))
 const _65f9de10 = () => interopDefault(import('../pages/sub.vue' /* webpackChunkName: "pages/sub" */))
 const _e679b09a = () => interopDefault(import('../pages/todayIssueTip.vue' /* webpackChunkName: "pages/todayIssueTip" */))
 const _166d7cbc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -39,6 +40,10 @@ export const routerOptions = {
     path: "/modalTween",
     component: _7109471e,
     name: "modalTween"
+  }, {
+    path: "/quickIssueTip",
+    component: _5e0b0c5f,
+    name: "quickIssueTip"
   }, {
     path: "/sub",
     component: _65f9de10,
