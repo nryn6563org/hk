@@ -50,6 +50,9 @@
 .offcanvas-body .item-detail table{
   @apply w-full  border-collapse border-spacing-0 mt-2.5
 }
+.offcanvas-body .item-detail table *{
+  @apply border-collapse
+}
 .offcanvas-body .item-detail table thead tr th{
   @apply border-t-[1px] border-t-[#8c8c8c] border-r-[1px] border-r-[#f0f0f0] border-b-[1px] border-b-[#dcdcdc] bg-[#fafafa] h-[34px] text-[12px]
 }
@@ -91,6 +94,12 @@
 }
 .offcanvas-body .item-detail table tbody tr td .info_txt.infoActive{
   @apply py-[15px] h-auto
+}
+.offcanvas-body .item-detail table tbody tr td .info_txt strong{
+  @apply block text-[14px] text-[#444] font-medium leading-5
+}
+.offcanvas-body .item-detail table tbody tr td .info_txt span{
+  @apply block text-[13px] text-[#666] font-medium leading-5
 }
 
 /* 날짜선택 */
