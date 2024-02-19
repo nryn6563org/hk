@@ -20,6 +20,10 @@ module.exports = {
       1000: '1000ms',
       2000: '2000ms',
       3000: '3000ms'
+    },
+    screens: {
+      md: '768px',
+      lg: '1024px'
     }
   },
   plugins: []

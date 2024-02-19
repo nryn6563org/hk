@@ -10,3 +10,7 @@
 body.modal-open{
   overflow:hidden;
 }
+
+#wrap{
+  @apply md:max-w-[425px] md:mx-auto
+}
