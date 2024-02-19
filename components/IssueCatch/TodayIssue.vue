@@ -260,12 +260,12 @@
       <div class="issue_list swiper">
         <div class="swiper-wrapper">
           <button class="swiper-slide active" type="button">STO</button>
-          <button class="swiper-slide" type="button">암호화폐</button>
+          <button class="swiper-slide " type="button">암호화폐</button>
           <button class="swiper-slide" type="button">이슈1</button>
           <button class="swiper-slide" type="button">이슈2</button>
           <button class="swiper-slide" type="button">이슈3</button>
           <button class="swiper-slide" type="button">이슈4</button>
-          <button class="swiper-slide" type="button">이슈5</button>
+          <button class="swiper-slide swiper-slide-active" type="button">이슈5</button>
         </div>
       </div>
       <!-- 이슈 항목 -->

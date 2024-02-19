@@ -212,7 +212,7 @@
   @apply overflow-hidden rounded-3xl
 }
 .signal_catch_w .list_w .notJoinBox{
-  @apply absolute inset-0 bg-[url('~/assets/img/bg-paper.png')] bg-no-repeat bg-[length:320px_100%] hidden
+  @apply absolute inset-0 bg-[url('~/assets/img/bg-paper.png')] bg-no-repeat bg-[length:100%_100%] hidden
 }
 .signal_catch_w .list_w.notJoin .notJoinBox{
   @apply flex w-full flex-col items-center justify-center gap-5
@@ -347,7 +347,7 @@
 .ainews .list > div .info span{
   @apply text-[#999] text-[13px] flex items-center
 }
-.ainews .list > div .info span:first-child{
+/* .ainews .list > div .info span:first-child{
   @apply after:content-[''] after:w-[1px] after:h-[11px] after:bg-[#d7d7d7] after:ml-2 after:block
-}
+} */
 
