@@ -740,7 +740,8 @@ export default {
       const swiper = new Swiper('.issue_list', {
         slidesPerView: 'auto',
         spaceBetween: 4,
-        pagination: false
+        pagination: false,
+        slideToClickedSlide: true
       }).mount()
       //
     }

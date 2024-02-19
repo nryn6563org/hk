@@ -38,6 +38,7 @@ export default {
     },
     showModal: {
       type: Boolean,
+      default: false,
       required: true
     },
     closeModal: {
