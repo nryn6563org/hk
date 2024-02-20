@@ -1,3 +1,6 @@
+.offcanvas-wrap{
+  @apply md:max-w-[425px]
+}
 .offcanvas-bottom {
   position: fixed;
   bottom:0;
@@ -11,6 +14,8 @@
   z-index:20;
   border-radius:16px 16px 0 0;
   padding:12px 20px 0;
+
+  @apply md:max-w-[425px] md:left-1/2 md:ml-[-213px]
 }
 .offcanvas-open .offcanvas-bottom{
   transform: translateY(0);
@@ -24,7 +29,9 @@
   background:#000;
   opacity: 0;
   transition:opacity 0.25s ease-in-out;
-  display:none
+  display:none;
+
+  @apply md:max-w-[425px] md:left-1/2 md:ml-[-213px]
 }
 .offcanvas-open .offcanvas-overlay{
   display:block;
