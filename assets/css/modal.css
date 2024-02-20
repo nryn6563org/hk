@@ -1,6 +1,6 @@
 .modal {
-  @apply fixed w-full h-full flex justify-center items-center inset-0 bg-black bg-opacity-80 z-20 
-  md:max-w-[425px] md:left-1/2 md:ml-[-213px]
+  @apply fixed w-full h-full flex justify-center items-center inset-0 bg-black bg-opacity-80 z-20
+  md:max-w-[425px] md:ml-[-213px] md:left-1/2
 }
 .modal-content {
   @apply relative bg-white rounded-xl flex flex-col justify-between;

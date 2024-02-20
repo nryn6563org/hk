@@ -27,7 +27,9 @@ const config = {
       }
     ],
     script: [
-      { src: 'https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js' }
+      {
+        src: 'https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js'
+      }
     ]
   },
 
@@ -45,15 +47,9 @@ const config = {
 
   components: true,
 
-  buildModules: [
-    '@nuxtjs/eslint-module'
-  ],
+  buildModules: ['@nuxtjs/eslint-module'],
 
-  modules: [
-    '@nuxtjs/axios',
-    'cookie-universal-nuxt',
-    '@nuxtjs/moment'
-  ],
+  modules: ['@nuxtjs/axios', 'cookie-universal-nuxt', '@nuxtjs/moment'],
 
   axios: {
     baseUrl: 'https://stockwinapi.thinkpool.com',
@@ -95,11 +91,11 @@ const config = {
     port: 3005
   },
   target: 'static'
-}
 
-// if (process.env.NODE_ENV === 'development') {
-//   const sslCertificate = require('./.sslCertificate')
-//   config.server = sslCertificate
-// }
+  // if (process.env.NODE_ENV === 'development') {
+  //   const sslCertificate = require('./.sslCertificate')
+  //   config.server = sslCertificate
+  // }
+}
 
 export default config

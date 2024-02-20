@@ -14,3 +14,7 @@ body.modal-open{
 #wrap{
   @apply md:max-w-[425px] md:mx-auto
 }
+
+input{
+  @apply focus:outline-none active:outline-none hover:outline-none 
+}
