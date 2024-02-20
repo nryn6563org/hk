@@ -108,7 +108,7 @@
   @apply block w-10 text-[13px] text-[#666] text-center
 }
 .quickIssueItem .top_issue .list > div .obj{
-  @apply block w-[calc(100%-156px)] truncate text-[#333] text-[15px] font-bold
+  @apply block w-[calc(100%-156px)] truncate text-[#333] text-[15px] font-medium
 }
 .quickIssueItem .top_issue .list > div .per{
   @apply w-[100px] flex justify-center items-center h-[25px] rounded-[4px] bg-[#fdecec] text-[#E81A1A] text-[13px]

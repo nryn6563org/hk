@@ -98,7 +98,7 @@
   @apply block text-[#333] font-bold text-[16px] leading-6
 }
 .day_issue .issue_news span{
-  @apply w-full h-[168px] text-[14px] line-clamp-[8] leading-[21px] text-[#4d4d4d] text-ellipsis mt-[15px]
+  @apply w-full max-h-[168px] text-[14px] line-clamp-[8] leading-[21px] text-[#4d4d4d] text-ellipsis mt-[15px]
   
 }
 
@@ -121,7 +121,7 @@
   @apply w-10 text-[13px] text-[#666] block
 }
 .day_issue .top_issue .list > div .obj{
-  @apply w-[118px] line-clamp-1
+  @apply w-[118px] line-clamp-1 text-[15px] font-medium text-[#333]
 }
 .day_issue .top_issue .list > div .per{
   @apply bg-[#fdecec] w-[100px] p-[3px_5px] flex gap-[2px] rounded-[4px] justify-center items-center text-[13px] text-[#e81a1a]
