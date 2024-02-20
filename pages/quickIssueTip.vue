@@ -256,9 +256,9 @@
         </div>
       </div>
 
-      <div class="btn-box">
+      <!-- <div class="btn-box">
         <button>AI캐치 가입하기</button>
-      </div>
+      </div> -->
     </section>
     <!-- 영상 -->
   </div>

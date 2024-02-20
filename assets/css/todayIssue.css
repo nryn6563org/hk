@@ -112,7 +112,7 @@
   @apply not-italic text-[#CBFFF6]
 }
 .day_issue .top_issue .list{
-  @apply w-full mt-2.5 rounded-[10px] bg-white p-3 flex flex-col gap-2.5
+  @apply w-full mt-2.5 rounded-[10px] bg-white p-3 flex flex-col gap-2
 }
 .day_issue .top_issue .list > div{
   @apply flex w-full gap-[9px] items-center

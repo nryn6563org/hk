@@ -58,7 +58,7 @@
   @apply w-full flex justify-center
 }
 .item_info_catch .item_card .card > div{
-  @apply w-[calc(100%-40px)] bg-white p-5 rounded-[16px] relative shadow-card
+  @apply w-[calc(100%-40px)] h-[200px] bg-white p-5 rounded-[16px] relative shadow-card
 }
 .item_info_catch .item_card .card strong{
   @apply block h-6 leading-6 text-[16px] text-[#333] font-bold
@@ -209,7 +209,7 @@
   @apply w-full mt-[30px] min-h-[613px] relative
 }
 .signal_catch_w .list_w.notJoin{
-  @apply overflow-hidden rounded-3xl
+  @apply overflow-hidden rounded-3xl !important
 }
 .signal_catch_w .list_w .notJoinBox{
   @apply absolute inset-0 bg-[url('~/assets/img/bg-paper.png')] bg-no-repeat bg-[length:100%_100%] hidden
