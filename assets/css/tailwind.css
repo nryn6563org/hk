@@ -12,7 +12,7 @@ body.modal-open{
 }
 
 #wrap{
-  @apply md:max-w-[425px] md:mx-auto
+  @apply md:max-w-[360px] md:mx-auto
 }
 
 input{

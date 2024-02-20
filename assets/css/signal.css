@@ -19,13 +19,13 @@
   @apply flex w-full gap-3 items-center
 }
 .item_info_catch .item_info .top .item{
-  @apply text-[18px] text-black font-medium
+  @apply text-[18px] text-black font-medium truncate max-w-[168px]
 }
 .item_info_catch .item_info .top .info{
   @apply flex gap-2 items-center
 }
 .item_info_catch .item_info .top .info span{
-  @apply text-[12px] text-[#666] flex gap-2 items-center
+  @apply text-[12px] text-[#666] flex gap-[7px] items-center
   after:w-[1px] after:h-2.5 after:bg-[#c6c6c6] after:content-[''] after:block
 }
 .item_info_catch .item_info .top .info span:last-child{
