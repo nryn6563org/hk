@@ -241,7 +241,7 @@
           <strong>알림정보 정리</strong>
           <div class="txt">
             <span>매일18시, 단기급등가능성 높은 종목추천</span>
-            <span>매일18시, 단기급등가능성 높은 종목추천</span>
+            <span>매일18:10분, 시간외거래에서 강세를 보인 종목알림</span>
             <span>장중, 한발빠른이슈 종목 대응전략 알림</span>
           </div>
         </div>

@@ -1,5 +1,5 @@
 #header{
-  @apply w-full h-[50px] flex items-center px-3  bg-[#333340]
+  @apply w-full h-[50px] flex items-center px-3  bg-[#333340] sticky top-0 z-[50]
 }
 #header.sub{
   @apply bg-white

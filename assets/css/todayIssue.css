@@ -1,7 +1,7 @@
 .catch_wrap {
 }
 .catch_tab {
-  @apply w-full h-[42px] flex items-center relative after:absolute after:w-full after:h-[1px] after:bottom-0 after:left-0 after:bg-[#b3b3b3] after:z-[1] bg-[#333340]
+  @apply w-full h-[42px] flex items-center after:absolute after:w-full after:h-[1px] after:bottom-0 after:left-0 after:bg-[#b3b3b3] after:z-[1] bg-[#333340] sticky top-[49px] z-[50]
 }
 .catch_tab > button{
   @apply w-1/2 h-full text-[#b3b3b3] font-normal text-[16px] relative
@@ -131,7 +131,7 @@
 }
 
 .day_issue .issue_item{
-  @apply w-full p-[10px_20px_40px]
+  @apply w-full p-[10px_20px_0px]
 }
 .day_issue .issue_item .top{
   @apply w-full flex justify-between items-center px-2.5
