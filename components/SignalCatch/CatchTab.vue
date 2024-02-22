@@ -66,6 +66,10 @@
               <span class="price">1,144,000</span>
               <span class="per">-</span>
             </div>
+
+            <div class="empty">
+              아직 발생된 매매신호가 없습니다.
+            </div>
           </div>
           <div class="more">
             <button>

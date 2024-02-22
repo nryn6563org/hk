@@ -2,13 +2,13 @@
   <div id="container">
     <div class="signal_catch_w">
       <div class="top">
-        <div data-v-bff6852c="" class="card">
-          <div data-v-bff6852c="" class="signal sig01">
-            <span data-v-bff6852c="">오늘<br data-v-bff6852c="" />매수</span>
+        <div class="card">
+          <div class="signal sig01">
+            <span>오늘<br />매수</span>
           </div>
-          <div data-v-bff6852c="" class="signal-info">
-            <div data-v-bff6852c="" class="txt">
-              아직 발생된<br data-v-bff6852c="" />
+          <div class="signal-info">
+            <div class="txt">
+              아직 발생된<br />
               매매신호가 없습니다.
             </div>
           </div>
@@ -63,149 +63,19 @@
     </div>
     <!--  -->
 
-    <div data-v-bff6852c="" class="signal_alarm_banner">
-      <div data-v-bff6852c="" class="banner">
-        <div data-v-bff6852c="" class="visual">
-          <strong data-v-bff6852c="">내 종목 언제 매도해야 하나요?</strong>
-          <span data-v-bff6852c=""
-            ><em data-v-bff6852c="">검증된 AI</em>가 <br data-v-bff6852c="" />
-            <em data-v-bff6852c="">정확한 매매타점</em>에
-            <br data-v-bff6852c="" />
-            <em data-v-bff6852c="">앱알림</em>을 보내드립니다.
+    <div class="signal_alarm_banner">
+      <div class="banner">
+        <div class="visual">
+          <strong>내 종목 언제 매도해야 하나요?</strong>
+          <span
+            ><em>검증된 AI</em>가 <br />
+            <em>정확한 매매타점</em>에
+            <br />
+            <em>앱알림</em>을 보내드립니다.
           </span>
         </div>
-        <div data-v-bff6852c="" class="list">
-          <div
-            data-v-bff6852c=""
-            class="swiper signalList swiper-initialized swiper-vertical swiper-android swiper-backface-hidden"
-          >
-            <div
-              class="swiper-wrapper"
-              id="swiper-wrapper-97630345f73504102"
-              aria-live="off"
-              style="
-                transition-duration: 0ms;
-                transform: translate3d(0px, -231px, 0px);
-                transition-delay: 0ms;
-              "
-            >
-              <div
-                class="swiper-slide"
-                data-swiper-slide-index="9"
-                role="group"
-                aria-label="10 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-              <div
-                class="swiper-slide"
-                data-swiper-slide-index="0"
-                role="group"
-                aria-label="1 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-              <div
-                class="swiper-slide"
-                data-swiper-slide-index="1"
-                role="group"
-                aria-label="2 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-              <div
-                class="swiper-slide"
-                data-swiper-slide-index="2"
-                role="group"
-                aria-label="3 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-              <div
-                class="swiper-slide"
-                data-swiper-slide-index="3"
-                role="group"
-                aria-label="4 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-              <div
-                class="swiper-slide"
-                data-swiper-slide-index="4"
-                role="group"
-                aria-label="5 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-              <div
-                class="swiper-slide swiper-slide-prev"
-                data-swiper-slide-index="5"
-                role="group"
-                aria-label="6 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-              <div
-                class="swiper-slide swiper-slide-active"
-                data-swiper-slide-index="6"
-                role="group"
-                aria-label="7 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-              <div
-                class="swiper-slide swiper-slide-next"
-                data-swiper-slide-index="7"
-                role="group"
-                aria-label="8 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-              <div
-                class="swiper-slide"
-                data-swiper-slide-index="8"
-                role="group"
-                aria-label="9 / 10"
-                style="height: 21px; margin-bottom: 12px"
-              >
-                <span class="date">11.22</span>
-                <span class="obj">종목명종목명종목명종목명</span>
-                <span class="per">+115.78% 달성</span>
-              </div>
-            </div>
-            <span
-              class="swiper-notification"
-              aria-live="assertive"
-              aria-atomic="true"
-            ></span>
-          </div>
+        <div class="list">
+          <SignalList></SignalList>
         </div>
       </div>
     </div>
@@ -247,9 +117,11 @@
 </template>
 <script>
 import CatchTab from '~/components/SignalCatch/CatchTab'
+import SignalList from '~/components/SignalCatch/SignalList'
 export default {
   components: {
-    CatchTab
+    CatchTab,
+    SignalList
   },
   layout: 'defaultLayout'
 }
