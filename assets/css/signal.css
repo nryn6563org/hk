@@ -16,13 +16,13 @@
   @apply w-full flex flex-col gap-[6px] px-5
 }
 .item_info_catch .item_info .top{
-  @apply flex w-full gap-3 items-center
+  @apply flex w-full gap-3 items-center truncate
 }
 .item_info_catch .item_info .top .item{
   @apply text-[18px] text-black font-medium truncate max-w-[168px]
 }
 .item_info_catch .item_info .top .info{
-  @apply flex gap-2 items-center
+  @apply flex gap-2 items-center 
 }
 .item_info_catch .item_info .top .info span{
   @apply text-[12px] text-[#666] flex gap-[7px] items-center

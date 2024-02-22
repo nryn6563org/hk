@@ -7,14 +7,14 @@
       <div class="item_info">
         <div class="top">
           <div class="item">
-            <span>삼성전자</span>
+            <span>오픈엣지테크놀로지</span>
           </div>
           <!-- 종목명 -->
 
           <div class="info">
-            <span>001500</span>
-            <span>코스피</span>
-            <span>증권</span>
+            <span>394280</span>
+            <span>KOSDAQ</span>
+            <span>소프트웨어</span>
           </div>
           <!-- 종목정보 -->
         </div>

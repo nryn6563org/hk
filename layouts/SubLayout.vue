@@ -1,17 +1,17 @@
 <template>
   <div id="wrap">
-    <SubHeader></SubHeader>
+    <!-- <SubHeader></SubHeader> -->
     <Nuxt />
   </div>
 </template>
 
 <script>
-import SubHeader from '~/components/SubHeader'
+// import SubHeader from '~/components/SubHeader'
 export default {
   name: 'SubLayout',
-  components: {
-    SubHeader
-  },
+  // components: {
+  //   SubHeader
+  // },
   head() {
     const viewportWidth = window.screen.width
     let newContent = ''

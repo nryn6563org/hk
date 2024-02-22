@@ -2,7 +2,7 @@
   @apply px-5 pb-[50px] bg-[#333340]
 }
 .issueCard{
-  @apply bg-white w-full mx-auto rounded-[18px] overflow-hidden p-[15px_10px]
+  @apply bg-white w-full mx-auto rounded-[18px] overflow-hidden p-[15px] h-[332px]
 }
 .issueCard.bnr{
   @apply p-0
@@ -20,7 +20,7 @@
   @apply absolute top-[33px] left-0 flex gap-2 items-end
 }
 .issueCard .top .obj strong{
-  @apply text-[16px] font-bold block leading-6
+  @apply text-[17px] font-bold block leading-6 max-w-[144px] truncate
 }
 .issueCard .top .obj span{
   @apply text-[#999] text-[12px] block leading-[18px]
