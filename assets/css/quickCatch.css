@@ -194,7 +194,7 @@
   @apply blur-none !important
 }
 .quickIssueItem .catch_item_list .issue_item .list.notJoin .notJoinBox{
-  @apply flex
+  @apply flex !important
 }
 .quickIssueItem .catch_item_list .issue_item .list .notJoinBox > span{
   @apply text-center text-[14px] font-medium text-white leading-[21px]

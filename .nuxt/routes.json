@@ -28,18 +28,18 @@
     "_name": "_7109471e"
   },
   {
+    "name": "PresentPrice",
+    "path": "/PresentPrice",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/PresentPrice.vue",
+    "chunkName": "pages/PresentPrice",
+    "_name": "_15aa1264"
+  },
+  {
     "name": "quickIssueTip",
     "path": "/quickIssueTip",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/quickIssueTip.vue",
     "chunkName": "pages/quickIssueTip",
     "_name": "_5e0b0c5f"
-  },
-  {
-    "name": "sub",
-    "path": "/sub",
-    "component": "/Users/nryn6563/Documents/work/HKTV/pages/sub.vue",
-    "chunkName": "pages/sub",
-    "_name": "_65f9de10"
   },
   {
     "name": "todayIssueTip",

@@ -1,17 +1,17 @@
 <template>
   <div id="wrap">
-    <DefaultHeader></DefaultHeader>
+    <!-- <DefaultHeader></DefaultHeader> -->
     <Nuxt />
   </div>
 </template>
 
 <script>
-import DefaultHeader from '~/components/DefaultHeader'
+// import DefaultHeader from '~/components/DefaultHeader'
 export default {
   name: 'DefaultLayout',
-  components: {
-    DefaultHeader
-  },
+  // components: {
+  //   DefaultHeader
+  // },
   head() {
     const viewportWidth = window.screen.width
     let newContent = ''

@@ -1,6 +1,6 @@
 /* search */
 .search{
-  @apply py-5 px-[25px] w-full block h-[80px] relative
+  @apply pt-5 px-[25px] w-full block h-fit relative
 }
 .search.search-top{
   @apply bg-[#333340]
@@ -90,7 +90,7 @@
 }
 
 .signal_alarm_banner{
-  @apply w-full p-[30px_20px]
+  @apply w-full p-[30px_20px_0]
 }
 .signal_alarm_banner .banner{
   @apply w-full rounded-[16px] p-[25px_15px_15px] 
@@ -131,7 +131,7 @@
 }
 
 .signal_catch_w{
-  @apply relative w-full mt-2.5 px-5 mb-5
+  @apply relative w-full mt-10 px-5 mb-5
 }
 .signal_catch_w .top {
   @apply block w-full
@@ -306,7 +306,7 @@
 }
 
 .ainews{
-  @apply w-full mt-5 pb-[50px] px-5
+  @apply w-full mt-10 pb-[50px] px-5
 }
 .ainews strong{
   @apply block w-full text-[16px] font-bold leading-6 text-[#333]
