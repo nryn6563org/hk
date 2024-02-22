@@ -250,7 +250,8 @@ import CatchTab from '~/components/SignalCatch/CatchTab'
 export default {
   components: {
     CatchTab
-  }
+  },
+  layout: 'defaultLayout'
 }
 </script>
 <style scoped>
