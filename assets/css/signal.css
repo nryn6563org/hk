@@ -206,10 +206,10 @@
   @apply text-white
 }
 .signal_catch_w .list_w{
-  @apply w-full mt-[30px] min-h-[613px] relative
+  @apply w-full mt-[30px] relative
 }
 .signal_catch_w .list_w.notJoin{
-  @apply overflow-hidden rounded-3xl !important
+  @apply overflow-hidden min-h-[613px] rounded-3xl !important
 }
 .signal_catch_w .list_w .notJoinBox{
   @apply absolute inset-0 bg-[url('~/assets/img/bg-paper.png')] bg-no-repeat bg-[length:100%_100%] hidden
