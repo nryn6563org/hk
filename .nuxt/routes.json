@@ -28,11 +28,11 @@
     "_name": "_7109471e"
   },
   {
-    "name": "presentPrice",
-    "path": "/presentPrice",
-    "component": "/Users/nryn6563/Documents/work/HKTV/pages/presentPrice.vue",
-    "chunkName": "pages/presentPrice",
-    "_name": "_2766b2ae"
+    "name": "presetPrice",
+    "path": "/presetPrice",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/presetPrice.vue",
+    "chunkName": "pages/presetPrice",
+    "_name": "_7215170c"
   },
   {
     "name": "quickIssueTip",
