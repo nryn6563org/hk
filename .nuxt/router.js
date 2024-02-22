@@ -8,7 +8,7 @@ const _09514a33 = () => interopDefault(import('../pages/accodianEx.vue' /* webpa
 const _0c40e2fb = () => interopDefault(import('../pages/boardView.vue' /* webpackChunkName: "pages/boardView" */))
 const _3c47d010 = () => interopDefault(import('../pages/modalEx.vue' /* webpackChunkName: "pages/modalEx" */))
 const _7109471e = () => interopDefault(import('../pages/modalTween.vue' /* webpackChunkName: "pages/modalTween" */))
-const _15aa1264 = () => interopDefault(import('../pages/PresentPrice.vue' /* webpackChunkName: "pages/PresentPrice" */))
+const _2766b2ae = () => interopDefault(import('../pages/presentPrice.vue' /* webpackChunkName: "pages/presentPrice" */))
 const _5e0b0c5f = () => interopDefault(import('../pages/quickIssueTip.vue' /* webpackChunkName: "pages/quickIssueTip" */))
 const _e679b09a = () => interopDefault(import('../pages/todayIssueTip.vue' /* webpackChunkName: "pages/todayIssueTip" */))
 const _166d7cbc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -41,9 +41,9 @@ export const routerOptions = {
     component: _7109471e,
     name: "modalTween"
   }, {
-    path: "/PresentPrice",
-    component: _15aa1264,
-    name: "PresentPrice"
+    path: "/presentPrice",
+    component: _2766b2ae,
+    name: "presentPrice"
   }, {
     path: "/quickIssueTip",
     component: _5e0b0c5f,
