@@ -156,7 +156,7 @@
 }
 
 .signal_catch_w .title .alarm_popOver{
-  @apply absolute bottom-[-34px] right-0 flex box-content w-fit h-6 py-[1px] rounded-full bg-[#5368ff] px-[30px] flex justify-center items-center
+  @apply absolute bottom-[-34px] right-0 box-content w-fit h-6 py-[1px] rounded-full bg-[#5368ff] px-[30px] flex justify-center items-center
 }
 .signal_catch_w .title .alarm_popOver svg{
   @apply absolute top-[-8px] right-[9px]
