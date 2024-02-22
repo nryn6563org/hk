@@ -173,7 +173,7 @@
   @apply w-full mt-2.5 flex p-5 bg-gradient-to-t from-[#323243] to-[#43435A] rounded-[12px] shadow-signal items-center gap-6
 }
 .signal_catch_w .card .signal{
-  @apply flex w-[70px] h-[70px] rounded-full justify-center items-center leading-6 text-[18px] text-white font-bold
+  @apply flex w-[70px] h-[70px] rounded-full justify-center items-center leading-6 text-[18px] text-white font-bold text-center
 }
 .signal_catch_w .card .signal.sig01{
   @apply bg-[#FC525B]
@@ -189,6 +189,9 @@
 }
 .signal_catch_w .card .signal.sig05{
   @apply bg-[#827DDC]
+}
+.signal_catch_w .card .signal.sig06{
+  @apply bg-[#827DDC] text-[16px] leading-[18px] font-medium
 }
 .signal_catch_w .card .signal-info{
   @apply flex flex-col w-[calc(100%-94px)]
