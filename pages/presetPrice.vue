@@ -255,7 +255,7 @@ export default {
 }
 </script>
 <style scoped>
-@import url("~/assets/css/main.css");
+@import '~/assets/css/main.css';
 
 .signal_alarm_banner {
   @apply pt-0;
