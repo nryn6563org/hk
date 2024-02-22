@@ -10,7 +10,7 @@
 }
 
 .sigCatchSmry{
-  @apply w-full px-5
+  @apply w-full px-5 pt-[30px]
 }
 .sigCatchSmry .signal strong{
   @apply w-fit h-[36px] flex justify-center items-center  gap-2 text-[16px] font-bold rounded-full px-[15px]
