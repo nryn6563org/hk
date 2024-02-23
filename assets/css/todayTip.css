@@ -140,7 +140,10 @@
   @apply w-full flex flex-col items-center gap-5 mt-[30px]
 }
 .today-section-05 .videoList div{
-  @apply rounded-[7px] flex w-[260px] overflow-hidden
+  @apply rounded-[7px] flex w-[260px] overflow-hidden relative
+}
+.today-section-05 .videoList div.empty{
+  @apply after:absolute after:w-full after:h-full after:bg-gray-700 after:bg-opacity-90 after:content-['화면준비중입니다.'] after:text-white after:text-[14px] after:font-bold after:flex after:justify-center after:items-center
 }
 .today-section-05 .btn-box{
   @apply w-full mt-10

@@ -16,7 +16,7 @@
   @apply w-full flex flex-col gap-[6px] px-5
 }
 .item_info_catch .item_info .top{
-  @apply flex w-full gap-3 items-center truncate
+  @apply flex w-full gap-3 items-center
 }
 .item_info_catch .item_info .top .item{
   @apply text-[18px] text-black font-medium truncate max-w-[168px]
@@ -29,7 +29,7 @@
   after:w-[1px] after:h-2.5 after:bg-[#c6c6c6] after:content-[''] after:block
 }
 .item_info_catch .item_info .top .info span:last-child{
-  @apply after:hidden;
+  @apply after:hidden max-w-[44px] truncate block
 }
 
 .item_info_catch .item_info .price{
@@ -206,7 +206,7 @@
   @apply text-[#ffa3a3] 
 }
 .signal_catch_w .card .signal-info div.txt{
-  @apply text-white
+  @apply leading-[22px] text-[15px] text-[#bfbfbf]
 }
 .signal_catch_w .list_w{
   @apply w-full mt-[30px] relative

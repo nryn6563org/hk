@@ -22,7 +22,7 @@ module.exports = {
       3000: '3000ms'
     },
     screens: {
-      md: '425px',
+      md: '600px',
       lg: '1024px'
     }
   },

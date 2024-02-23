@@ -1,5 +1,5 @@
 .offcanvas-wrap{
-  @apply md:max-w-[360px]
+  @apply md:max-w-[425px]
 }
 .offcanvas-bottom {
   position: fixed;
@@ -14,7 +14,7 @@
   border-radius:16px 16px 0 0;
   padding:12px 20px 0;
 
-  @apply md:max-w-[360px] md:left-1/2 md:ml-[-180px]
+  @apply md:max-w-[425px] md:left-1/2 md:ml-[-213px]
 }
 .offcanvas-open .offcanvas-bottom{
   transform: translateY(0);
@@ -31,7 +31,7 @@
   display:none;
   z-index:999;
 
-  @apply md:max-w-[360px] md:left-1/2 md:ml-[-180px]
+  @apply md:max-w-[425px] md:left-1/2 md:ml-[-213px]
 }
 .offcanvas-open .offcanvas-overlay{
   display:block;

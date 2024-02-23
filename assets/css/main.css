@@ -1,5 +1,5 @@
 #container{
-  @apply top-[-1px] relative w-full max-w-[360px] mx-auto
+  @apply top-[-1px] relative w-full max-w-[425px] mx-auto
 }
 
 *.up{

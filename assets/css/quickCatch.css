@@ -5,7 +5,10 @@
   @apply bg-white w-full mx-auto rounded-[18px] overflow-hidden p-[15px] h-[332px]
 }
 .issueCard.bnr{
-  @apply p-0
+  @apply p-0 bg-[#5368ff] flex justify-center items-center
+}
+.issueCard.bnr img{
+  @apply max-w-[320px]
 }
 .issueCard .top{
   @apply w-full relative h-[95px]

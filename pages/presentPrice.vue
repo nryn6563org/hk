@@ -480,7 +480,7 @@ export default {
 @import "~/assets/css/modal.css";
 
 .signal_alarm_banner {
-  @apply pt-0;
+  @apply pt-0 ;
 }
 .signal_catch_w {
   @apply mb-0;

@@ -14,7 +14,7 @@
           <div class="info">
             <span>394280</span>
             <span>KOSDAQ</span>
-            <span>소프트웨어</span>
+            <span>소프트웨어123</span>
           </div>
           <!-- 종목정보 -->
         </div>
