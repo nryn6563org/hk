@@ -11,7 +11,7 @@
   @apply max-w-[320px]
 }
 .issueCard .top{
-  @apply w-full relative h-[95px]
+  @apply w-full relative h-[95px] max-w-[290px] mx-auto
 }
 .issueCard .top .bullet{
   @apply absolute inset-0 h-5 bg-[#8c67da] rounded-full px-2.5 inline-flex w-fit items-center
@@ -62,7 +62,7 @@
   @apply after:hidden
 }
 .issueCard .chart{
-  @apply w-full pt-[15px]
+  @apply w-full pt-[15px] max-w-[290px] mx-auto
 }
 .todayCatch .swiper-pagination-bullet{
   @apply w-2 h-1 rounded-[1px] bg-[#6e6f77] opacity-100 p-0 m-0
@@ -85,7 +85,7 @@
 }
 
 .quickIssueItem .banner{
-  @apply w-full h-[50px] rounded-[10px] bg-[#F6F1FF] relative flex items-center justify-between px-[15px] text-[#8B68EF] text-[16px] tracking-[-0.24px]
+  @apply w-full h-[50px] rounded-[10px] bg-[#F6F1FF] relative flex items-center justify-center gap-2 px-[15px] text-[#8B68EF] text-[16px] tracking-[-0.24px]
   after:w-6 after:h-6 after:rounded-full after:bg-[#E9DDFE] after:flex after:items-center after:justify-center
   after:content-['\003E'] after:text-[#8B68EF] after:text-[13px] after:font-bold
 }
