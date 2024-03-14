@@ -333,7 +333,7 @@
   @apply w-[14px] block
 }
 .ainews .list > div .obj .con{
-  @apply w-[calc(100%-24px)] text-[16px] text-[#333] truncate
+  @apply w-[calc(100%-24px)] text-[17px] text-[#333] truncate
 }
 .ainews .list > div.n_news .obj .con{
   @apply w-[calc(100%-43px)]
