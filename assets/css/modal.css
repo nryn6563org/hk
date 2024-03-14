@@ -1,5 +1,5 @@
 .modal {
-  @apply fixed w-full h-full flex justify-center items-center inset-0 bg-black bg-opacity-80 z-[9999] 
+  @apply fixed w-full h-full flex justify-center items-center inset-0 bg-black bg-opacity-80 z-[9999]
   md:max-w-[425px] md:left-1/2 md:ml-[-213px]
 }
 .modal-content {
@@ -22,7 +22,7 @@
   @apply flex w-full h-[48px] items-center px-5 justify-end
 }
 #alarm_modal .modal-content .modal-body{
-  @apply w-full px-5 min-h-[106px] flex flex-col justify-center
+  @apply w-full px-3 min-h-[106px] flex flex-col justify-center
 }
 #alarm_modal .modal-content .modal-body .txt{
   @apply block w-full text-center leading-6 pb-2.5
@@ -105,7 +105,7 @@
   @apply w-full flex justify-end py-5
 }
 .setting-list .list{
-  @apply w-full 
+  @apply w-full
 }
 .setting-list .list .txt{
   @apply flex w-full gap-2 items-center justify-center
@@ -179,7 +179,7 @@
   @apply absolute top-3 right-[18px]
 }
 .aiCatchsv .modal-content .modal-body > .top .bullet{
-  @apply absolute top-5 left-5 w-[125px] h-[30px] flex justify-center 
+  @apply absolute top-5 left-5 w-[125px] h-[30px] flex justify-center
   items-center rounded-full bg-[#20198c] text-[16px] text-white font-medium
 }
 .aiCatchsv .modal-content .modal-body >.top .txt{
@@ -235,7 +235,7 @@
   @apply w-[calc(100%-38px)] flex flex-col gap-[6px]
 }
 .aiCatchsv .modal-content .modal-body > .top .priceChk div input+label > div .top{
-  @apply w-full h-[22px] leading-[22px] text-[15px] text-[#333] font-bold 
+  @apply w-full h-[22px] leading-[22px] text-[15px] text-[#333] font-bold
 }
 .aiCatchsv .modal-content .modal-body > .top .priceChk div input+label > div .top em{
   @apply not-italic text-[#ff3e3e]
@@ -255,7 +255,7 @@
 
 .aiCatchsv .modal-content .modal-body > .top .priceMonth > div{
   @apply mt-4 w-full bg-[#1e368c] bg-opacity-20 rounded-[8px] flex items-end justify-center h-[70px] gap-[5px] py-[22px]
-  text-[12px] text-[#b7b7b7] 
+  text-[12px] text-[#b7b7b7]
 }
 .aiCatchsv .modal-content .modal-body > .top .priceMonth > div span{
   @apply text-white leading-6 h-6 text-[16px] font-medium
@@ -276,7 +276,7 @@
 .aiCatchsv.aiCatchsv3 .modal-content .modal-body .cont{
   @apply h-[calc(100%-335px)] pb-5
 }
-.aiCatchsv .modal-content .modal-body .cont .issue strong, 
+.aiCatchsv .modal-content .modal-body .cont .issue strong,
 .aiCatchsv .modal-content .modal-body .cont .signal strong{
   @apply w-[120px] h-[36px] flex justify-center items-center  gap-2 text-[16px] font-bold rounded-full
 }
@@ -292,7 +292,7 @@
 }
 .aiCatchsv .modal-content .modal-body .cont .list span{
   @apply block w-full min-h-[28px] leading-[28px] text-[16px]
-  text-[#141414] pl-[37px] bg-[url('~/assets/img/cOff.png')] bg-[left_top] bg-[length:27px_27px] 
+  text-[#141414] pl-[37px] bg-[url('~/assets/img/cOff.png')] bg-[left_top] bg-[length:27px_27px]
   bg-no-repeat font-medium
 }
 .aiCatchsv .modal-content .modal-body .cont .list span.on{
@@ -350,7 +350,7 @@
   @apply relative p-5
 }
 .alarmTime .modal-content .modal-footer{
-  @apply p-[10px_20px_20px] w-full 
+  @apply p-[10px_20px_20px] w-full
 }
 .alarmTime .modal-content .modal-footer button{
   @apply w-full h-10 rounded-[6px] bg-[#5368ff] flex justify-center items-center text-[18px] text-white font-medium

@@ -22,7 +22,7 @@
   @apply text-[18px] text-black font-medium truncate max-w-[168px]
 }
 .item_info_catch .item_info .top .info{
-  @apply flex gap-2 items-center 
+  @apply flex gap-2 items-center
 }
 .item_info_catch .item_info .top .info span{
   @apply text-[12px] text-[#666] flex gap-[7px] items-center
@@ -45,13 +45,13 @@
   @apply  text-[24px] font-bold
 }
 .item_info_catch .item_info .price span{
-  @apply text-[16px] font-medium 
+  @apply text-[16px] font-medium
 }
 .item_info_catch .item_card{
   @apply w-full mt-4
 }
 .item_info_catch .item_card .swiper-wrapper{
-  @apply w-full pb-10 
+  @apply w-full pb-10
 }
 
 .item_info_catch .item_card .card{
@@ -67,13 +67,13 @@
   @apply w-full mt-4 flex flex-col
 }
 .item_info_catch .item_card .card .list div{
-  @apply w-full h-6 flex gap-1 items-center before:content-["\00b7"] before:w-2 before:text-center before:font-bold before:text-[18px] before:rounded-full before:overflow-hidden
+  @apply w-full h-[25px] flex gap-1 items-center before:content-["\00b7"] before:w-2 before:text-center before:font-bold before:text-[18px] before:rounded-full before:overflow-hidden
 }
 .item_info_catch .item_card .card .list div .time{
   @apply text-[14px] tracking-[-0.5px] leading-6 text-[#141414] w-9 text-center
 }
 .item_info_catch .item_card .card .list div .con{
-  @apply block w-[calc(100%-44px)] text-[14px] tracking-[-0.5px] leading-6 text-[#141414] truncate
+  @apply block w-[calc(100%-44px)] text-[15px] tracking-[-0.5px] leading-6 text-[#141414] truncate
 }
 .item_info_catch .item_card .card .date{
   @apply absolute top-[22px] right-5 leading-5 text-[13px] text-[#969696]
@@ -93,7 +93,7 @@
   @apply w-full p-[30px_20px_0]
 }
 .signal_alarm_banner .banner{
-  @apply w-full rounded-[16px] p-[25px_15px_15px] 
+  @apply w-full rounded-[16px] p-[25px_15px_15px]
 }
 .signal_alarm_banner .banner{
   background:#6f68ef url('~/assets/img/vi_banner.png') no-repeat 210px 66px;
@@ -203,7 +203,7 @@
   @apply text-white not-italic
 }
 .signal_catch_w .card .signal-info div em.up{
-  @apply text-[#ffa3a3] 
+  @apply text-[#ffa3a3]
 }
 .signal_catch_w .card .signal-info div.txt{
   @apply leading-[22px] text-[15px] text-[#bfbfbf]

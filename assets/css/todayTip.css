@@ -10,7 +10,7 @@
   @apply h-[523px] relative overflow-hidden
 }
 .today-section-01 .top{
-  @apply flex w-full h-[114px] flex-col mt-[30px] items-center gap-2.5 text-center 
+  @apply flex w-full h-[114px] flex-col mt-[30px] items-center gap-2.5 text-center
 }
 .today-section-01 .top strong{
   @apply leading-[31px] text-[24px] text-white font-bold
@@ -131,7 +131,7 @@
 }
 
 .today-section-05{
-  @apply bg-[#eff4ff] w-full relative p-[40px_20px_20px]
+  @apply bg-[#eff4ff] w-full relative p-[40px_20px_80px]
 }
 .today-section-05 .title{
   @apply w-full flex justify-center gap-[7px] items-center text-[#5368ff] text-[24px] font-bold

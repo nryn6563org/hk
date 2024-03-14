@@ -47,7 +47,7 @@
   @apply w-[calc(100%-140px)] text-[16px] text-white font-bold pl-6
 }
 .quick_catch .chart-w .top button{
-  @apply mr-5 w-[80px] h-[35px] border-[1px] border-[#5368ff] rounded-[8px] flex justify-center items-center gap-[6px] text-[14px] text-white 
+  @apply mr-5 w-[80px] h-[35px] border-[1px] border-[#5368ff] rounded-[8px] flex justify-center items-center gap-[6px] text-[14px] text-white
 }
 .quick_catch .chart-w .chartbox{
   @apply w-full min-h-[40px] bg-[#2B2B36]
@@ -98,8 +98,8 @@
   @apply block text-[#333] font-bold text-[16px] leading-6
 }
 .day_issue .issue_news span{
-  @apply w-full max-h-[168px] text-[14px] line-clamp-[8] leading-[21px] text-[#4d4d4d] text-ellipsis mt-[15px]
-  
+  @apply w-full max-h-[168px] text-[16px] line-clamp-[8] leading-6 text-[#333] opacity-80 text-ellipsis mt-[15px]
+
 }
 
 .day_issue .top_issue{
@@ -158,7 +158,7 @@
   @apply border-0
 }
 .day_issue .issue_item .list > div .obj{
-  @apply w-[calc(100%-144px)] text-[16px] text-[#141414] font-medium flex gap-[6px] items-center 
+  @apply w-[calc(100%-144px)] text-[16px] text-[#141414] font-medium flex gap-[6px] items-center
 }
 .day_issue .issue_item .list > div .obj .bullet{
   @apply text-[12px] text-[#5368ff] font-medium border-[1px] border-[#5368ff] w-[37px] h-[24px] inline-flex items-center justify-center rounded-[4px]

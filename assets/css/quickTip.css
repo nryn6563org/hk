@@ -10,7 +10,7 @@
   @apply h-[635px] relative overflow-hidden
 }
 .quick-section-01 .top{
-  @apply flex w-full h-[114px] flex-col mt-[30px] items-center gap-2.5 text-center 
+  @apply flex w-full h-[114px] flex-col mt-[30px] items-center gap-2.5 text-center
 }
 .quick-section-01 .top strong{
   @apply leading-[31px] text-[24px] text-white font-bold
@@ -115,9 +115,9 @@
   @apply w-full h-[418px] mt-[30px] relative
 }
 .quick-section-03 .visual .img1{
-  @apply absolute top-0 left-10 z-10 
+  @apply absolute top-0 left-10 z-10
   after:content-[''] after:absolute after:top-[21px] after:left-[6px]
-  after:w-[190px] after:h-[370px] after:bg-black after:z-40 
+  after:w-[190px] after:h-[370px] after:bg-black after:z-40
   after:opacity-0 after:transition-all after:duration-700 after:delay-750
 }
 .quick-section-03.event .visual .img1{
@@ -136,7 +136,7 @@
   @apply scale-100
 }
 .quick-section-03 .visual .mos{
-  @apply absolute z-30 top-[275px] left-[85px] opacity-0 transition-all duration-700  
+  @apply absolute z-30 top-[275px] left-[85px] opacity-0 transition-all duration-700
 }
 .quick-section-03.event .visual .mos{
   @apply top-[235px] left-[125px] opacity-100
@@ -151,7 +151,7 @@
 
 
 .quick-section-04{
-  @apply w-full relative p-[40px_20px_20px]
+  @apply w-full relative p-[40px_20px_60px]
 }
 .quick-section-04 .title{
   @apply w-full flex justify-center gap-[7px] items-center text-[#8A4AF2] text-[24px] font-bold

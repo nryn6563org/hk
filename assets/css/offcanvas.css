@@ -85,7 +85,7 @@
   @apply text-[#225cff] !important;
 }
 .offcanvas-body .item-detail table tbody tr td .info span.date{
-  @apply text-[12px] text-[#8c8c8c]
+  @apply text-[13px] text-[#666]
 }
 .offcanvas-body .item-detail table tbody tr td .info span.obj{
   @apply text-[14px] text-[#666]
@@ -103,10 +103,10 @@
   @apply py-[15px] h-auto
 }
 .offcanvas-body .item-detail table tbody tr td .info_txt strong{
-  @apply block text-[14px] text-[#444] font-medium leading-5
+  @apply block text-[15px] text-[#141414] font-medium leading-5
 }
 .offcanvas-body .item-detail table tbody tr td .info_txt span{
-  @apply block text-[13px] text-[#666] font-medium leading-5
+  @apply block text-[15px] text-[#333] leading-5
 }
 
 /* 날짜선택 */
@@ -126,7 +126,7 @@
   @apply flex w-full px-5 h-[55px] items-center justify-between
 }
 .offcanvas-body .ch-date button span{
-  @apply text-[16px] text-[#141414] 
+  @apply text-[16px] text-[#141414]
 }
 .offcanvas-body .ch-date button em{
   @apply hidden

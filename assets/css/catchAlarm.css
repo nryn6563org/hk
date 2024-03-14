@@ -19,7 +19,7 @@
   @apply block h-6 leading-6 font-medium text-[16px] text-[#5368ff]
 }
 .catchAlarm_w .dayList .list > div{
-  @apply block w-full min-h-[41px] border-[1px] border-[#ededed] rounded-[12px] p-[10px_15px] 
+  @apply block w-full min-h-[41px] border-[1px] border-[#ededed] rounded-[12px] p-[10px_15px]
 }
 .catchAlarm_w .dayList .list div a{
   @apply flex gap-2 items-center justify-between w-full h-full
@@ -31,14 +31,14 @@
   @apply w-[46px] h-[21px] inline-flex justify-center items-center text-[12px] bg-[#f3f3f3] rounded-[4px] text-[#666] font-medium
 }
 .catchAlarm_w .dayList .list div a .con{
-  @apply block w-[209px] text-[#333] text-[14px] leading-[21px]
+  @apply block w-[calc(100%-54px)] text-[#333] text-[15px] leading-[22px]
 }
 .catchAlarm_w .dayList .list div a .drt{
   @apply flex h-full items-center w-fit
 }
 
 .catchAlarm_w .dayList .more{
-  @apply w-full 
+  @apply w-full
 }
 .catchAlarm_w .dayList .more button{
   @apply w-full rounded-[4px] h-[45px] border-[1px] border-[#dfe3e7] bg-[#f8f8f8] gap-[2px] flex justify-center items-center text-[14px] text-[#666]
