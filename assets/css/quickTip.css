@@ -100,7 +100,7 @@
 }
 
 .quick-section-03{
-  @apply relative w-full bg-[#F4EFFF] p-10
+  @apply relative w-full bg-[#F4EFFF] py-10
 }
 .quick-section-03 .top{
   @apply w-full flex flex-col gap-2.5 text-center items-center
@@ -112,7 +112,7 @@
   @apply leading-[21px] text-[#333] text-[14px]
 }
 .quick-section-03 .visual{
-  @apply w-full h-[418px] mt-[30px] relative
+  @apply w-full h-[418px] mt-[30px] relative mx-10
 }
 .quick-section-03 .visual .img1{
   @apply absolute top-0 left-10 z-10
