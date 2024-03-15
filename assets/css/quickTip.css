@@ -63,7 +63,7 @@
   @apply font-bold opacity-80 not-italic
 }
 .quick-section-02 .almList{
-  @apply flex w-[270px] flex-col gap-[15px] mt-[30px] mx-auto
+  @apply flex w-[280px] flex-col gap-[15px] mt-[30px] mx-auto
 }
 .quick-section-02 .almList > div{
   @apply w-full flex gap-[15px] pb-[15px] border-b-[1px] border-[#eee] px-[5px] items-center
