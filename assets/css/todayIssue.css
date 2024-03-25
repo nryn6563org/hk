@@ -56,7 +56,7 @@
   @apply text-white text-[14px] tracking-[-0.35px] font-medium
 }
 .quick_catch .chart-w .top button{
-  @apply w-[80px] h-[35px] border-[1px] border-[#5368ff] rounded-[8px] flex justify-center items-center gap-[6px] text-[14px] text-white
+  @apply w-[69px] h-[35px] border-[1px] border-[#5368ff] rounded-[8px] flex justify-center items-center gap-[4px] text-[14px] text-white
 }
 .quick_catch .chart-w .chartbox{
   @apply w-full min-h-[40px] bg-[#2B2B36]
