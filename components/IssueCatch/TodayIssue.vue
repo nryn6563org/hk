@@ -3,7 +3,10 @@
     <div class="quick_catch">
       <div class="chart-w">
         <div class="top">
-          <span>한발 빠른 이슈 캐치! </span>
+          <span>오늘의 핫이슈</span>
+          <button class="relv">
+            <em>이슈</em><span>관련주 보기</span>
+          </button>
           <button @click="toggleOffcanvas">
             <svg
               xmlns="http://www.w3.org/2000/svg"
