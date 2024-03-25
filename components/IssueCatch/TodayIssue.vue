@@ -20,7 +20,7 @@
                 stroke="white"
               />
             </svg>
-            Play
+            PLAY
           </button>
         </div>
         <!-- top -->
