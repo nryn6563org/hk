@@ -44,7 +44,7 @@
   @apply bg-[#1f1f32] w-full flex justify-center items-center h-[54px]
 }
 .quick_catch .chart-w .top > span{
-  @apply w-[calc(100%-225px)] text-[16px] text-white font-bold
+  @apply w-[calc(100%-214px)] text-[16px] text-white font-bold
 }
 .quick_catch .chart-w .top button.relv{
   @apply border-[1px] border-[#e82a39] rounded-[8px] w-[110px] h-[35px] flex items-center justify-center mr-[5px]
