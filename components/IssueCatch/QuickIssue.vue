@@ -540,7 +540,7 @@
                         <span class="date">2022.12.01</span>
                         <span class="obj up">매수</span>
                         <span class="price">1,144,000</span>
-                        <span class="per">-</span>
+                        <span class="per center">-</span>
                       </div>
                       <div
                         :class="{ infoActive: isAccodianOpen }"
@@ -570,8 +570,8 @@
                       <div class="info">
                         <span class="date">2022.12.01</span>
                         <span class="obj dn">매도</span>
-                        <span class="price">144,000</span>
-                        <span class="per">-</span>
+                        <span class="price center">-</span>
+                        <span class="per center">-</span>
                       </div>
                     </td>
                   </tr>
@@ -602,6 +602,21 @@
                     </td>
                   </tr>
                 </tbody>
+                <tfoot>
+                <tr>
+                  <td colspan="4">
+                    <div class="tbFooter">
+                      <div class="tbf_left">
+                        <span>기간중 최고가</span><em>1,144,000</em>
+                      </div>
+                      <div class="tbf_right">
+                        <span>최고 수익률</span>
+                        <em class="up">+12.02%</em>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                </tfoot>
               </table>
             </div>
           </div>

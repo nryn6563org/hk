@@ -96,6 +96,9 @@
 .offcanvas-body .item-detail table tbody tr td .info span.per{
   @apply text-[14px] text-[#666] text-right
 }
+.offcanvas-body .item-detail table tbody tr td .info span.center{
+  @apply text-center !important;
+}
 .offcanvas-body .item-detail table tbody tr td .info_txt{
   @apply px-2.5 py-0 bg-[#fafafa] w-full h-0 overflow-hidden transition-all duration-700
 }
@@ -108,6 +111,26 @@
 .offcanvas-body .item-detail table tbody tr td .info_txt span{
   @apply block text-[15px] text-[#333] leading-5
 }
+.offcanvas-body .item-detail table tbody tr:last-child td{
+  @apply border-b-0
+}
+.offcanvas-body .item-detail table tfoot{}
+.offcanvas-body .item-detail table tfoot tr td{
+  @apply border-t-[1px] border-[#8C8C8C]
+}
+.offcanvas-body .item-detail table tfoot tr td .tbFooter{
+  @apply flex justify-between pt-4
+}
+.offcanvas-body .item-detail table tfoot tr td .tbFooter > div{
+  @apply h-[21px] leading-[21px] flex gap-2
+}
+.offcanvas-body .item-detail table tfoot tr td .tbFooter > div span{
+  @apply text-[13px] text-[#666]
+}
+.offcanvas-body .item-detail table tfoot tr td .tbFooter > div em{
+  @apply not-italic text-[#141414] font-medium text-[14px]
+}
+
 
 /* 날짜선택 */
 #chartPlay .offcanvas-bottom{

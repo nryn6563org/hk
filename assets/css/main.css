@@ -3,10 +3,10 @@
 }
 
 *.up{
-  @apply text-[#e81a1a]
+  @apply text-[#e81a1a] !important
 }
 *.dn{
-  @apply text-[#225CFF]
+  @apply text-[#225CFF] !important
 }
 
 .sigCatchSmry{
@@ -24,7 +24,7 @@
 }
 .sigCatchSmry .list span{
   @apply block w-full min-h-[28px] leading-[28px] text-[16px]
-  text-[#141414] pl-[37px] bg-[url('~/assets/img/cOff.png')] bg-[left_top] bg-[length:27px_27px] 
+  text-[#141414] pl-[37px] bg-[url('~/assets/img/cOff.png')] bg-[left_top] bg-[length:27px_27px]
   bg-no-repeat font-medium
 }
 .sigCatchSmry .list span.on{
