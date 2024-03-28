@@ -585,22 +585,6 @@
                       </div>
                     </td>
                   </tr>
-                  <tr>
-                    <td colspan="4">
-                      <div class="info">
-                        <span class="date">2022.12.01</span>
-                        <span class="obj">교체완료</span>
-                        <span class="price">
-                          <em>최고가</em>
-                          144,000
-                        </span>
-                        <span class="per up">
-                          <em>최고수익률</em>
-                          +32.02
-                        </span>
-                      </div>
-                    </td>
-                  </tr>
                 </tbody>
                 <tfoot>
                 <tr>
