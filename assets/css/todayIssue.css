@@ -194,7 +194,8 @@
   @apply w-full h-[45px] bg-[#f8f8f8] flex justify-center items-center gap-[2px] text-[14px] text-[#666] mt-2.5
 }
 
-.day_issue .issue_item .list.notJoin > div.lead .obj .name, .day_issue .issue_item .list.notJoin > div.lead .price, .day_issue .issue_item .list.notJoin > div.lead .per{
+.day_issue .issue_item .list.notJoin > div.lead .obj .name,
+.day_issue .issue_item .list.notJoin > div.lead .price{
   @apply blur-sm
 }
 

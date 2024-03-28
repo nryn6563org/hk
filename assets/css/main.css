@@ -3,10 +3,10 @@
 }
 
 *.up{
-  @apply text-[#e81a1a] !important
+  @apply text-[#e81a1a]
 }
 *.dn{
-  @apply text-[#225CFF] !important
+  @apply text-[#225CFF]
 }
 
 .sigCatchSmry{

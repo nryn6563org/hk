@@ -205,6 +205,9 @@
 .signal_catch_w .card .signal-info div em.up{
   @apply text-[#ffa3a3]
 }
+.signal_catch_w .card .signal-info div em.dn{
+  @apply text-[#A3D3FF]
+}
 .signal_catch_w .card .signal-info div.txt{
   @apply leading-[22px] text-[15px] text-[#bfbfbf]
 }
