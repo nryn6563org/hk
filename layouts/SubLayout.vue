@@ -2,16 +2,19 @@
   <div id="wrap">
     <!-- <SubHeader></SubHeader> -->
     <Nuxt />
+    <DefalutFooter />
   </div>
 </template>
 
 <script>
 // import SubHeader from '~/components/SubHeader'
+import DefalutFooter from '@/components/DefalutFooter.vue'
+
 export default {
   name: 'SubLayout',
-  // components: {
-  //   SubHeader
-  // },
+  components: {
+    DefalutFooter
+  },
   head() {
     const viewportWidth = window.screen.width
     let newContent = ''

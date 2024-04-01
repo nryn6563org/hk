@@ -1,4 +1,5 @@
 export { default as AccordionItem } from '../../components/AccordionItem.vue'
+export { default as DefalutFooter } from '../../components/DefalutFooter.vue'
 export { default as DefaultHeader } from '../../components/DefaultHeader.vue'
 export { default as ModalWrap } from '../../components/ModalWrap.vue'
 export { default as SampleComp } from '../../components/SampleComp.vue'

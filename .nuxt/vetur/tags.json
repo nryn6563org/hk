@@ -2,6 +2,9 @@
   "AccordionItem": {
     "description": "Auto imported from components/AccordionItem.vue"
   },
+  "DefalutFooter": {
+    "description": "Auto imported from components/DefalutFooter.vue"
+  },
   "DefaultHeader": {
     "description": "Auto imported from components/DefaultHeader.vue"
   },

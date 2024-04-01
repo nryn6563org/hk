@@ -7,6 +7,7 @@ You can directly use them in pages and other components without the need to impo
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
 - `<AccordionItem>` | `<accordion-item>` (components/AccordionItem.vue)
+- `<DefalutFooter>` | `<defalut-footer>` (components/DefalutFooter.vue)
 - `<DefaultHeader>` | `<default-header>` (components/DefaultHeader.vue)
 - `<ModalWrap>` | `<modal-wrap>` (components/ModalWrap.vue)
 - `<SampleComp>` | `<sample-comp>` (components/SampleComp.vue)

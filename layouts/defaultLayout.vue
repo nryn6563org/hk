@@ -2,16 +2,17 @@
   <div id="wrap">
     <!-- <DefaultHeader></DefaultHeader> -->
     <Nuxt />
+    <DefalutFooter />
   </div>
 </template>
 
 <script>
-// import DefaultHeader from '~/components/DefaultHeader'
+import DefalutFooter from '@/components/DefalutFooter.vue'
 export default {
   name: 'DefaultLayout',
-  // components: {
-  //   DefaultHeader
-  // },
+  components: {
+    DefalutFooter
+  },
   head() {
     const viewportWidth = window.screen.width
     let newContent = ''
