@@ -20,8 +20,8 @@ import ContentFour from '~/components/IssueCatch/ContentFour.vue'
 import ContentThree from '~/components/SignalCatch/ContentThree'
 export default {
   components: {
-    ContentFour,
-    ContentThree
+    ContentThree,
+    ContentFour
   },
   layout: 'defaultLayout',
   data() {

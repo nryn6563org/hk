@@ -91,19 +91,22 @@
                 <div class="tag">#반도체가나다</div>
                 <span>한국경제TV</span>
               </div>
-              <span class="price">69,000원</span></div>
+              <span class="price">69,000원</span>
+            </div>
             <div>
               <div class="obj">
                 <div class="tag">#반도체가나다</div>
                 <span>카카오가나다</span>
               </div>
-              <span class="price">1,269,000원</span></div>
+              <span class="price">1,269,000원</span>
+            </div>
             <div>
               <div class="obj">
                 <div class="tag">#반도체가나다</div>
                 <span>삼성전자가나다라라</span>
               </div>
-              <span class="price">69,000원</span></div>
+              <span class="price">69,000원</span>
+            </div>
           </div>
         </div>
         <!--  신호발생    -->
@@ -116,19 +119,22 @@
                 <div class="tag">#반도체가나다</div>
                 <span>한국경제TV</span>
               </div>
-              <span class="price">69,000원</span></div>
+              <span class="price">69,000원</span>
+            </div>
             <div>
               <div class="obj">
                 <div class="tag">#반도체가나다</div>
                 <span>카카오가나다</span>
               </div>
-              <span class="price">1,269,000원</span></div>
+              <span class="price">1,269,000원</span>
+            </div>
             <div>
               <div class="obj">
                 <div class="tag">#반도체가나다</div>
                 <span>삼성전자가나다라라</span>
               </div>
-              <span class="price">69,000원</span></div>
+              <span class="price">69,000원</span>
+            </div>
           </div>
         </div>
         <!--  신호발생    -->
@@ -141,19 +147,22 @@
                 <div class="tag">#반도체가나다</div>
                 <span>한국경제TV</span>
               </div>
-              <span class="price">69,000원</span></div>
+              <span class="price">69,000원</span>
+            </div>
             <div>
               <div class="obj">
                 <div class="tag">#반도체가나다</div>
                 <span>카카오가나다</span>
               </div>
-              <span class="price">1,269,000원</span></div>
+              <span class="price">1,269,000원</span>
+            </div>
             <div>
               <div class="obj">
                 <div class="tag">#반도체가나다</div>
                 <span>삼성전자가나다라라</span>
               </div>
-              <span class="price">69,000원</span></div>
+              <span class="price">69,000원</span>
+            </div>
           </div>
         </div>
         <!--  신호발생    -->
@@ -166,19 +175,22 @@
                 <div class="tag">#반도체가나다</div>
                 <span>한국경제TV</span>
               </div>
-              <span class="price">69,000원</span></div>
+              <span class="price">69,000원</span>
+            </div>
             <div>
               <div class="obj">
                 <div class="tag">#반도체가나다</div>
                 <span>카카오가나다</span>
               </div>
-              <span class="price">1,269,000원</span></div>
+              <span class="price">1,269,000원</span>
+            </div>
             <div>
               <div class="obj">
                 <div class="tag">#반도체가나다</div>
                 <span>삼성전자가나다라라</span>
               </div>
-              <span class="price">69,000원</span></div>
+              <span class="price">69,000원</span>
+            </div>
           </div>
         </div>
         <!--  신호발생    -->
