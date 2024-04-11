@@ -204,5 +204,5 @@
 </script>
 
 <style scoped>
-
+@import "~/assets/css/tradingWrap.css";
 </style>

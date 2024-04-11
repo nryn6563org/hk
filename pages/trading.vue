@@ -16,8 +16,9 @@
 </template>
 
 <script>
-import ContentFour from '~/components/IssueCatch/ContentFour.vue'
 import ContentThree from '~/components/SignalCatch/ContentThree'
+import ContentFour from '~/components/IssueCatch/ContentFour'
+
 export default {
   components: {
     ContentThree,
