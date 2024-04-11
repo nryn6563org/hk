@@ -8,7 +8,7 @@
       <!-- catch 탭 -->
 
       <div class="catch_content">
-        <ContentOne v-show="activeTab === 'issue'"></ContentOne>
+        <ContentFour v-show="activeTab === 'issue'"></ContentFour>
         <ContentThree v-show="activeTab === 'signal'"></ContentThree>
       </div>
     </div>
@@ -16,11 +16,11 @@
 </template>
 
 <script>
-import ContentOne from '~/components/IssueCatch/ContentOne'
+import ContentFour from '~/components/IssueCatch/ContentFour.vue'
 import ContentThree from '~/components/SignalCatch/ContentThree'
 export default {
   components: {
-    ContentOne,
+    ContentFour,
     ContentThree
   },
   layout: 'defaultLayout',

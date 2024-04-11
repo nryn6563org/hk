@@ -20,6 +20,9 @@
   "IssueCatchAlarm": {
     "description": "Auto imported from components/IssueCatch/CatchAlarm.vue"
   },
+  "IssueCatchContentFour": {
+    "description": "Auto imported from components/IssueCatch/ContentFour.vue"
+  },
   "IssueCatchContentOne": {
     "description": "Auto imported from components/IssueCatch/ContentOne.vue"
   },

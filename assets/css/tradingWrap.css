@@ -69,6 +69,9 @@
 .trading_tabContent .emptyTrading .monthTopList table tbody tr td:first-child{
     @apply text-[#333] text-[14px]
 }
+.trading_tabContent .emptyTrading .monthTopList table tbody tr td:first-child span{
+    @apply block w-full truncate
+}
 .trading_tabContent .emptyTrading .monthTopList table tbody tr td:nth-child(2){
     @apply text-[#666] text-[13px] text-center
 }
@@ -77,7 +80,7 @@
 }
 
 .trading_tabContent .signalItemList .title{
-    @apply flex flex-col w-full items-center gap-[6px]
+    @apply flex flex-col w-full items-center gap-[6px] text-center
 }
 .trading_tabContent .signalItemList .title strong{
     @apply text-[18px] text-[#333] font-bold block leading-6
@@ -95,10 +98,14 @@
     @apply text-[15px] text-[#292929] block leading-[22px]
 }
 
+.trading_tabContent .signalItemList .txtguide{
+    @apply w-full block bg-[#f0f0f0] p-[7px_10px] text-center text-[13px] leading-5 text-[#666] mt-2.5
+}
+
 .trading_tabContent .signalItemList .signalGen{
     @apply block w-full mt-[30px]
 }
-.trading_tabContent .signalItemList .signalGen span{
+.trading_tabContent .signalItemList .signalGen > span{
     @apply block w-full leading-6 text-[16px] font-medium px-[6px]
 }
 .trading_tabContent .signalItemList .signalGen .genList{
@@ -115,6 +122,13 @@
 }
 .trading_tabContent .signalItemList .signalGen .genList > div div.obj span{
     @apply block w-fit max-w-[133px] truncate text-[16px] font-medium text-[#333]
+}
+.trading_tabContent .signalItemList .signalGen.isu .genList > div div.obj span{
+    @apply max-w-[110px]
+}
+.trading_tabContent .signalItemList .signalGen.isu .genList > div div.obj .tag{
+    @apply flex w-[85px] h-[21px] items-center justify-center rounded-[4px] bg-[#eeedff]
+    text-[12px] text-[#6f68ef] font-medium truncate
 }
 .trading_tabContent .signalItemList .signalGen .genList > div div.obj em{
     @apply not-italic text-[13px] text-[#666] font-normal
