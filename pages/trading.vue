@@ -41,4 +41,5 @@ export default {
 
 <style scoped>
 @import '~/assets/css/main.css';
+@import '~/assets/css/todayIssue.css';
 </style>
