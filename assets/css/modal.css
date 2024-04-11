@@ -40,6 +40,31 @@
   @apply w-full h-10 flex justify-center items-center rounded-[6px] text-white text-[16px] font-medium bg-[#5368ff]
 }
 
+.alarm_modal .modal-content{
+  @apply w-[calc(100%-40px)]
+}
+.alarm_modal .modal-content .modal-header{
+  @apply flex w-full h-[48px] items-center px-5 justify-end
+}
+.alarm_modal .modal-content .modal-body{
+  @apply w-full px-3 min-h-[106px] flex flex-col justify-center
+}
+.alarm_modal .modal-content .modal-body .txt{
+  @apply block w-full text-center leading-6 pb-2.5
+}
+.alarm_modal .modal-content .modal-body .txt span{
+  @apply block w-full text-center text-[16px] text-[#141414] font-medium
+}
+.alarm_modal .modal-content .modal-body .txt em{
+  @apply block w-full pt-6 text-[14px] text-[#141414] not-italic
+}
+.alarm_modal .modal-content .modal-footer{
+  @apply w-full p-5
+}
+.alarm_modal .modal-content .modal-footer button{
+  @apply w-full h-10 flex justify-center items-center rounded-[6px] text-white text-[16px] font-medium bg-[#5368ff]
+}
+
 /* item-sch */
 .item-sch .modal-content{
   @apply w-[calc(100%-20px)] h-[calc(100%-40px)] justify-start

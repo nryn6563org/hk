@@ -1,0 +1,26 @@
+.trading-signal{
+    @apply flex flex-wrap items-center h-fit gap-x-4 bg-[#333340] w-full border-b-[1px] border-white border-opacity-20 p-[20px_25px_0]
+    after:content-[''] after:w-full after:h-[1px] after:bg-white after:bg-opacity-20 after:mt-[15px]
+}
+.trading-signal .title{
+    @apply leading-[18px] text-[14px] text-[#cacaca] w-[52px]
+}
+.trading-signal .signal{
+    @apply flex items-center justify-center w-[calc(100%-68px)] gap-2.5
+}
+.trading-signal .signal button{
+    @apply flex w-[115px] h-[45px] rounded-[99px] items-center justify-center gap-2
+}
+.trading-signal .signal button span{
+    @apply text-[15px] text-white text-opacity-80
+}
+.trading-signal .signal button em{
+    @apply not-italic text-[15px] font-bold text-white
+}
+.trading-signal .signal button.up{
+    @apply bg-[#E81A1A]
+}
+.trading-signal .signal button.dn{
+    @apply bg-[#5368FF]
+}
+

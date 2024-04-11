@@ -21,3 +21,8 @@ input{
 html,body{
   @apply overflow-x-hidden
 }
+
+
+table{
+  @apply border-separate !important
+}

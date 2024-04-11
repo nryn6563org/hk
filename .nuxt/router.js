@@ -11,6 +11,7 @@ const _7109471e = () => interopDefault(import('../pages/modalTween.vue' /* webpa
 const _2766b2ae = () => interopDefault(import('../pages/presentPrice.vue' /* webpackChunkName: "pages/presentPrice" */))
 const _5e0b0c5f = () => interopDefault(import('../pages/quickIssueTip.vue' /* webpackChunkName: "pages/quickIssueTip" */))
 const _e679b09a = () => interopDefault(import('../pages/todayIssueTip.vue' /* webpackChunkName: "pages/todayIssueTip" */))
+const _4c8fb071 = () => interopDefault(import('../pages/trading.vue' /* webpackChunkName: "pages/trading" */))
 const _166d7cbc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -52,6 +53,10 @@ export const routerOptions = {
     path: "/todayIssueTip",
     component: _e679b09a,
     name: "todayIssueTip"
+  }, {
+    path: "/trading",
+    component: _4c8fb071,
+    name: "trading"
   }, {
     path: "/",
     component: _166d7cbc,

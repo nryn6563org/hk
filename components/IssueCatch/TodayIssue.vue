@@ -274,8 +274,46 @@
       <!-- 이슈 항목 -->
 
       <div class="banner">
-        <button @click="goToPage"><em>'오늘의이슈'</em> 어떻게 활용하면 좋을까요?</button>
+        <img src="~/assets/img/todayIssueBanner.png" alt="오늘의이슈 에서 지금매수 캐치된 종목은?" @click="openModal('buyJoin')">
       </div>
+      <Modal
+          class="alarm_modal"
+          :modal-id="'buyJoin'"
+          :show-modal="modals.buyJoin"
+          :close-modal="() => closeModal('buyJoin')"
+      >
+        <template #header>
+          <button type="button" class="modal-close" @click="closeModal('buyJoin')">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+            >
+              <path
+                  d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+                  stroke="#111111"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </template>
+        <template #body>
+          <div class="txt">
+          <span>
+            지금! 매수하고 있는 종목 확인은 <br>AI캐치 가입 후 이용가능합니다.
+          </span>
+
+            <em>하단의 AI캐치 가입하기 버튼을 클릭해주세요.</em>
+          </div>
+        </template>
+        <template #footer>
+          <button type="button" @click="closeModal('buyJoin')">확인</button>
+        </template>
+      </Modal>
       <!-- 이슈활용 안내 -->
 
       <div class="issue_news">
@@ -727,7 +765,8 @@ export default {
   data() {
     return {
       modals: {
-        catchJoin: false
+        catchJoin: false,
+        buyJoin: false
       },
       isOffcanvasOpen: false
     }

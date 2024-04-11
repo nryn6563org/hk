@@ -1,5 +1,6 @@
 <template>
   <section class="content_two">
+    <TradingSignal></TradingSignal>
     <SchBox class="search-top"></SchBox>
     <!-- 상단검색 -->
 
@@ -36,21 +37,59 @@
     <div class="signal_alarm_banner">
       <div class="banner">
         <div class="visual">
-          <strong>내 종목 언제 매도해야 하나요?</strong>
-          <span>
-            <em>검증된 AI</em>가 <br />
-            <em>정확한 매매타점</em>에 <br />
-            <em>앱알림</em>을 보내드립니다.
-          </span>
+          <strong>
+            신호캐치의 ‘<em>절묘한 매도 타이밍</em>’ <br>
+            애물단지 내종목도 알려줘~
+          </strong>
         </div>
         <!-- visual -->
 
-        <div class="list">
-          <SignalList></SignalList>
+        <div class="list" @click="openModal('timingJoin')">
+          <img src="~/assets/img/tr-timing.png" alt="절묘한매도타이밍">
         </div>
         <!-- SignalList -->
       </div>
     </div>
+
+    <Modal
+        class="alarm_modal"
+        :modal-id="'timingJoin'"
+        :show-modal="modals.timingJoin"
+        :close-modal="() => closeModal('timingJoin')"
+    >
+      <template #header>
+        <button type="button" class="modal-close" @click="closeModal('timingJoin')">
+          <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+          >
+            <path
+                d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+                stroke="#111111"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </template>
+      <template #body>
+        <div class="txt">
+          <span>
+            내 종목 매매타이밍 알림은 <br>AI캐치 가입 후 이용가능합니다.
+          </span>
+
+          <em>하단의 AI캐치 가입하기 버튼을 클릭해주세요.</em>
+        </div>
+      </template>
+      <template #footer>
+        <button type="button" @click="closeModal('timingJoin')">확인</button>
+      </template>
+    </Modal>
+    <!--  매매타이밍  -->
     <!-- 신호알림배너 -->
 
     <div class="signal_catch_w">
@@ -513,22 +552,22 @@
 
 <script>
 import ItemCard from '~/components/SignalCatch/ItemCard'
-import SignalList from '~/components/SignalCatch/SignalList'
 import CatchTab from '~/components/SignalCatch/CatchTab'
 import CatchTab2 from '~/components/SignalCatch/CatchTabNotJoin'
 import Modal from '~/components/ModalWrap'
 import SchBox from '~/components/SignalCatch/SearchWrap'
 import SettingAlarm from '~/components/SignalCatch/SettingAlarm'
+import TradingSignal from '~/components/SignalCatch/TradingSignal'
 
 export default {
   components: {
     ItemCard,
-    SignalList,
     CatchTab,
     Modal,
     SchBox,
     SettingAlarm,
-    CatchTab2
+    CatchTab2,
+    TradingSignal
   },
   data() {
     return {
@@ -536,7 +575,8 @@ export default {
       popoverType: null,
       showModal: false,
       modals: {
-        alarm: false
+        alarm: false,
+        timingJoin: false
       }
     }
   },

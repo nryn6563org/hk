@@ -35,6 +35,9 @@
   "SignalCatchTabNotJoin": {
     "description": "Auto imported from components/SignalCatch/CatchTabNotJoin.vue"
   },
+  "SignalCatchContentThree": {
+    "description": "Auto imported from components/SignalCatch/ContentThree.vue"
+  },
   "SignalCatchContentTwo": {
     "description": "Auto imported from components/SignalCatch/ContentTwo.vue"
   },
@@ -49,5 +52,8 @@
   },
   "SignalList": {
     "description": "Auto imported from components/SignalCatch/SignalList.vue"
+  },
+  "SignalCatchTradingSignal": {
+    "description": "Auto imported from components/SignalCatch/TradingSignal.vue"
   }
 }
