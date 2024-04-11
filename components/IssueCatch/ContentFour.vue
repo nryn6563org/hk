@@ -3,14 +3,14 @@
     <div class="trading_tabContent">
       <div class="emptyTrading">
         <div class="top">
-          <div class="title"><strong>오늘 <em class="up">매수신호</em>가 포착된 <br>종목이 없습니다.</strong></div>
+          <div class="title"><strong>오늘 <em class="up">매수신호</em>가 포착된 <br>핫이슈 종목이 없습니다.</strong></div>
           <div class="visual">
             <img src="~/assets/img/tradingSpiner.gif" alt="분석중" width="94">
             <img src="~/assets/img/tradingVisualBg.png" alt="그림자" width="100px">
             <span>매수타이밍 분석중...</span>
           </div>
         </div>
-        <div class="monthTopList">
+        <div class="monthTopList hotisu">
           <strong> ‘매수신호’가 포착된 핫이슈 종목을 샀다면?</strong>
           <table>
             <colgroup>
@@ -22,43 +22,51 @@
             <thead>
             <tr>
               <th scope="col">종목명</th>
-              <th scope="col">매도일</th>
+              <th scope="col">이슈명</th>
+              <th scope="col">매수일</th>
               <th scope="col">수익률</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-              <td><span>삼성전자전자</span></td>
+              <td><span>삼성전자전자가나</span></td>
+              <td><span>반도체가나다라</span></td>
               <td><span>24.01.01</span></td>
               <td><span class="up">+000.00%</span></td>
             </tr>
             <tr>
               <td><span>삼성전자전자</span></td>
+              <td><span>반도체가나다</span></td>
               <td><span>24.01.01</span></td>
               <td><span class="up">+000.00%</span></td>
             </tr>
             <tr>
               <td><span>삼성전자전자</span></td>
+              <td><span>반도체가나다</span></td>
               <td><span>24.01.01</span></td>
               <td><span class="up">+000.00%</span></td>
             </tr>
             <tr>
               <td><span>삼성전자전자</span></td>
+              <td><span>반도체가나다</span></td>
               <td><span>24.01.01</span></td>
               <td><span class="up">+000.00%</span></td>
             </tr>
             <tr>
               <td><span>삼성전자전자</span></td>
+              <td><span>반도체가나다</span></td>
               <td><span>24.01.01</span></td>
               <td><span class="up">+000.00%</span></td>
             </tr>
             <tr>
               <td><span>삼성전자전자</span></td>
+              <td><span>반도체가나다</span></td>
               <td><span>24.01.01</span></td>
               <td><span class="up">+000.00%</span></td>
             </tr>
             <tr>
               <td><span>삼성전자전자</span></td>
+              <td><span>반도체가나다</span></td>
               <td><span>24.01.01</span></td>
               <td><span class="up">+000.00%</span></td>
             </tr>
