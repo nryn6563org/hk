@@ -85,7 +85,7 @@
     @apply text-[#666] text-[13px] text-center
 }
 .trading_tabContent .emptyTrading .monthTopList table tbody tr td:last-child{
-    @apply text-[#e81a1a] text-[14px] text-center px-1
+    @apply text-[#e81a1a] text-[14px] text-right px-1
 }
 
 .trading_tabContent .signalItemList .title{
