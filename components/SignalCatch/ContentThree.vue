@@ -2,7 +2,7 @@
   <section id="trading_w">
     <div class="trading_tab">
       <button :class="{active: activeTab === 'buy'}" @click="changeTab('buy')">오늘매수</button>
-      <button :class="{active: activeTab === 'sell'}" @click="changeTab('sell')">오늘매도</button>
+      <button :class="{active: activeTab === 'sell'}" @click="changeTab('sell')">오늘수익</button>
     </div>
     <!-- tab -->
     <div class="trading_tabContent">
@@ -126,11 +126,11 @@
       <div v-show="activeTab === 'sell'" class="sellContent">
         <div class="emptyTrading">
           <div class="top">
-            <div class="title"><strong>오늘 <em class="dn">매도신호</em>가 포착된 <br>종목이 없습니다.</strong></div>
+            <div class="title"><strong>오늘 <em class="dn">수익신호</em>가 포착된 <br>종목이 없습니다.</strong></div>
             <div class="visual">
               <img src="~/assets/img/tradingSpiner.gif" alt="분석중" width="94">
               <img src="~/assets/img/tradingVisualBg.png" alt="그림자" width="100px">
-              <span>매도타이밍 분석중...</span>
+              <span>오늘수익 타이밍 분석중...</span>
             </div>
           </div>
           <div class="monthTopList">
@@ -192,13 +192,13 @@
 
         <div class="signalItemList">
           <div class="title">
-            <strong>현재 <em class="dn">매도신호</em>가 발생된 종목입니다.</strong>
+            <strong><em class="dn">오늘수익</em>이 발생된 종목입니다.</strong>
             <span>(총 27종목)</span>
           </div>
           <!--   타이틀     -->
 
           <div class="signalGen">
-            <span class="dn">신호발생 15:00</span>
+            <span class="up">신호발생 15:00</span>
             <div class="genList">
               <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
               <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
@@ -208,7 +208,7 @@
           <!--  신호발생    -->
 
           <div class="signalGen">
-            <span class="dn">신호발생 15:00</span>
+            <span class="up">신호발생 15:00</span>
             <div class="genList">
               <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
               <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
@@ -218,7 +218,7 @@
           <!--  신호발생    -->
 
           <div class="signalGen">
-            <span class="dn">신호발생 15:00</span>
+            <span class="up">신호발생 15:00</span>
             <div class="genList">
               <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
               <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
@@ -228,7 +228,7 @@
           <!--  신호발생    -->
 
           <div class="signalGen">
-            <span class="dn">신호발생 15:00</span>
+            <span class="up">신호발생 15:00</span>
             <div class="genList">
               <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
               <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>

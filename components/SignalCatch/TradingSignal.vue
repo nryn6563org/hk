@@ -5,11 +5,11 @@
     </span>
     <div class="signal">
       <button class="up" @click="openModal('signalJoin')">
-        <span>매수</span><em>17</em>
+        <span>오늘매수</span><em>17</em>
       </button>
       <!--   매수버튼   -->
       <button class="dn" @click="openModal('signalJoin')">
-        <span>매도</span><em>128</em>
+        <span>오늘수익</span><em>128</em>
       </button>
       <!--   매도버튼   -->
     </div>

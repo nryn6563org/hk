@@ -9,7 +9,7 @@
     @apply bg-[#E81A1A] text-opacity-100 font-bold
 }
 .trading_tab button:last-child.active{
-    @apply bg-[#5368FF] text-opacity-100 font-bold
+    @apply bg-[#8A4AF2] text-opacity-100 font-bold
 }
 .trading_tabContent{
     @apply relative block w-full
@@ -37,7 +37,7 @@
     @apply text-[#e81a1a]
 }
 .trading_tabContent .emptyTrading .top .title strong em.dn{
-    @apply text-[#5368ff]
+    @apply text-[#8A4AF2]
 }
 .trading_tabContent .emptyTrading .top .visual{
     @apply flex flex-col items-center mt-4 w-full gap-[1px]
@@ -101,7 +101,7 @@
     @apply text-[#e81a1a]
 }
 .trading_tabContent .signalItemList .title strong em.dn{
-    @apply text-[#5368ff]
+    @apply text-[#8A4AF2]
 }
 .trading_tabContent .signalItemList .title span{
     @apply text-[15px] text-[#292929] block leading-[22px]
