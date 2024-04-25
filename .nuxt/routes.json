@@ -3,63 +3,60 @@
     "name": "accodianEx",
     "path": "/accodianEx",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/accodianEx.vue",
-    "chunkName": "pages/accodianEx",
-    "_name": "_09514a33"
+    "chunkName": "pages/accodianEx"
   },
   {
     "name": "boardView",
     "path": "/boardView",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/boardView.vue",
-    "chunkName": "pages/boardView",
-    "_name": "_0c40e2fb"
+    "chunkName": "pages/boardView"
   },
   {
     "name": "modalEx",
     "path": "/modalEx",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/modalEx.vue",
-    "chunkName": "pages/modalEx",
-    "_name": "_3c47d010"
+    "chunkName": "pages/modalEx"
   },
   {
     "name": "modalTween",
     "path": "/modalTween",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/modalTween.vue",
-    "chunkName": "pages/modalTween",
-    "_name": "_7109471e"
+    "chunkName": "pages/modalTween"
   },
   {
     "name": "presentPrice",
     "path": "/presentPrice",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/presentPrice.vue",
-    "chunkName": "pages/presentPrice",
-    "_name": "_2766b2ae"
+    "chunkName": "pages/presentPrice"
   },
   {
     "name": "quickIssueTip",
     "path": "/quickIssueTip",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/quickIssueTip.vue",
-    "chunkName": "pages/quickIssueTip",
-    "_name": "_5e0b0c5f"
+    "chunkName": "pages/quickIssueTip"
+  },
+  {
+    "name": "racingChart",
+    "path": "/racingChart",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/racingChart.vue",
+    "chunkName": "pages/racingChart"
   },
   {
     "name": "todayIssueTip",
     "path": "/todayIssueTip",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/todayIssueTip.vue",
-    "chunkName": "pages/todayIssueTip",
-    "_name": "_e679b09a"
+    "chunkName": "pages/todayIssueTip"
   },
   {
     "name": "trading",
     "path": "/trading",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/trading.vue",
-    "chunkName": "pages/trading",
-    "_name": "_4c8fb071"
+    "chunkName": "pages/trading"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_166d7cbc"
+    "chunkName": "pages/index"
   }
 ]

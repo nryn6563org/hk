@@ -10,6 +10,7 @@ const _3c47d010 = () => interopDefault(import('../pages/modalEx.vue' /* webpackC
 const _7109471e = () => interopDefault(import('../pages/modalTween.vue' /* webpackChunkName: "pages/modalTween" */))
 const _2766b2ae = () => interopDefault(import('../pages/presentPrice.vue' /* webpackChunkName: "pages/presentPrice" */))
 const _5e0b0c5f = () => interopDefault(import('../pages/quickIssueTip.vue' /* webpackChunkName: "pages/quickIssueTip" */))
+const _023fc100 = () => interopDefault(import('../pages/racingChart.vue' /* webpackChunkName: "pages/racingChart" */))
 const _e679b09a = () => interopDefault(import('../pages/todayIssueTip.vue' /* webpackChunkName: "pages/todayIssueTip" */))
 const _4c8fb071 = () => interopDefault(import('../pages/trading.vue' /* webpackChunkName: "pages/trading" */))
 const _166d7cbc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -49,6 +50,10 @@ export const routerOptions = {
     path: "/quickIssueTip",
     component: _5e0b0c5f,
     name: "quickIssueTip"
+  }, {
+    path: "/racingChart",
+    component: _023fc100,
+    name: "racingChart"
   }, {
     path: "/todayIssueTip",
     component: _e679b09a,

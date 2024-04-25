@@ -83,9 +83,15 @@
           <div class="signalGen">
             <span class="up">신호발생 15:00</span>
             <div class="genList">
-              <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
-              <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
-              <div><div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div><span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>한국경제TV</span><em>256630</em></div>
+                <span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>카카오가나다</span><em>256630</em></div>
+                <span class="price">1,269,000원</span></div>
+              <div>
+                <div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div>
+                <span class="price">69,000원</span></div>
             </div>
           </div>
           <!--  신호발생    -->
@@ -93,9 +99,15 @@
           <div class="signalGen">
             <span class="up">신호발생 15:00</span>
             <div class="genList">
-              <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
-              <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
-              <div><div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div><span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>한국경제TV</span><em>256630</em></div>
+                <span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>카카오가나다</span><em>256630</em></div>
+                <span class="price">1,269,000원</span></div>
+              <div>
+                <div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div>
+                <span class="price">69,000원</span></div>
             </div>
           </div>
           <!--  신호발생    -->
@@ -103,9 +115,15 @@
           <div class="signalGen">
             <span class="up">신호발생 15:00</span>
             <div class="genList">
-              <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
-              <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
-              <div><div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div><span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>한국경제TV</span><em>256630</em></div>
+                <span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>카카오가나다</span><em>256630</em></div>
+                <span class="price">1,269,000원</span></div>
+              <div>
+                <div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div>
+                <span class="price">69,000원</span></div>
             </div>
           </div>
           <!--  신호발생    -->
@@ -113,9 +131,15 @@
           <div class="signalGen">
             <span class="up">신호발생 15:00</span>
             <div class="genList">
-              <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
-              <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
-              <div><div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div><span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>한국경제TV</span><em>256630</em></div>
+                <span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>카카오가나다</span><em>256630</em></div>
+                <span class="price">1,269,000원</span></div>
+              <div>
+                <div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div>
+                <span class="price">69,000원</span></div>
             </div>
           </div>
           <!--  신호발생    -->
@@ -200,9 +224,15 @@
           <div class="signalGen">
             <span class="up">신호발생 15:00</span>
             <div class="genList">
-              <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
-              <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
-              <div><div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div><span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>한국경제TV</span><em>256630</em></div>
+                <span class="price up">69,000원</span></div>
+              <div>
+                <div class="obj"><span>카카오가나다</span><em>256630</em></div>
+                <span class="price up">1,269,000원</span></div>
+              <div>
+                <div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div>
+                <span class="price up">69,000원</span></div>
             </div>
           </div>
           <!--  신호발생    -->
@@ -210,9 +240,15 @@
           <div class="signalGen">
             <span class="up">신호발생 15:00</span>
             <div class="genList">
-              <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
-              <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
-              <div><div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div><span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>한국경제TV</span><em>256630</em></div>
+                <span class="price up">69,000원</span></div>
+              <div>
+                <div class="obj"><span>카카오가나다</span><em>256630</em></div>
+                <span class="price up">1,269,000원</span></div>
+              <div>
+                <div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div>
+                <span class="price up">69,000원</span></div>
             </div>
           </div>
           <!--  신호발생    -->
@@ -220,9 +256,15 @@
           <div class="signalGen">
             <span class="up">신호발생 15:00</span>
             <div class="genList">
-              <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
-              <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
-              <div><div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div><span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>한국경제TV</span><em>256630</em></div>
+                <span class="price up">69,000원</span></div>
+              <div>
+                <div class="obj"><span>카카오가나다</span><em>256630</em></div>
+                <span class="price up">1,269,000원</span></div>
+              <div>
+                <div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div>
+                <span class="price up">69,000원</span></div>
             </div>
           </div>
           <!--  신호발생    -->
@@ -230,9 +272,15 @@
           <div class="signalGen">
             <span class="up">신호발생 15:00</span>
             <div class="genList">
-              <div><div class="obj"><span>한국경제TV</span><em>256630</em></div><span class="price">69,000원</span></div>
-              <div><div class="obj"><span>카카오가나다</span><em>256630</em></div><span class="price">1,269,000원</span></div>
-              <div><div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div><span class="price">69,000원</span></div>
+              <div>
+                <div class="obj"><span>한국경제TV</span><em>256630</em></div>
+                <span class="price  up">69,000원</span></div>
+              <div>
+                <div class="obj"><span>카카오가나다</span><em>256630</em></div>
+                <span class="price up">1,269,000원</span></div>
+              <div>
+                <div class="obj"><span>삼성전자가나다라라</span><em>256630</em></div>
+                <span class="price up">69,000원</span></div>
             </div>
           </div>
           <!--  신호발생    -->
@@ -259,5 +307,5 @@ export default {
 </script>
 
 <style scoped>
-  @import "~/assets/css/tradingWrap.css";
+@import "~/assets/css/tradingWrap.css";
 </style>

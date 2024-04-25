@@ -145,3 +145,6 @@
 .trading_tabContent .signalItemList .signalGen .genList > div .price{
     @apply block w-fit text-[14px] text-[#333] font-normal
 }
+.trading_tabContent .signalItemList .signalGen .genList > div .price.up{
+    @apply text-[#E81A1A]
+}
