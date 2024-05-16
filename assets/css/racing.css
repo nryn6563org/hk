@@ -17,7 +17,7 @@
 
 
 .racing > .top > div > span {
-    @apply text-[38px] font-bold text-white
+    @apply text-[38px] font-bold text-white pl-6
 }
 
 .racing > .top > div > span em {
