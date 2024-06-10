@@ -11,6 +11,7 @@ const _7109471e = () => interopDefault(import('../pages/modalTween.vue' /* webpa
 const _2766b2ae = () => interopDefault(import('../pages/presentPrice.vue' /* webpackChunkName: "pages/presentPrice" */))
 const _5e0b0c5f = () => interopDefault(import('../pages/quickIssueTip.vue' /* webpackChunkName: "pages/quickIssueTip" */))
 const _023fc100 = () => interopDefault(import('../pages/racingChart.vue' /* webpackChunkName: "pages/racingChart" */))
+const _45d00862 = () => interopDefault(import('../pages/racingChart2.vue' /* webpackChunkName: "pages/racingChart2" */))
 const _e679b09a = () => interopDefault(import('../pages/todayIssueTip.vue' /* webpackChunkName: "pages/todayIssueTip" */))
 const _4c8fb071 = () => interopDefault(import('../pages/trading.vue' /* webpackChunkName: "pages/trading" */))
 const _166d7cbc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -54,6 +55,10 @@ export const routerOptions = {
     path: "/racingChart",
     component: _023fc100,
     name: "racingChart"
+  }, {
+    path: "/racingChart2",
+    component: _45d00862,
+    name: "racingChart2"
   }, {
     path: "/todayIssueTip",
     component: _e679b09a,

@@ -42,6 +42,12 @@
     "chunkName": "pages/racingChart"
   },
   {
+    "name": "racingChart2",
+    "path": "/racingChart2",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/racingChart2.vue",
+    "chunkName": "pages/racingChart2"
+  },
+  {
     "name": "todayIssueTip",
     "path": "/todayIssueTip",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/todayIssueTip.vue",
