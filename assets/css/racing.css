@@ -67,7 +67,7 @@
 }
 
 .racing > .chart > .chartBullet{
-    @apply absolute bottom-[100px] right-[60px] flex flex-col gap-5
+    @apply absolute bottom-[110px] right-[60px] flex flex-col gap-5
 }
 .racing > .chart > .chartBullet > .bullet-txt{
     @apply flex justify-between
