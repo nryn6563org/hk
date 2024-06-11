@@ -93,4 +93,7 @@ export default {
 
 <style scoped>
 @import '~/assets/css/racing.css';
+.chart-bullet-txt{
+  @apply text-[33px] text-[#d6d6d6] font-medium leading-[44px] right-[60px] !important
+}
 </style>
