@@ -12,6 +12,7 @@ const _2766b2ae = () => interopDefault(import('../pages/presentPrice.vue' /* web
 const _5e0b0c5f = () => interopDefault(import('../pages/quickIssueTip.vue' /* webpackChunkName: "pages/quickIssueTip" */))
 const _023fc100 = () => interopDefault(import('../pages/racingChart.vue' /* webpackChunkName: "pages/racingChart" */))
 const _45d00862 = () => interopDefault(import('../pages/racingChart2.vue' /* webpackChunkName: "pages/racingChart2" */))
+const _45de1fe3 = () => interopDefault(import('../pages/racingChart3.vue' /* webpackChunkName: "pages/racingChart3" */))
 const _e679b09a = () => interopDefault(import('../pages/todayIssueTip.vue' /* webpackChunkName: "pages/todayIssueTip" */))
 const _4c8fb071 = () => interopDefault(import('../pages/trading.vue' /* webpackChunkName: "pages/trading" */))
 const _166d7cbc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -59,6 +60,10 @@ export const routerOptions = {
     path: "/racingChart2",
     component: _45d00862,
     name: "racingChart2"
+  }, {
+    path: "/racingChart3",
+    component: _45de1fe3,
+    name: "racingChart3"
   }, {
     path: "/todayIssueTip",
     component: _e679b09a,

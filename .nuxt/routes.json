@@ -56,6 +56,13 @@
     "_name": "_45d00862"
   },
   {
+    "name": "racingChart3",
+    "path": "/racingChart3",
+    "component": "/Users/nryn6563/Documents/work/HKTV/pages/racingChart3.vue",
+    "chunkName": "pages/racingChart3",
+    "_name": "_45de1fe3"
+  },
+  {
     "name": "todayIssueTip",
     "path": "/todayIssueTip",
     "component": "/Users/nryn6563/Documents/work/HKTV/pages/todayIssueTip.vue",
