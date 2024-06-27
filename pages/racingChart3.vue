@@ -100,6 +100,6 @@ export default {
   @apply mt-10
 }
 .racing > .chart-bullet-txt{
-    @apply text-white text-[33px] flex w-full justify-end font-bold leading-[44px] pr-5
+    @apply text-[#d6d6d6] text-[33px] flex w-full justify-end font-bold leading-[44px] pr-5
 }
 </style>
