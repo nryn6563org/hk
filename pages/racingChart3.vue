@@ -79,7 +79,7 @@ export default {
 @import '~/assets/css/racing.css';
 
 .racing{
-  @apply bg-[url('~/assets/img/bgRacing.png')] bg-no-repeat gap-0
+  @apply bg-[url('~/assets/img/bgRacing.png')] bg-no-repeat gap-0 border-transparent
 }
 .racing > .top {
     @apply px-[50px]
