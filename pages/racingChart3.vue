@@ -79,7 +79,7 @@ export default {
 @import '~/assets/css/racing.css';
 
 .racing{
-  @apply bg-[url('~/assets/img/bgRacing.png')] bg-no-repeat gap-0 border-transparent p-[105px_240px] h-auto
+  @apply bg-[url('~/assets/img/bgRacing.png')] bg-no-repeat gap-0 border-transparent p-[105px_240px]
 }
 .racing > .top {
     @apply px-[45px] h-[80px]
@@ -100,6 +100,6 @@ export default {
   @apply mt-10
 }
 .racing > .chart-bullet-txt{
-    @apply text-[#d6d6d6] text-[26px] flex w-full justify-end font-bold leading-[33px] pr-5
+    @apply text-[#d6d6d6] text-[26px] flex w-full justify-end font-bold leading-[33px] pr-5 mt-[30px]
 }
 </style>
