@@ -8,7 +8,8 @@ module.exports = {
     },
     boxShadow: {
       card: '0px 3px 8px 0px rgba(0, 0, 0, 0.08)',
-      signal: '0px 4px 10px 0px rgba(0, 0, 0, 0.15)'
+      signal: '0px 4px 10px 0px rgba(0, 0, 0, 0.15)',
+      bubble: '0px 5px 8px 0px rgba(0, 0, 0, 0.15)'
     },
     transitionDelay: {
       700: '700ms',

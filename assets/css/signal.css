@@ -2,21 +2,25 @@
 .search {
     @apply pt-5 px-[25px] w-full block h-fit relative mt-[-1px]
 }
-
-.search.search-top {
-    @apply bg-[#333340] pb-5
+.search.search-top{
+    @apply w-[90px] h-[34px] p-0 m-0 
 }
 
 .search > button {
-    @apply flex w-full h-10 rounded-full bg-white border-[1px] border-[#5368ff] justify-center gap-5 items-center text-[#999] text-[13px] tracking-[-0.325px]
+    @apply flex w-full h-10 rounded-full bg-white border-[1px] border-[#5368ff] justify-center gap-5 items-center
+     text-[#999] text-[13px] tracking-[-0.325px]
+}
+.search.search-top > button{
+    @apply flex w-full h-[34px] rounded-none bg-transparent border-0 justify-end 
+    gap-3 p-[5px_3px_5px_0] border-b-[1px] border-[#737373] tracking-[-0.325px]
 }
 
 .item_info_catch {
-    @apply block w-full h-auto bg-[#e8eaec] pt-5 pb-0 relative
+    @apply block w-full h-auto bg-[#F2F2F6] py-5 px-6 relative
 }
 
 .item_info_catch .item_info {
-    @apply w-full flex flex-col gap-[6px] px-5
+    @apply w-full flex flex-col gap-[6px]
 }
 
 .item_info_catch .item_info .top {
@@ -60,55 +64,55 @@
     @apply text-[16px] font-medium
 }
 
-.item_info_catch .item_card {
+.item_card {
     @apply w-full mt-4
 }
 
-.item_info_catch .item_card .swiper-wrapper {
+.item_card .swiper-wrapper {
     @apply w-full pb-10
 }
 
-.item_info_catch .item_card .card {
+.item_card .card {
     @apply w-full flex justify-center
 }
 
-.item_info_catch .item_card .card > div {
-    @apply w-[calc(100%-40px)] h-[200px] bg-white p-5 rounded-[16px] relative shadow-card
+.item_card .card > div {
+    @apply w-[calc(100%-40px)] h-[200px] bg-white p-5 rounded-[16px] relative shadow-card border-[1px] border-[#f1f1f1]
 }
 
-.item_info_catch .item_card .card strong {
+.item_card .card strong {
     @apply block h-6 leading-6 text-[16px] text-[#333] font-bold
 }
 
-.item_info_catch .item_card .card .list {
+.item_card .card .list {
     @apply w-full mt-4 flex flex-col
 }
 
-.item_info_catch .item_card .card .list div {
+.item_card .card .list div {
     @apply w-full h-[25px] flex gap-1 items-center before:content-["\00b7"] before:w-2 before:text-center before:font-bold before:text-[18px] before:rounded-full before:overflow-hidden
 }
 
-.item_info_catch .item_card .card .list div .time {
+.item_card .card .list div .time {
     @apply text-[14px] tracking-[-0.5px] leading-6 text-[#141414] w-9 text-center
 }
 
-.item_info_catch .item_card .card .list div .con {
+.item_card .card .list div .con {
     @apply block w-[calc(100%-44px)] text-[15px] tracking-[-0.5px] leading-6 text-[#141414] truncate
 }
 
-.item_info_catch .item_card .card .date {
+.item_card .card .date {
     @apply absolute top-[22px] right-5 leading-5 text-[13px] text-[#969696]
 }
 
-.item_info_catch .item_card .swiper-pagination {
+.item_card .swiper-pagination {
     @apply bottom-5 flex h-2 gap-1 items-center justify-center
 }
 
-.item_info_catch .item_card .swiper-pagination .swiper-pagination-bullet {
+.item_card .swiper-pagination .swiper-pagination-bullet {
     @apply w-2 h-1 bg-[#7e8286] rounded-[1px] m-0
 }
 
-.item_info_catch .item_card .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.item_card .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
     @apply w-5 h-1 bg-black
 }
 
@@ -167,9 +171,23 @@
 .signal_alarm_banner .banner .list .swiper-slide span.per {
     @apply w-[100px] px-[5px] flex items-center justify-center text-[13px] font-medium text-[#e81a1a] bg-[#FDECEC] rounded-[4px]
 }
-
+.signal_alarm_banner .nbnr{
+    @apply w-full h-[75px] px-5 bg-[#f2eb21] rounded-[10px] flex gap-5 items-center
+}
+.signal_alarm_banner .nbnr div{
+    @apply flex w-[calc(100%-55px)] flex-col gap-[1px]
+}
+.signal_alarm_banner .nbnr div span{
+    @apply text-[18px] leading-6 flex font-bold text-black gap-1
+}
+.signal_alarm_banner .nbnr div span em{
+    @apply text-[#FF007A] max-w-[100px] block not-italic truncate
+}
+.signal_alarm_banner .nbnr div > em{
+    @apply block leading-6 text-[16px] font-medium text-black not-italic
+}
 .signal_catch_w {
-    @apply relative w-full mt-10 px-5 mb-5
+    @apply relative w-full px-5 mb-5
 }
 
 .signal_catch_w .top {
@@ -410,7 +428,7 @@
 }
 
 .ainews {
-    @apply w-full mt-10 pb-[50px] px-5
+    @apply w-full mt-[30px] pb-[50px] px-5
 }
 
 .ainews strong {
@@ -469,3 +487,6 @@
   @apply after:content-[''] after:w-[1px] after:h-[11px] after:bg-[#d7d7d7] after:ml-2 after:block
 } */
 
+.newSignalTop{
+    @apply w-full flex p-5 gap-2.5 bg-[#333340]
+}

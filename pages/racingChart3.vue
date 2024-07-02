@@ -79,27 +79,27 @@ export default {
 @import '~/assets/css/racing.css';
 
 .racing{
-  @apply bg-[url('~/assets/img/bgRacing.png')] bg-no-repeat gap-0 border-transparent
+  @apply bg-[url('~/assets/img/bgRacing.png')] bg-no-repeat gap-0 border-transparent p-[105px_240px] h-auto
 }
 .racing > .top {
-    @apply px-[50px]
+    @apply px-[45px] h-[80px]
 }
 .racing > .top > div:first-child{
-    @apply w-[calc(100%-275px)] justify-center pl-[275px]
+    @apply w-[calc(100%-228px)] justify-center pl-[228px]
 }
 .racing > .top > div:first-child span{
-  @apply text-[55px] font-bold
+  @apply text-[38px] font-bold
 }
 .racing > .top > div > .bullet-txt{
-  @apply w-[275px] pr-0
+  @apply w-[228px] pr-0
 }
 .racing > .top > div > .bullet-txt span{
-  @apply gap-[15px] text-[40px] text-white
+  @apply gap-[15px] text-[30px] text-white
 }
 .racing > .chart{
   @apply mt-10
 }
 .racing > .chart-bullet-txt{
-    @apply text-[#d6d6d6] text-[33px] flex w-full justify-end font-bold leading-[44px] pr-5
+    @apply text-[#d6d6d6] text-[26px] flex w-full justify-end font-bold leading-[33px] pr-5
 }
 </style>

@@ -17,6 +17,21 @@
   "SubHeader": {
     "description": "Auto imported from components/SubHeader.vue"
   },
+  "IssueCatchAlarm": {
+    "description": "Auto imported from components/IssueCatch/CatchAlarm.vue"
+  },
+  "IssueCatchContentFour": {
+    "description": "Auto imported from components/IssueCatch/ContentFour.vue"
+  },
+  "IssueCatchContentOne": {
+    "description": "Auto imported from components/IssueCatch/ContentOne.vue"
+  },
+  "IssueCatchQuickIssue": {
+    "description": "Auto imported from components/IssueCatch/QuickIssue.vue"
+  },
+  "IssueCatchTodayIssue": {
+    "description": "Auto imported from components/IssueCatch/TodayIssue.vue"
+  },
   "SignalCatchTab": {
     "description": "Auto imported from components/SignalCatch/CatchTab.vue"
   },
@@ -32,31 +47,31 @@
   "SignalCatchItemCard": {
     "description": "Auto imported from components/SignalCatch/ItemCard.vue"
   },
+  "SignalCatchItemSignalAlarm": {
+    "description": "Auto imported from components/SignalCatch/ItemSignalAlarm.vue"
+  },
+  "SignalCatchNewSearch": {
+    "description": "Auto imported from components/SignalCatch/NewSearch.vue"
+  },
   "SignalCatchSearchWrap": {
     "description": "Auto imported from components/SignalCatch/SearchWrap.vue"
   },
   "SignalCatchSettingAlarm": {
     "description": "Auto imported from components/SignalCatch/SettingAlarm.vue"
   },
+  "SignalCatchSettingAlarm2": {
+    "description": "Auto imported from components/SignalCatch/SettingAlarm2.vue"
+  },
   "SignalList": {
     "description": "Auto imported from components/SignalCatch/SignalList.vue"
+  },
+  "SignalCatchTimingAlarm": {
+    "description": "Auto imported from components/SignalCatch/TimingAlarm.vue"
   },
   "SignalCatchTradingSignal": {
     "description": "Auto imported from components/SignalCatch/TradingSignal.vue"
   },
-  "IssueCatchAlarm": {
-    "description": "Auto imported from components/IssueCatch/CatchAlarm.vue"
-  },
-  "IssueCatchContentFour": {
-    "description": "Auto imported from components/IssueCatch/ContentFour.vue"
-  },
-  "IssueCatchContentOne": {
-    "description": "Auto imported from components/IssueCatch/ContentOne.vue"
-  },
-  "IssueCatchQuickIssue": {
-    "description": "Auto imported from components/IssueCatch/QuickIssue.vue"
-  },
-  "IssueCatchTodayIssue": {
-    "description": "Auto imported from components/IssueCatch/TodayIssue.vue"
+  "SignalCatchTradingSignal2": {
+    "description": "Auto imported from components/SignalCatch/TradingSignal2.vue"
   }
 }
