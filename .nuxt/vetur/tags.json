@@ -44,6 +44,9 @@
   "SignalCatchContentTwo": {
     "description": "Auto imported from components/SignalCatch/ContentTwo.vue"
   },
+  "SignalCatchIsaButton": {
+    "description": "Auto imported from components/SignalCatch/IsaButton.vue"
+  },
   "SignalCatchItemCard": {
     "description": "Auto imported from components/SignalCatch/ItemCard.vue"
   },
@@ -61,6 +64,9 @@
   },
   "SignalCatchSettingAlarm2": {
     "description": "Auto imported from components/SignalCatch/SettingAlarm2.vue"
+  },
+  "SignalAlarmTop": {
+    "description": "Auto imported from components/SignalCatch/SignalAlarmTop.vue"
   },
   "SignalList": {
     "description": "Auto imported from components/SignalCatch/SignalList.vue"

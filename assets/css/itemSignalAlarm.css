@@ -38,12 +38,12 @@
 #itemSignalAlarm .alarm_list_box > div .tit{
   @apply flex items-center gap-1 cursor-pointer
 }
-#itemSignalAlarm .alarm_list_box > div .btn button{
+#itemSignalAlarm .alarm_list_box > div > .btn > button{
   @apply h-[29px] w-[45px] rounded-full bg-[#656565] indent-[-9999em] relative
   after:content-[''] after:w-[23px] after:h-[23px] after:rounded-full after:bg-[#ABABAB]
   after:absolute after:top-[3px] after:left-[3px] after:transition-all after:duration-300
 }
-#itemSignalAlarm .alarm_list_box > div .btn button.on{
+#itemSignalAlarm .alarm_list_box > div > .btn > button.on{
   @apply bg-[#5368FF] after:bg-white after:left-[19px]
 }
 #itemSignalAlarm .alarm_list_box > div .tit span{
@@ -52,11 +52,13 @@
 #itemSignalAlarm .alarm_list_box > div .tit span em{
   @apply not-italic text-[#f3e821] font-bold text-[18px]
 }
-
+#itemSignalAlarm .alarm_list_box .txt-bubble em{
+  @apply not-italic
+}
 #itemSignalAlarm .alarm_list_box .txt-bubble{
   @apply absolute block w-[234px] h-fit p-[12px_20px] bg-white rounded-[16px] shadow-bubble text-[14px] text-[#141414] leading-[21px]
 }
-#itemSignalAlarm .alarm_list_box .txt-bubble em{
+#itemSignalAlarm .alarm_list_box .txt-bubble > em{
   @apply not-italic text-[#5368ff]
 }
 #itemSignalAlarm .alarm_list_box .txt-bubble svg{

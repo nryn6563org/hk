@@ -1,20 +1,37 @@
 <template>
-  <div class="signalAlm">
-    <span>이종목 <em>매매신호 알림</em></span>
-
-    <div>
-      <button
-        :class="{active: alarmOn }"
-        @click="toggleAlarm"
-        class="almToggle"
-      >
-        매매신호 알림 설정
-      </button>
-
-      <button class="setting" @click="openModal('itemSearch')">
-        알림설정
+  <div class="top">
+    <div class="tit">
+      <img
+        src="~/assets/img/bullet_item_alarm.png"
+        alt="타이틀블릿"
+        width="21"
+      />
+      <span>딱! <em>좋은 종목만</em></span>
+      <em>신호 받기</em>
+      <button @click="openModal('rscvModal')">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="19"
+          viewBox="0 0 18 19"
+          fill="none"
+        >
+          <path
+            d="M9 8.75V12.5M9 16.25C5.27208 16.25 2.25 13.2279 2.25 9.5C2.25 5.77208 5.27208 2.75 9 2.75C12.7279 2.75 15.75 5.77208 15.75 9.5C15.75 13.2279 12.7279 16.25 9 16.25ZM9.03735 6.5V6.575L8.96265 6.57515V6.5H9.03735Z"
+            stroke="#737373"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </button>
     </div>
+    <!-- //tit -->
+
+    <div class="almList">
+      <button @click="openModal('itemSearch')">MY 알림</button>
+    </div>
+    <!-- alarm List -->
 
     <Modal
       class="item-sch"
@@ -581,11 +598,113 @@
       </template>
     </Modal>
     <!-- modal -->
+
+    <Modal
+      class="alarm_modal"
+      :modal-id="'rscvModal'"
+      :show-modal="modals.rscvModal"
+      :close-modal="() => closeModal('rscvModal')"
+    >
+      <template #header>
+        <button
+          type="button"
+          class="modal-close"
+          @click="closeModal('rscvModal')"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+              stroke="#111111"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </template>
+      <template #body>
+        <div class="title">
+          <strong>딱! 좋은 종목만 신호 받기</strong>
+        </div>
+        <div class="txt ta_l">
+          <span
+            >투자자들 성향에 맞는 딱! 좋은 종목을 실시간 감시해서 매수신호를
+            알려주는 서비스 입니다.
+          </span>
+          <span
+            >종목도, 타이밍도 고민할 필요가 없는 세상에서 가장 간편한 서비스
+            입니다.
+          </span>
+        </div>
+        <div class="txt bult">
+          <span
+            >매수 신호를 받은 종목은 알림을 꺼도 매도신호를 <br />받을 수
+            있습니다.</span
+          >
+          <span>감시 대상 종목은 매일 업데이트됩니다. </span>
+        </div>
+      </template>
+      <template #footer>
+        <button type="button" @click="closeModal('rscvModal')">확인</button>
+      </template>
+    </Modal>
+    <!-- 신호받기 -->
+
+    <Modal
+      class="alarm_modal"
+      :modal-id="'njAlm'"
+      :show-modal="modals.njAlm"
+      :close-modal="() => closeModal('njAlm')"
+    >
+      <template #header>
+        <button
+          type="button"
+          class="modal-close"
+          @click="closeModal('njAlm')"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+              stroke="#111111"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </template>
+      <template #body>
+        <div class="title">
+          <strong>
+            MY알림내역 확인은<br>AI캐치 가입 후 이용가능합니다.
+          </strong>
+        </div>
+        <div class="txt ta_l">
+          <span>하단의 AI캐치 가입하기 버튼을 클릭해주세요.</span>
+        </div>
+      </template>
+      <template #footer>
+        <button type="button" @click="closeModal('njAlm')">확인</button>
+      </template>
+    </Modal>
+    <!-- 비가입 알림내역 -->
   </div>
 </template>
+
 <script>
 import Modal from '~/components/ModalWrap'
-
 export default {
   components: {
     Modal
@@ -593,13 +712,13 @@ export default {
   data() {
     return {
       showModal: false,
-      alarmOn: false,
-      allChecked: false,
-      activeTab: 'almStg',
-      activeSTab: 'SignalBuy',
       modals: {
-        settingAlarm: false
+        alarm: false,
+        rscvModal: false
       },
+      allChecked: false,
+      activeTab: 'almLst',
+      activeSTab: 'SignalBuy',
       items: [
         {
           id: 1,
@@ -654,6 +773,12 @@ export default {
     closeModal(modalId) {
       this.$set(this.modals, modalId, false)
     },
+    changeTab(tab) {
+      this.activeTab = tab
+    },
+    changeSTab(tab) {
+      this.activeSTab = tab
+    },
     handleAllCheck() {
       // allCheck 체크 상태에 따라 모든 항목의 체크 상태 업데이트
       this.items.forEach((item) => {
@@ -667,19 +792,7 @@ export default {
     toggleAlarm() {
       this.alarmOn = !this.alarmOn
       // 여기에 필요한 추가 로직을 추가할 수 있습니다.
-    },
-    changeTab(tab) {
-      this.activeTab = tab
-    },
-    changeSTab(tab) {
-      this.activeSTab = tab
     }
   }
 }
 </script>
-
-<style scoped>
-@import "~/assets/css/modal.css";
-@import "~/assets/css/btn.css";
-@import "~/assets/css/settingAlm.css";
-</style>
