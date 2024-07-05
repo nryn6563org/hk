@@ -466,7 +466,7 @@
   @apply text-[14px] text-[#666]
 }
 .isa_modal .alm-item-list .top select{
-  @apply w-[130px] h-[33px] border-[1px] border-[#d2d2d2] rounded-[6px] p-[3px_7px_3px_10px] text-[14px] text-[#141414]
+  @apply w-[130px] h-[33px] border-[1px] bg-white border-[#d2d2d2] rounded-[6px] p-[3px_7px_3px_10px] text-[14px] text-[#141414]
   appearance-none bg-[url('~/assets/img/bu_select.png')] bg-no-repeat bg-[length:24px_auto] bg-[99px_50%] cursor-pointer
 }
 .isa_modal .alm-item-list .list{
