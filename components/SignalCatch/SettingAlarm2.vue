@@ -457,8 +457,7 @@
             <!-- list -->
           </div>
           <div v-show="activeSTab === 'SignalSell'" class="ModalSignalList">
-            <div class="list">
-              <div class="list">
+<div class="list">
               <div class="date">2024.06.12</div>
               <!-- date  -->
 
@@ -573,7 +572,6 @@
               <!-- box -->
             </div>
             <!-- list -->
-            </div>
           </div>
           <!-- // -->
         </div>

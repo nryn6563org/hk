@@ -440,8 +440,8 @@
   @apply w-[calc(100%-20px)] h-[45px] m-[10px_10px_0] rounded-[8px] bg-black px-4 flex justify-between items-center
 }
 .isa_modal .stg-alarm-item .btn button{
-  @apply w-[40px] h-6 bg-[#656565] 
-  after:w-5 after:h-5 after:top-[2px] after:right-[2px] after:transition-all after:duration-300 !important
+  @apply w-[40px] h-6 bg-[#656565] indent-[-9999em] rounded-full relative
+  after:absolute after:rounded-full after:w-5 after:h-5 after:top-[2px] after:left-[2px] after:bg-[#ababab] after:transition-all after:duration-300 !important
 }
 .isa_modal .stg-alarm-item .btn button.active{
   @apply bg-[#5368FF] after:bg-white after:left-[18px] !important
