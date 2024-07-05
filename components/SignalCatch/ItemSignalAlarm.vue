@@ -243,7 +243,7 @@
               <!--  -->
 
               <div class="s_rcv">
-                <img src="~/assets/img/ctwBnrBullet.png" alt="블릿" width="35">
+                <img src="~/assets/img/ctwBnrBullet.gif" alt="블릿" width="35">
                 <div>
                   <span><em>백발백중 종목만</em> 신호 받기</span>
                   <em>하단 [AI캐치 가입하기] 클릭!!</em>
@@ -398,7 +398,7 @@
               <!--  -->
 
               <div class="s_rcv">
-                <img src="~/assets/img/ctwBnrBullet.png" alt="블릿" width="35">
+                <img src="~/assets/img/ctwBnrBullet.gif" alt="블릿" width="35">
                 <div>
                   <span><em>목표가 상향 종목만</em> 신호 받기</span>
                   <em>하단 [AI캐치 가입하기] 클릭!!</em>
@@ -524,7 +524,7 @@
               <!--  -->
 
               <div class="s_rcv">
-                <img src="~/assets/img/ctwBnrBullet.png" alt="블릿" width="35">
+                <img src="~/assets/img/ctwBnrBullet.gif" alt="블릿" width="35">
                 <div>
                   <span><em>변동성 상위 종목만</em> 신호 받기</span>
                   <em>하단 [AI캐치 가입하기] 클릭!!</em>
@@ -650,7 +650,7 @@
               <!--  -->
 
               <div class="s_rcv">
-                <img src="~/assets/img/ctwBnrBullet.png" alt="블릿" width="35">
+                <img src="~/assets/img/ctwBnrBullet.gif" alt="블릿" width="35">
                 <div>
                   <span><em>수급포착 종목만</em> 신호 받기</span>
                   <em>하단 [AI캐치 가입하기] 클릭!!</em>
@@ -777,7 +777,7 @@
               <!--  -->
 
               <div class="s_rcv">
-                <img src="~/assets/img/ctwBnrBullet.png" alt="블릿" width="35">
+                <img src="~/assets/img/ctwBnrBullet.gif" alt="블릿" width="35">
                 <div>
                   <span><em>거래량 폭발 종목만</em> 신호 받기</span>
                   <em>하단 [AI캐치 가입하기] 클릭!!</em>

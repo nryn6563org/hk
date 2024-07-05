@@ -35,7 +35,7 @@
 
     <div class="signal_alarm_banner">
       <div class="nbnr" @click="openModal('timingJoin')">
-        <img src="~/assets/img/ctwBnrBullet.png" alt="블릿" width="35" />
+        <img src="~/assets/img/ctwBnrBullet.gif" alt="블릿" width="35" />
         <div>
           <span><em>종목명종목명종목명종목명</em> 신호캐치받기</span>
           <em>하단 [AI캐치 가입하기] 클릭!!</em>

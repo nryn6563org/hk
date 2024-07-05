@@ -472,10 +472,17 @@
               <!-- box -->
             </div>
             <!-- list -->
+
+            <div class="emptyList">
+              <strong>알림 내역이 없습니다.</strong>
+              <span>
+                <em>딱! 좋은 종목만 신호 받기에서 </em><br>알림 신청을 할 수 있습니다.
+              </span>
+            </div>
           </div>
+
           <div v-show="activeSTab === 'SignalSell'" class="ModalSignalList">
             <div class="list">
-              <div class="list">
               <div class="date">2024.06.12</div>
               <!-- date  -->
 
@@ -590,7 +597,6 @@
               <!-- box -->
             </div>
             <!-- list -->
-            </div>
           </div>
           <!-- // -->
         </div>

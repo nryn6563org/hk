@@ -564,6 +564,18 @@
  .ModalSignalList{
   @apply w-full pt-[30px] px-5 flex flex-col gap-5
  }
+ .ModalSignalList .emptyList{
+  @apply w-full py-[80px] flex flex-col items-center gap-[15px]
+ }
+ .ModalSignalList .emptyList strong{
+  @apply text-[#333] text-[16px] font-medium
+ }
+ .ModalSignalList .emptyList span{
+  @apply text-[14px] leading-5 text-[#333]
+ }
+ .ModalSignalList .emptyList span em{
+  @apply not-italic text-[#5368ff]
+ }
  .ModalSignalList .date{
   @apply w-full h-[34px] leading-6 pb-2.5 text-[16px] font-medium text-[#5368ff] border-b-[1px] border-[#999] mb-[3px]
  }
