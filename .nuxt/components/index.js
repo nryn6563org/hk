@@ -4,6 +4,11 @@ export { default as DefaultHeader } from '../../components/DefaultHeader.vue'
 export { default as ModalWrap } from '../../components/ModalWrap.vue'
 export { default as SampleComp } from '../../components/SampleComp.vue'
 export { default as SubHeader } from '../../components/SubHeader.vue'
+export { default as IssueCatchAlarm } from '../../components/IssueCatch/CatchAlarm.vue'
+export { default as IssueCatchContentFour } from '../../components/IssueCatch/ContentFour.vue'
+export { default as IssueCatchContentOne } from '../../components/IssueCatch/ContentOne.vue'
+export { default as IssueCatchQuickIssue } from '../../components/IssueCatch/QuickIssue.vue'
+export { default as IssueCatchTodayIssue } from '../../components/IssueCatch/TodayIssue.vue'
 export { default as SignalCatchTab } from '../../components/SignalCatch/CatchTab.vue'
 export { default as SignalCatchTabNotJoin } from '../../components/SignalCatch/CatchTabNotJoin.vue'
 export { default as SignalCatchContentThree } from '../../components/SignalCatch/ContentThree.vue'
@@ -20,11 +25,6 @@ export { default as SignalList } from '../../components/SignalCatch/SignalList.v
 export { default as SignalCatchTimingAlarm } from '../../components/SignalCatch/TimingAlarm.vue'
 export { default as SignalCatchTradingSignal } from '../../components/SignalCatch/TradingSignal.vue'
 export { default as SignalCatchTradingSignal2 } from '../../components/SignalCatch/TradingSignal2.vue'
-export { default as IssueCatchAlarm } from '../../components/IssueCatch/CatchAlarm.vue'
-export { default as IssueCatchContentFour } from '../../components/IssueCatch/ContentFour.vue'
-export { default as IssueCatchContentOne } from '../../components/IssueCatch/ContentOne.vue'
-export { default as IssueCatchQuickIssue } from '../../components/IssueCatch/QuickIssue.vue'
-export { default as IssueCatchTodayIssue } from '../../components/IssueCatch/TodayIssue.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

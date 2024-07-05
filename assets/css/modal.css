@@ -506,7 +506,7 @@
   @apply border-[#666] text-[#666]
  }
  .isa_modal .s_rcv{
-  @apply w-[calc(100%-40px)] mx-auto rounded-[10px] h-[75px] flex gap-5 items-center bg-[#F2EB21] px-5 mt-2.5
+  @apply w-[calc(100%-40px)] mx-auto rounded-[10px] h-[75px] flex gap-5 items-center bg-[#F2EB21] p-[0_10px_0_20px] mt-2.5
  }
  .isa_modal .s_rcv > div{
   @apply w-[calc(100%-55px)] flex flex-col 
