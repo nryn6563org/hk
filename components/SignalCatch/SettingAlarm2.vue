@@ -348,7 +348,7 @@
                 <div class="top">
                   <div class="time">09:10</div>
                   <div class="tag">
-                    <span>#거래량급등</span><span>#시장특징주</span>
+                    <span>#거래량급등</span>
                   </div>
                 </div>
                 <!-- top -->
@@ -362,7 +362,6 @@
                     <span class="price">
                       매수가 <em>2,093,000원</em>
                     </span>
-                    <span class="per up">+123.5%</span>
                   </div>
                   <!--  -->
                 </div>
@@ -388,7 +387,6 @@
                     <span class="price">
                       매수가 <em>2,093,000원</em>
                     </span>
-                    <span class="per up">+123.5%</span>
                   </div>
                   <!--  -->
                 </div>
@@ -420,7 +418,6 @@
                     <span class="price">
                       매수가 <em>2,093,000원</em>
                     </span>
-                    <span class="per up">+123.5%</span>
                   </div>
                   <!--  -->
                 </div>
@@ -446,7 +443,6 @@
                     <span class="price">
                       매수가 <em>2,093,000원</em>
                     </span>
-                    <span class="per up">+123.5%</span>
                   </div>
                   <!--  -->
                 </div>

@@ -68,5 +68,5 @@
   @apply top-[-119px] right-[40px] z-[60]
 }
 #itemSignalAlarm .alarm_list_box .txt-bubble.inbox{
-  @apply bottom-[54px] right-[-18px]
+  @apply bottom-[54px] right-[-18px] text-center
 }

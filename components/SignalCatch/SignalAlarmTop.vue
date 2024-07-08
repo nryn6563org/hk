@@ -29,7 +29,7 @@
     <!-- //tit -->
 
     <div class="almList">
-      <button @click="openModal('itemSearch')">MY 알림</button>
+      <button @click="openModal('itemSearch')">MY알림내역</button>
     </div>
     <!-- alarm List -->
 
@@ -365,7 +365,7 @@
                 <div class="top">
                   <div class="time">09:10</div>
                   <div class="tag">
-                    <span>#거래량급등</span><span>#시장특징주</span>
+                    <span>#거래량급등</span>
                   </div>
                 </div>
                 <!-- top -->
@@ -379,7 +379,6 @@
                     <span class="price">
                       매수가 <em>2,093,000원</em>
                     </span>
-                    <span class="per up">+123.5%</span>
                   </div>
                   <!--  -->
                 </div>
@@ -405,7 +404,6 @@
                     <span class="price">
                       매수가 <em>2,093,000원</em>
                     </span>
-                    <span class="per up">+123.5%</span>
                   </div>
                   <!--  -->
                 </div>
@@ -437,7 +435,6 @@
                     <span class="price">
                       매수가 <em>2,093,000원</em>
                     </span>
-                    <span class="per up">+123.5%</span>
                   </div>
                   <!--  -->
                 </div>
@@ -463,7 +460,6 @@
                     <span class="price">
                       매수가 <em>2,093,000원</em>
                     </span>
-                    <span class="per up">+123.5%</span>
                   </div>
                   <!--  -->
                 </div>
@@ -606,7 +602,7 @@
     <!-- modal -->
 
     <Modal
-      class="alarm_modal"
+      class="alarm_modal rscv_modal"
       :modal-id="'rscvModal'"
       :show-modal="modals.rscvModal"
       :close-modal="() => closeModal('rscvModal')"
@@ -650,7 +646,7 @@
         </div>
         <div class="txt bult">
           <span
-            >매수 신호를 받은 종목은 알림을 꺼도 매도신호를 <br />받을 수
+            >매수 신호를 받은 종목은 알림을 꺼도 매도신호를 받을 수
             있습니다.</span
           >
           <span>감시 대상 종목은 매일 업데이트됩니다. </span>
@@ -697,7 +693,7 @@
             MY알림내역 확인은<br>AI캐치 가입 후 이용가능합니다.
           </strong>
         </div>
-        <div class="txt ta_l">
+        <div class="txt">
           <span>하단의 AI캐치 가입하기 버튼을 클릭해주세요.</span>
         </div>
       </template>

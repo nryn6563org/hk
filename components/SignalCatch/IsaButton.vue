@@ -37,7 +37,7 @@
         <div class="title">
           <strong>알림신청은 <br> AI캐치 가입 후 이용가능합니다.</strong>
         </div>
-        <div class="txt ta_l">
+        <div class="txt ta_c">
           <span
             >하단의 AI캐치 가입하기 버튼을 클릭해주세요.
           </span>

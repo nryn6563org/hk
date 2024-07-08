@@ -212,29 +212,7 @@
 
               <div class="stg-alarm-item">
                 <div class="tit">
-                  <span v-html="item.title"></span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                  >
-                    <path
-                      d="M5.5 5.5L11 11L5.5 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M11.917 5.5L17.417 11L11.917 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                  <span><em>백발백중 AI</em> 적중률 상위  종목 신호 알림</span>
                 </div>
                 <div class="btn">
                   <button :class="{active: isModalActive}" @click="tglModalBtn">알림활성화</button>
@@ -367,29 +345,7 @@
 
               <div class="stg-alarm-item">
                 <div class="tit">
-                  <span v-html="item.title"></span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                  >
-                    <path
-                      d="M5.5 5.5L11 11L5.5 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M11.917 5.5L17.417 11L11.917 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                  <span>심층 분석 <em>목표가 상향</em> 종목 신호 알림</span>
                 </div>
                 <div class="btn">
                   <button :class="{active: isModalActive}" @click="tglModalBtn">알림활성화</button>
@@ -493,29 +449,7 @@
 
               <div class="stg-alarm-item">
                 <div class="tit">
-                  <span v-html="item.title"></span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                  >
-                    <path
-                      d="M5.5 5.5L11 11L5.5 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M11.917 5.5L17.417 11L11.917 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                  <span>BIG 수익 <em>변동성 상위</em> 종목 신호 알림</span>
                 </div>
                 <div class="btn">
                   <button :class="{active: isModalActive}" @click="tglModalBtn">알림활성화</button>
@@ -619,29 +553,7 @@
 
               <div class="stg-alarm-item">
                 <div class="tit">
-                  <span v-html="item.title"></span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                  >
-                    <path
-                      d="M5.5 5.5L11 11L5.5 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M11.917 5.5L17.417 11L11.917 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                  <span><em>수급 포착</em> 주요 기관 순매수 상위 신호 알림</span>
                 </div>
                 <div class="btn">
                   <button :class="{active: isModalActive}" @click="tglModalBtn">알림활성화</button>
@@ -746,29 +658,7 @@
 
               <div class="stg-alarm-item">
                 <div class="tit">
-                  <span v-html="item.title"></span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                  >
-                    <path
-                      d="M5.5 5.5L11 11L5.5 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M11.917 5.5L17.417 11L11.917 16.5"
-                      stroke="#999999"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                  <span><em>저가 선매수</em> 거래량 폭발 종목 신호알림</span>
                 </div>
                 <div class="btn">
                   <button :class="{active: isModalActive}" @click="tglModalBtn">알림활성화</button>
