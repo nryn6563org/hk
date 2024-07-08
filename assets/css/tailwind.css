@@ -18,10 +18,6 @@ body.modal-open{
 input{
   @apply focus:outline-none active:outline-none hover:outline-none
 }
-html,body{
-  @apply overflow-x-hidden
-}
-
 
 table{
   @apply border-separate !important
