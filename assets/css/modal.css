@@ -390,6 +390,12 @@
   @apply pl-5 leading-5 min-h-[20px] w-full flex gap-2 text-[14px] text-[#666] not-italic
   before:content-['\00b7'] before:text-[20px] before:font-bold before:text-[#999]
 }
+.aiCatchsv .modal-content .modal-body .cont .txt-normal{
+  @apply flex gap-[5px] before:content-['\00b7'] before:block before:leading-5 before:text-[#999] before:text-[20px] before:font-bold px-1.5
+}
+.aiCatchsv .modal-content .modal-body .cont .txt-normal span{
+  @apply text-[13px] text-[#999] leading-[20px]
+}
 .aiCatchsv .modal-content .modal-body .cont .txt-guide{
   @apply w-full before:content-['\00b7'] before:text-[20px] before:font-bold flex gap-[3px] items-start text-[13px] text-[#999] leading-[17px]
 }
