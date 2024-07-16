@@ -391,7 +391,7 @@
   before:content-['\00b7'] before:text-[20px] before:font-bold before:text-[#999]
 }
 .aiCatchsv .modal-content .modal-body .cont .txt-normal{
-  @apply flex gap-[5px] before:content-['\00b7'] before:block before:leading-5 before:text-[#999] before:text-[20px] before:font-bold px-1.5  pb-5
+  @apply flex gap-[5px] before:content-['\00b7'] before:block before:leading-5 before:text-[#999] before:text-[20px] before:font-bold pb-5
 }
 .aiCatchsv .modal-content .modal-body .cont .txt-normal span{
   @apply text-[13px] text-[#999] leading-[20px]
