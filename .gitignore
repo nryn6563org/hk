@@ -231,3 +231,5 @@ yarn-error.log
 .eslintcache
 
 # End of https://www.toptal.com/developers/gitignore/api/node,nuxtjs,vuejs,yarn,macos,visualstudiocode!/pages/trading.vue
+
+yarn.lock
