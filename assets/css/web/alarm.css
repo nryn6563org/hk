@@ -48,7 +48,7 @@
   @apply w-[calc(100%-171px)] text-[12px] text-[#5539d1] truncate tracking-[-0.24px]
 }
 .alarmBox > .listw .list .bullet{
-  @apply rounded-[99px] w-[60px] h-[24px] flex justify-center items-center border-[1px] text-[12px] font-medium
+  @apply rounded-[99px] w-[60px] h-[24px] flex justify-center items-center border-[1px] text-[12px] font-medium border-[#666] relative text-[#666]
 }
 .alarmBox > .listw .list .bullet.bu1{
   @apply border-[#E81A1A] text-[#E81A1A]

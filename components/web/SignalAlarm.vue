@@ -34,7 +34,7 @@
               <div class="list">
                 <span class="obj">삼성전자가나다라마바사1234</span>
                 <span class="info">#적중률 : 98%</span>
-                <span class="bullet bu1">오늘매수</span>
+                <span class="bullet">****</span>
               </div>
               <!--  -->
               <div class="list">
