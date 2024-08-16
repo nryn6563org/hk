@@ -1,0 +1,153 @@
+.linear-bg{
+  background: linear-gradient(
+    180deg,
+    #3c489d 51%,
+    rgba(4, 122, 122, 0.25) 100%
+  )
+}
+
+.today-section-01{
+  @apply h-[523px] relative overflow-hidden
+}
+.today-section-01 .top{
+  @apply flex w-full h-[114px] flex-col mt-[30px] items-center gap-2.5 text-center
+}
+.today-section-01 .top strong{
+  @apply leading-[31px] text-[24px] text-white font-bold
+}
+.today-section-01 .top span{
+  @apply leading-[21px] text-white text-[14px]
+}
+.today-section-01 .visual{
+  @apply relative w-full h-[360px] mt-5
+}
+.today-section-01 .visual .tip{
+  @apply px-[25px] pt-3 h-[104px] w-[260px] bg-[url('~/assets/img/todayTipMsg.png')] bg-no-repeat bg-cover mx-auto text-white text-[14px] leading-[21px]
+}
+.today-section-01 .visual .tip em{
+  @apply text-[#fbff37] not-italic
+}
+.today-section-01 .visual .img{
+  @apply absolute bottom-8 left-[50px] transition-[bottom] duration-500 ease-in-out mt-[5px]
+}
+.today-section-01 .visual .img.down{
+  @apply bottom-[-65px]
+}
+
+.today-section-02{
+  @apply w-full py-10 px-8
+}
+.today-section-02 .top{
+  @apply w-full flex flex-col gap-2.5 text-center items-center
+}
+.today-section-02 .top strong{
+  @apply leading-[31px] text-[24px] text-[#5368ff] font-bold
+}
+.today-section-02 .top span{
+  @apply leading-[21px] text-[#333] text-[14px]
+}
+.today-section-02 .visual{
+  @apply w-full flex flex-col items-center mt-5
+}
+.today-section-02 .visual .tip{
+  @apply w-[253px] h-[105px] bg-[url('~/assets/img/todayTipMsgLeft.png')] bg-no-repeat bg-cover pt-3 px-7 text-white text-[14px] leading-[21px] z-20
+}
+.today-section-02 .visual .tip em{
+  @apply text-[#fbff37] not-italic
+}
+.today-section-02 .visual .img{
+  @apply relative top-[-20px]
+}
+
+.today-section-03{
+  @apply w-full py-10 bg-[#EFF4FF]
+}
+.today-section-03 .top{
+  @apply w-full flex flex-col gap-2.5 text-center items-center
+}
+.today-section-03 .top strong{
+  @apply leading-[31px] text-[24px] text-[#5368ff] font-bold
+}
+.today-section-03 .top span{
+  @apply leading-[21px] text-[#333] text-[14px]
+}
+.today-section-03 .top span em{
+  @apply font-bold opacity-80 not-italic
+}
+.today-section-03 .visual{
+  @apply w-full flex justify-center mt-5
+}
+
+.today-section-04{
+  @apply w-full py-10 relative
+}
+.today-section-04 .top{
+  @apply w-full flex flex-col gap-2.5 text-center items-center
+}
+.today-section-04 .top strong{
+  @apply leading-[31px] text-[24px] text-[#5368ff] font-bold
+}
+.today-section-04 .top span{
+  @apply leading-[21px] text-[#333] text-[14px]
+}
+.today-section-04 .top span em{
+  @apply font-bold opacity-80 not-italic
+}
+.today-section-04 .almList{
+  @apply flex w-[270px] flex-col gap-[15px] mt-[30px] mx-auto
+}
+.today-section-04 .almList > div{
+  @apply w-full flex gap-[15px] pb-[15px] border-b-[1px] border-[#eee] px-[5px] items-center
+}
+.today-section-04 .almList > div .bullet{
+  @apply w-[50px] h-[50px] flex rounded-full bg-[#bdbdbd] items-center justify-center text-[14px] text-white font-medium tracking-[-0.35px] leading-[18px] text-center
+}
+.today-section-04 .almList > div.on .bullet{
+  @apply bg-[#5368ff] font-bold
+}
+.today-section-04 .almList > div .alm_txt{
+  @apply w-[calc(100%-65px)] flex flex-col gap-2
+}
+.today-section-04 .almList > div .alm_txt span{
+  @apply w-full text-[14px] text-[#666] h-[18px] leading-[18px]
+}
+.today-section-04 .almList > div.on .alm_txt span{
+  @apply text-[#5368ff]
+}
+.today-section-04 .almList > div.on .alm_txt span:last-child{
+  @apply font-bold
+}
+.today-section-04 .almList > div .alm_txt span:first-child{
+  @apply bg-[url('~/assets/img/bu_alm.png')] bg-no-repeat bg-[length:18px_13px] bg-[left_50%] pl-[26px]
+}
+.today-section-04 .almList > div.on .alm_txt span:first-child{
+  @apply bg-[url('~/assets/img/bu_alm_on.png')]
+}
+.today-section-04 .visual{
+  @apply mt-10 w-full h-[322px] relative p-[86px_0_0_123px] bg-[url('~/assets/img/todayTipAlm.png')] bg-no-repeat bg-[length:220px_322px] bg-[40px_top]
+}
+.today-section-04 .visual .img02{
+  @apply block
+}
+
+.today-section-05{
+  @apply bg-[#eff4ff] w-full relative p-[40px_20px_80px]
+}
+.today-section-05 .title{
+  @apply w-full flex justify-center gap-[7px] items-center text-[#5368ff] text-[24px] font-bold
+}
+.today-section-05 .videoList{
+  @apply w-full flex flex-col items-center gap-5 mt-[30px]
+}
+.today-section-05 .videoList div{
+  @apply rounded-[7px] flex w-[260px] overflow-hidden relative
+}
+.today-section-05 .videoList div.empty{
+  @apply after:absolute after:w-full after:h-full after:bg-gray-700 after:bg-opacity-90 after:content-['화면준비중입니다.'] after:text-white after:text-[14px] after:font-bold after:flex after:justify-center after:items-center
+}
+.today-section-05 .btn-box{
+  @apply w-full mt-10
+}
+.today-section-05 .btn-box button{
+  @apply w-full h-[46px] flex justify-center items-center rounded-[6px] bg-[#5368ff] text-[18px] font-bold text-white
+}

@@ -1,0 +1,24 @@
+.signalAlm{
+  @apply flex w-full h-[43px] bg-black rounded-[12px] px-4 justify-between items-center mt-[30px]
+}
+.signalAlm > span{
+  @apply flex gap-1 text-[15px] font-bold text-white
+}
+.signalAlm > span em{
+  @apply not-italic text-[#F3EB21]
+}
+.signalAlm > div{
+  @apply flex gap-2
+}
+.signalAlm > div .almToggle{
+  @apply w-[45px] h-[27px] rounded-full bg-[#656565] block indent-[-9999em] border-0 relative
+  after:content-[''] after:w-[21px] after:h-[21px] after:absolute after:top-[3px] after:left-[3px]
+  after:rounded-full after:bg-[#ababab] after:transition-all after:duration-500
+  !important
+}
+.signalAlm > div .almToggle.active{
+  @apply after:bg-white after:left-[21px] bg-[#5368FF] !important
+}
+.signalAlm > div .setting{
+  @apply w-[72px] h-[27px] bg-[#656565] rounded-full flex justify-center items-center text-[13px] text-white border-0 !important
+}

@@ -1,0 +1,93 @@
+html,body{
+  @apply h-full
+}
+#__nuxt,#__layout,#web{
+  @apply h-full
+}
+#web *{
+  @apply !font-noto
+}
+#web em{
+  @apply not-italic
+}
+#webContainer{
+  @apply w-full min-h-[calc(100%-725px)] flex justify-center
+}
+#webContainer #content{
+  @apply w-[1200px]
+}
+#content.main{
+  @apply flex flex-col gap-[30px] pb-[60px] pt-[30px]
+}
+
+#content.main section{
+  @apply w-full
+}
+#content.main section .sec_tit{
+  @apply flex w-full h-[30px] gap-[30px] items-center
+}
+#content.main section .sec_tit strong{
+  @apply text-[20px] font-bold text-black
+}
+#content.main section .sec_tit span{
+  @apply text-[16px] text-[#666]
+}
+
+.aplyCatch{
+  @apply pt-5 w-full flex
+}
+.aplyCatch .appInstall{
+  @apply w-[280px] h-[397px] bg-[#E2E9F9] p-[25px_20px] flex flex-col justify-between
+}
+.aplyCatch .appInstall div{
+  @apply w-full flex flex-wrap gap-x-[17px] gap-y-[10px]
+}
+.aplyCatch .appInstall div strong{
+  @apply w-full leading-[27px] text-[18px] font-bold text-black
+}
+.aplyCatch .appInstall div a{
+  @apply text-[16px] text-[#666] leading-6
+}
+
+#web .modal{
+  @apply max-w-[100%] left-0 ml-0
+}
+#web .modal .modal-content{
+  @apply bg-[#F2F6FF] border-[1px] border-[#A8ABBF] rounded-none
+}
+#web .modal .modal-content .modal-header{
+  @apply absolute top-3 right-4 w-fit h-fit border-0
+}
+.webModal{
+  @apply w-[340px] px-4 overflow-hidden flex flex-col gap-2.5
+}
+.webModal .top{
+  @apply pt-9 w-full flex flex-col items-center
+}
+.webModal .top strong{
+  @apply leading-[27px] text-[18px] text-black font-bold text-center
+}
+.webModal .top span{
+  @apply pt-[13px] leading-[22px] text-[15px] tracking-[-0.3px] text-[#333] text-center
+}
+.webModal .top span em{
+  @apply text-[#4D0FFF] font-bold
+}
+.webModal .top > em{
+  @apply pt-[5px] leading-[22px] text-[15px] text-[#4d0fff] tracking-[-0.3px] text-center
+}
+.webModal .bnr{
+  @apply bg-transparent w-full h-fit p-0
+}
+#web .modal .modal-content .modal-footer{
+  @apply w-full py-5 px-4
+}
+#web .modal .modal-content .modal-footer button{
+  @apply flex flex-col justify-center items-center w-full h-[55px] bg-[#5368ff] rounded-[6px]
+}
+#web .modal .modal-content .modal-footer button span{
+  @apply text-[14px] leading-[21px] text-white
+}
+#web .modal .modal-content .modal-footer button em{
+  @apply text-[16px] leading-6 text-[#f3eb21] font-bold
+}

@@ -1,0 +1,70 @@
+.alarm{
+  @apply w-full pt-5 relative
+}
+
+.alarmList{
+  @apply w-[1130px] mx-auto pb-5 px-[15px] relative
+}
+.alarmBox{
+  @apply w-[340px] h-[507px] rounded-[12px] p-[20px_15px] bg-white border-[1px] border-[#ddd] shadow-web
+  flex flex-col items-center
+}
+.alarmBox > .bullet{
+  @apply w-[80px] h-[35px] rounded-[99px] bg-[#3954ff] leading-[33px] text-center text-white font-bold text-[20px]
+}
+.alarmBox > .title{
+  @apply w-full mt-[15px] leading-[25px] text-center text-[20px] font-bold text-black
+}
+.alarmBox > .title em{
+  @apply text-[#e82a39]
+}
+.alarmBox > .alarmChk{
+  @apply w-full h-[44px] px-2.5 rounded-[8px] bg-black flex justify-between items-center mt-[15px]
+}
+.alarmBox > .alarmChk span{
+  @apply text-white text-[14px] tracking-[-0.28px] font-medium
+}
+.alarmBox > .alarmChk span em{
+  @apply text-[#F3EB21] font-bold
+}
+.alarmBox > .alarmChk button{
+  @apply w-[40px] h-6 bg-[#666] relative rounded-[99px] transition-all duration-150
+  after:content-[''] after:w-[20px] after:h-[20px] after:rounded-full after:z-10 after:bg-[#ababab] 
+  after:absolute after:top-[2px] after:right-[18px] after:transition-all after:duration-150
+}
+.alarmBox > .alarmChk button.active{
+  @apply bg-[#5368ff] after:bg-white after:right-[2px]
+}
+.alarmBox > .listw{
+  @apply w-full flex flex-col gap-[6px] mt-5
+}
+.alarmBox > .listw .list{
+  @apply w-full border-[1px] border-[#ededed] rounded-[8px] h-[44px] flex gap-1 items-center px-2.5
+}
+.alarmBox > .listw .list .obj{
+  @apply w-[103px] text-[14px] text-[#141414] truncate
+}
+.alarmBox > .listw .list .info{
+  @apply w-[calc(100%-171px)] text-[12px] text-[#5539d1] truncate tracking-[-0.24px]
+}
+.alarmBox > .listw .list .bullet{
+  @apply rounded-[99px] w-[60px] h-[24px] flex justify-center items-center border-[1px] text-[12px] font-medium
+}
+.alarmBox > .listw .list .bullet.bu1{
+  @apply border-[#E81A1A] text-[#E81A1A]
+}
+.alarmBox > .listw .list .bullet.bu2{
+  @apply border-[#225CFF] text-[#225CFF]
+}
+.alarmBox > .listw .list .bullet.bu3{
+  @apply border-[#3578A8] text-[#3578A8]
+}
+.alarmBox > button{
+  @apply w-full h-[44px] mt-5 flex justify-center items-center border-[1px] border-[#3954ff] rounded-[8px] text-[16px] text-[#3954ff] font-medium
+}
+.alarm-next{
+  @apply absolute top-[50%] right-[-20px] z-10 bg-white mt-[-25px]
+}
+.alarm-prev{
+  @apply absolute top-[50%] left-[-20px] z-10 bg-white mt-[-25px]
+}

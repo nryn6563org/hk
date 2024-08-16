@@ -1,0 +1,37 @@
+.timingAlarm{
+  @apply w-[calc(100%-40px)] m-[10px_auto_10px] bg-[#7145ce] relative rounded-[15px] p-[20px_20px_15px]
+}
+.timingAlarm > .txt{
+  @apply flex flex-col w-full h-[128px] gap-[15px] bg-[url('~/assets/img/bg-alarm.png')] bg-no-repeat bg-[100%_56px] bg-[length:81px_72px]
+}
+.timingAlarm > .txt .tit{
+  @apply w-full leading-[27px] text-[20px] text-white font-bold
+}
+.timingAlarm > .txt .tit em{
+  @apply block w-full text-[#f7ff98] not-italic
+}
+.timingAlarm .con{
+  @apply block w-full text-white leading-6 text-[16px] font-medium
+}
+
+.timingAlarm > .timingList{
+  @apply w-full bg-white rounded-[8px] mt-[10px] p-[14px_17px] h-[84px]
+}
+.timingAlarm > .timingList .swiper-slide{
+  @apply flex w-full h-[21px] items-center gap-2
+}
+.timingAlarm > .timingList .swiper-slide .txt{
+  @apply flex gap-2 w-[calc(100%-100px)] items-center
+}
+.timingAlarm > .timingList .swiper-slide .txt em{
+  @apply not-italic w-10 text-[14px] text-[#666] text-center
+}
+.timingAlarm > .timingList .swiper-slide .txt span{
+  @apply w-[100px] truncate text-[15px] text-[#141414] font-medium
+}
+.timingAlarm > .timingList .swiper-slide .per{
+  @apply w-[100px] h-[21px] leading-[21px] rounded-[4px] bg-[#fdecec] text-[#E81A1A] text-[11px] font-medium text-center
+}
+.timingAlarm > button{
+  @apply absolute top-5 right-4 w-[78px] h-6 rounded-full bg-[#451e99] flex items-center justify-center text-[13px] text-white font-medium
+}

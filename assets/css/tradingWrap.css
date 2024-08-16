@@ -1,0 +1,150 @@
+.trading_tab{
+    @apply w-full flex p-[20px_20px_27px] bg-[#333340] relative
+    after:content-[''] after:w-[calc(100%-40px)] after:h-10 after:bg-[#5F5F71] after:absolute after:top-5 after:left-5 after:rounded-[6px] z-10
+}
+.trading_tab button{
+    @apply flex w-1/2 h-10 justify-center items-center text-[14px] text-white text-opacity-80 z-20 rounded-[6px]
+}
+.trading_tab button:first-child.active{
+    @apply bg-[#E81A1A] text-opacity-100 font-bold
+}
+.trading_tab button:last-child.active{
+    @apply bg-[#8A4AF2] text-opacity-100 font-bold
+}
+.trading_tabContent{
+    @apply relative block w-full
+}
+.trading_tabContent .emptyTrading{
+    @apply block bg-white p-[30px_20px_40px] w-full
+}
+.trading_tabContent .signalItemList{
+    @apply block bg-[#f8f8f8] p-[30px_15px_40px] w-full
+}
+
+.trading_tabContent .emptyTrading .top{
+    @apply flex flex-col items-center
+}
+.trading_tabContent .emptyTrading .top .title{
+    @apply text-center
+}
+.trading_tabContent .emptyTrading .top .title strong{
+    @apply text-[18px] text-[#333] font-bold leading-[25px]
+}
+.trading_tabContent .emptyTrading .top .title strong em{
+    @apply not-italic
+}
+.trading_tabContent .emptyTrading .top .title strong em.up{
+    @apply text-[#e81a1a]
+}
+.trading_tabContent .emptyTrading .top .title strong em.dn{
+    @apply text-[#8A4AF2]
+}
+.trading_tabContent .emptyTrading .top .visual{
+    @apply flex flex-col items-center mt-4 w-full gap-[1px]
+}
+.trading_tabContent .emptyTrading .top .visual span{
+    @apply pt-2 text-[13px] text-[#666] leading-5
+}
+.trading_tabContent .emptyTrading .monthTopList{
+    @apply w-full flex flex-col gap-2.5 mt-10
+}
+.trading_tabContent .emptyTrading .monthTopList strong{
+    @apply block leading-6 text-[16px] text-[#141414] font-medium
+}
+.trading_tabContent .emptyTrading .monthTopList table{
+    @apply w-full border-t-[1px] border-[#8c8c8c] border-spacing-0
+}
+.trading_tabContent .emptyTrading .monthTopList table thead tr th{
+    @apply h-[34px] border-l-[1px] border-[#f0f0f0] bg-[#fafafa] text-[12px] text-black text-opacity-60
+}
+.trading_tabContent .emptyTrading .monthTopList table thead tr th:first-child{
+    @apply border-none
+}
+.trading_tabContent .emptyTrading .monthTopList table tbody tr:first-child td{
+    @apply border-t-[1px] border-[#dcdcdc]
+}
+.trading_tabContent .emptyTrading .monthTopList table tbody tr td{
+    @apply h-10 border-b-[1px] border-[#f0f0f0]
+}
+.trading_tabContent .emptyTrading .monthTopList table tbody tr td:first-child{
+    @apply text-[#333] text-[14px]
+}
+.trading_tabContent .emptyTrading .monthTopList table tbody tr td:first-child span{
+    @apply block w-[115px] truncate px-1
+}
+.trading_tabContent .emptyTrading .monthTopList.hotisu table tbody tr td:first-child span{
+    @apply w-[98px]
+}
+.trading_tabContent .emptyTrading .monthTopList table tbody tr td:nth-child(2){
+    @apply text-[#666] text-[13px] text-center
+}
+.trading_tabContent .emptyTrading .monthTopList.hotisu table tbody tr td:nth-child(2) span{
+    @apply block w-[73px] truncate
+}
+.trading_tabContent .emptyTrading .monthTopList table tbody tr td:nth-child(3){
+    @apply text-[#666] text-[13px] text-center
+}
+.trading_tabContent .emptyTrading .monthTopList table tbody tr td:last-child{
+    @apply text-[#e81a1a] text-[14px] text-right px-1
+}
+
+.trading_tabContent .signalItemList .title{
+    @apply flex flex-col w-full items-center gap-[6px] text-center
+}
+.trading_tabContent .signalItemList .title strong{
+    @apply text-[18px] text-[#333] font-bold block leading-6
+}
+.trading_tabContent .signalItemList .title strong em{
+    @apply not-italic
+}
+.trading_tabContent .signalItemList .title strong em.up{
+    @apply text-[#e81a1a]
+}
+.trading_tabContent .signalItemList .title strong em.dn{
+    @apply text-[#8A4AF2]
+}
+.trading_tabContent .signalItemList .title span{
+    @apply text-[15px] text-[#292929] block leading-[22px]
+}
+
+.trading_tabContent .signalItemList .txtguide{
+    @apply w-full block bg-[#f0f0f0] p-[7px_10px] text-center text-[13px] leading-5 text-[#666] mt-2.5
+}
+
+.trading_tabContent .signalItemList .signalGen{
+    @apply block w-full mt-[30px]
+}
+.trading_tabContent .signalItemList .signalGen > span{
+    @apply block w-full leading-6 text-[16px] font-medium px-[6px]
+}
+.trading_tabContent .signalItemList .signalGen .genList{
+    @apply flex flex-col gap-3 w-full bg-white rounded-[12px] mt-2.5 p-[20px_15px]
+}
+.trading_tabContent .signalItemList .signalGen .genList > div{
+    @apply flex justify-between w-full pb-3 border-b-[1px] border-[#f5f5f5]
+}
+.trading_tabContent .signalItemList .signalGen .genList > div:last-child{
+    @apply pb-0 border-none
+}
+.trading_tabContent .signalItemList .signalGen .genList > div div.obj{
+    @apply flex gap-[7px] h-6 items-center
+}
+.trading_tabContent .signalItemList .signalGen .genList > div div.obj span{
+    @apply block w-fit max-w-[133px] truncate text-[16px] font-medium text-[#333]
+}
+.trading_tabContent .signalItemList .signalGen.isu .genList > div div.obj span{
+    @apply max-w-[110px]
+}
+.trading_tabContent .signalItemList .signalGen.isu .genList > div div.obj .tag{
+    @apply flex w-[85px] h-[21px] items-center justify-center rounded-[4px] bg-[#eeedff]
+    text-[12px] text-[#6f68ef] font-medium truncate
+}
+.trading_tabContent .signalItemList .signalGen .genList > div div.obj em{
+    @apply not-italic text-[13px] text-[#666] font-normal
+}
+.trading_tabContent .signalItemList .signalGen .genList > div .price{
+    @apply block w-fit text-[14px] text-[#333] font-normal
+}
+.trading_tabContent .signalItemList .signalGen .genList > div .price.up{
+    @apply text-[#E81A1A]
+}

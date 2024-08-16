@@ -1,0 +1,30 @@
+.bnr{
+  @apply w-[370px] h-[400px] rounded-[12px] bg-[#f0f2fd] px-[15px]
+}
+.Sbnr{
+  @apply h-full
+}
+.Sbnr .swiper-slide{
+  @apply w-full h-full flex flex-col gap-[15px] pb-[48px] justify-center
+}
+.Sbnr .swiper-slide .top{
+  @apply w-full flex flex-col justify-between items-center h-[calc(100%-197px)]
+}
+.Sbnr .swiper-slide .top strong{
+  @apply text-[22px] font-bold text-[#141414] leading-[33px] text-center
+}
+.Sbnr .swiper-slide .top strong em{
+  @apply text-[#3954FF]
+}
+.Sbnr .swiper-slide .top span{
+  @apply text-[#3954ff] text-center text-[14px] leading-[21px]
+}
+.Sbnr .swiper-pagination{
+  @apply flex justify-center items-center py-5 bottom-0
+}
+.Sbnr .swiper-pagination .swiper-pagination-bullet{
+  @apply bg-[#d9d9d9] opacity-100
+}
+.Sbnr .swiper-pagination .swiper-pagination-bullet-active{
+  @apply bg-[#666D7E]
+}

@@ -1,0 +1,137 @@
+#racingChartW {
+    @apply fixed top-1/2 left-1/2 w-[1980px] h-[1080px] bg-black border-[5px]
+    border-[#a6a6a6] mx-auto p-[50px]
+}
+
+.racing {
+    @apply relative w-full h-full border-[1px] border-[#a6a6a6] bg-[#2b2b36]  p-[50px_90px_0] flex flex-col gap-[50px] items-center
+}
+
+.racing > .top {
+    @apply w-full bg-black rounded-[30px] h-[100px] px-6 justify-between items-center flex
+}
+.racing > .top > div{
+    @apply flex h-[100px] items-center
+}
+.racing > .top > div > span {
+    @apply text-[38px] font-bold text-white pl-6
+}
+.racing > .top > div > span em {
+    @apply text-[33px] font-medium text-[#999] not-italic pl-5
+}
+
+.racing > .top.v2 {
+    @apply w-full bg-black rounded-[30px] h-[100px] px-6 justify-center items-center flex
+}
+.racing > .top.v2 > div{
+    @apply flex w-full h-[100px] justify-center items-center relative
+}
+.racing > .top.v2 > div > strong{
+    @apply text-[45px] leading-[60px] text-white font-bold
+}
+.racing > .top.v2 > div > span{
+    @apply absolute top-7 right-6 h-[44px]  flex gap-5
+}
+.racing > .top.v2 > div > span em{
+    @apply pl-0
+}
+
+
+
+.racing > .top > div > .bullet-txt{
+    @apply flex gap-[30px] pr-10
+}
+.racing > .top > div > .bullet-txt span{
+    @apply flex gap-[5px] items-center text-[30px] text-[#999]
+    before:block before:content-[''] before:w-7 before:h-7 before:rounded-full
+}
+.racing > .top > div > .bullet-txt span.up{
+    @apply before:bg-[#EB9494]
+}
+.racing > .top > div > .bullet-txt span.dn{
+    @apply before:bg-[#8DA7EA]
+}
+
+.racing > .top > div > button {
+    @apply w-[225px] h-[70px] flex justify-center items-center rounded-[20px] border-[3px] border-[#5368ff] gap-6
+}
+
+.racing > .top > div > button span {
+    @apply text-[35px] font-medium text-white
+}
+.racing > .chart {
+    @apply px-[67px] relative
+}
+.racing > .chart > .chart-bullet-txt{
+    @apply text-[24px] text-[#999] absolute bottom-10 right-[67px]
+}
+
+.racing > .chart > .chartBullet{
+    @apply absolute bottom-[110px] right-[60px] flex flex-col gap-5
+}
+.racing > .chart > .chartBullet > .bullet-txt{
+    @apply flex justify-between
+}
+.racing > .chart > .chartBullet > .bullet-txt span{
+    @apply flex gap-[5px] items-center text-[30px] text-[#999]
+    before:block before:content-[''] before:w-7 before:h-7 before:rounded-full
+}
+.racing > .chart > .chartBullet > .bullet-txt span.up{
+    @apply before:bg-[#EB9494]
+}
+.racing > .chart > .chartBullet > .bullet-txt span.dn{
+    @apply before:bg-[#8DA7EA]
+}
+.racing > .chart > .chartBullet > button {
+    @apply w-[200px] h-[70px] flex justify-center items-center rounded-[20px] border-[3px] border-[#5368ff] gap-6
+}
+.racing > .chart > .chartBullet > button span {
+    @apply text-[35px] font-medium text-white
+}
+
+
+
+.dropdownBox {
+    @apply absolute top-[163px] right-[110px] bg-white rounded-[16px] w-[500px] h-[500px] z-50
+}
+
+.dropdownBox > .top {
+    @apply relative flex w-full h-[80px] justify-center items-center
+}
+
+.dropdownBox > .top button {
+    @apply absolute top-5 right-5 w-fit h-fit bg-transparent border-0
+}
+
+.dropdownBox > .top strong {
+    @apply text-[30px] text-black font-bold
+}
+
+.dropdownBox > .dateList {
+    @apply w-full h-[420px] overflow-y-auto
+}
+
+.dropdownBox > .dateList button {
+    @apply flex justify-between w-full h-[80px] items-center px-[30px]
+}
+
+.dropdownBox > .dateList button span {
+    @apply text-[28px] text-black
+}
+
+.dropdownBox > .dateList button svg {
+    @apply hidden
+}
+
+.dropdownBox > .dateList button.active {
+    @apply bg-[#F4F6FD]
+}
+
+.dropdownBox > .dateList button.active span {
+    @apply text-[#2151d1] font-medium
+}
+
+.dropdownBox > .dateList button.active svg {
+    @apply block
+}
+

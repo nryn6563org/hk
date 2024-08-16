@@ -1,0 +1,36 @@
+.boardView{
+  @apply relative w-full
+}
+.boardView .viewTop{
+  @apply w-full p-[24px_20px] bg-[#FAFAFA] relative border-b-[1px] border-[#E5E5E5]
+}
+.boardView .viewTop .title{
+  @apply block w-full pb-2 text-[16px] leading-6 font-medium text-[#141414]
+}
+.boardView .viewTop .date{
+  @apply pt-[6px] w-full flex items-center
+}
+.boardView .viewTop .date span{
+  @apply text-[12px] text-[#969696] leading-[18px]
+}
+.boardView .viewTop .date span:first-child{
+  @apply after:content-[''] after:w-[1px] after:h-[11px] after:bg-[#d7d7d7] after:mx-2 after:block flex items-center
+}
+.boardView .viewTop .btn-group{
+  @apply absolute bottom-6 right-5 flex gap-3
+}
+.boardView .viewTop .btn-group button{
+  @apply w-fit
+}
+.boardView .viewContent{
+  @apply relative w-full p-[20px_20px_40px] text-[15px] text-[#333] leading-[22px]
+}
+.boardView .viewBtm{
+  @apply w-full h-[160px] bg-[#fafafa] p-5 flex flex-col pb-[60px]
+}
+.boardView .viewBtm strong{
+  @apply text-[12px] font-medium text-[#969696] leading-5 h-5
+}
+.boardView .viewBtm span{
+  @apply text-[12px] text-[#969696] leading-5 h-5
+}

@@ -1,0 +1,42 @@
+.signal{
+  @apply w-[790px] relative
+}
+.Slist{
+  @apply pb-[15px]
+}
+.Slist .swiper-wrapper{
+  @apply w-full
+}
+.SlistBox{ 
+  @apply flex flex-col gap-[22px] items-center justify-center w-[250px] h-[400px] p-[25px] border-[1px] border-[#ddd] rounded-[12px] bg-white shadow-web
+}
+.SlistBox .obj{
+  @apply flex w-full flex-col gap-[5px] items-center
+}
+.SlistBox .obj em{
+  @apply h-[19px] leading-[19px] text-[#666] text-[13px]
+}
+.SlistBox .obj strong{
+  @apply h-[30px] text-[20px] text-[#3954ff] font-bold
+}
+.SlistBox .per{
+  @apply w-[165px] h-[165px] mx-auto rounded-full border-[8px] border-[#FBB8B8] flex justify-center items-center text-[28px] text-[#f11212] font-bold
+}
+.SlistBox .price{
+  @apply flex flex-col w-full items-center gap-[5px]
+}
+.SlistBox .price .bullet{
+  @apply h-6 px-[5px] rounded-[3px] border-[1px] border-[#225CFF] text-[13px] font-medium text-[#225CFF] flex justify-center items-center
+}
+.SlistBox .price strong{
+  @apply h-7 flex items-center justify-center text-[18px] text-[#141414] font-bold
+}
+.SlistBox .price em{
+  @apply h-5 flex items-center justify-center text-[14px] text-[#666]
+}
+.signal .signal-next{
+  @apply absolute top-[50%] z-10 mt-[-15px] right-[-15px] w-[30px] h-[30px] bg-[#f5f5f5] rounded-full justify-center items-center after:hidden
+}
+.signal .signal-prev{
+  @apply absolute top-[50%] z-10 mt-[-15px] left-[-15px] w-[30px] h-[30px] bg-[#f5f5f5] rounded-full justify-center items-center after:hidden z-10
+}

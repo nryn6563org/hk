@@ -1,0 +1,115 @@
+
+/* ai catch */
+.web_TodayIssue{
+  @apply w-full flex pt-5
+}
+.web_TodayIssue .racing{
+  @apply flex flex-col w-[830px]
+}
+.web_TodayIssue .racing .top{
+  @apply flex w-full justify-between p-[10px_20px] h-[50px] bg-black items-end relative
+}
+
+.web_TodayIssue .racing .top .tit{
+  @apply flex gap-5 items-end
+}
+.web_TodayIssue .racing .top .tit strong{
+  @apply text-[18px] text-white font-bold
+}
+.web_TodayIssue .racing .top .tit span{
+  @apply flex gap-3 items-end text-[15px] text-[#999] font-medium
+}
+.web_TodayIssue .racing .top .control{
+  @apply flex gap-4 items-center
+}
+.web_TodayIssue .racing .top .control .cht_line_ex{
+  @apply flex gap-4 
+}
+.web_TodayIssue .racing .top .control .cht_line_ex span{
+  @apply before:w-3 before:h-3 before:content-[''] before:rounded-full 
+  flex gap-[5px] items-center text-[14px] text-[#999]
+}
+.web_TodayIssue .racing .top .control .cht_line_ex span.up{
+  @apply before:bg-[#EB9494]
+}
+.web_TodayIssue .racing .top .control .cht_line_ex span.dn{
+  @apply before:bg-[#8DA7EA]
+}
+.web_TodayIssue .racing .top .control .playBtn{
+  @apply w-[75px] h-[30px] flex justify-center items-center gap-2 rounded-[6px] bg-[#3954FF] border-[1px] border-[#5368ff] text-white text-[13px] font-medium
+ }
+ .web_TodayIssue .racing .chart_w{
+  @apply w-full h-[360px] bg-[#151722] relative p-[20px_0_0_30px]
+ }
+ .web_TodayIssue .racing .chart_w .txt{
+  @apply absolute bottom-6 right-8 z-10 text-[14px] text-[#999]
+ }
+ .web_TodayIssue .issue{
+  @apply w-[370px] bg-[#2C2E43]
+ }
+ .web_TodayIssue .issue .top{
+  @apply h-[50px] w-full flex justify-center items-center text-[18px] font-bold text-white bg-[#1F2130]
+ }
+ .web_TodayIssue .issue .issueContent{
+  @apply w-full py-5 h-[360px] flex flex-col gap-[15px]
+ }
+ .web_TodayIssue .issue .issueContent .cont{
+  @apply w-full flex flex-col gap-[15px] overflow-hidden
+ }
+
+.swiper.issueList{
+  @apply flex flex-col px-5 h-[30px]
+}
+.issueList .swiper-wrapper{}
+.issueList .swiper-wrapper .swiper-slide{
+  @apply w-fit p-[5px_10px] rounded-[4px] text-[14px] text-[#333] h-[30px] flex items-center bg-white
+}
+.issueList .swiper-wrapper .swiper-slide.active{
+  @apply bg-[#5368ff] text-white
+}
+.issueList .swiper-pagination{
+  @apply hidden
+}
+.web_TodayIssue .issue .issueContent .cont .tabContent{
+  @apply w-[calc(100%-40px)] mx-auto h-[220px] bg-white rounded-[6px] p-4 
+}
+.web_TodayIssue .issue .issueContent .cont .tabContent .tabCont{
+  @apply w-full flex flex-col gap-2
+}
+.web_TodayIssue .issue .issueContent .cont .tabContent .tabCont .obj{
+  @apply h-[54px] w-full leading-[27px] text-[18px] font-bold text-black
+}
+.web_TodayIssue .issue .issueContent .cont .tabContent .tabCont .txtContent{
+  @apply w-full h-[126px] line-clamp-6 text-[14px] leading-[21px] text-ellipsis
+}
+.web_TodayIssue .issue .issueContent > button{
+  @apply w-[calc(100%-40px)] mx-auto h-10 rounded-[6px] bg-white py-2 flex justify-center items-center gap-2
+}
+.web_TodayIssue .issue .issueContent > button span{
+  @apply text-[16px] text-black font-medium leading-6
+}
+.web_TodayIssue .issue .issueContent > button span em{
+  @apply text-[#5368ff] font-bold
+}
+
+.dateCh{
+  @apply absolute bg-white w-[236px] h-[243px] rounded-[10px] flex flex-col top-10 right-4 z-10 overflow-hidden
+}
+.dateCh .tit{
+  @apply flex w-full relative justify-center !items-center h-[48px]
+}
+.dateCh .tit strong{
+  @apply text-[16px] text-black font-medium !important
+}
+.dateCh .tit button{
+  @apply absolute top-[14px] right-[14px] z-10
+}
+.dateCh .dateList{
+  @apply w-full h-[calc(100%-48px)] flex flex-col
+}
+.dateCh .dateList button{
+  @apply w-full h-[35px] flex items-center px-5 text-[15px] text-[#141414]
+}
+.dateCh .dateList button.chking{
+  @apply text-[#2151D1] font-medium bg-[#F4F6FD] bg-[url(~/assets/img/web/checking.png)] bg-no-repeat bg-[length:16px_10px] bg-[193px_13px]
+}
