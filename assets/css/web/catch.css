@@ -80,7 +80,7 @@
   @apply w-full flex flex-col gap-2
 }
 .web_TodayIssue .issue .issueContent .cont .tabContent .tabCont .obj{
-  @apply h-[54px] w-full leading-[27px] text-[18px] font-bold text-black
+  @apply h-[54px] w-full leading-[27px] text-[18px] font-bold text-black line-clamp-2
 }
 .web_TodayIssue .issue .issueContent .cont .tabContent .tabCont .txtContent{
   @apply w-full h-[126px] line-clamp-6 text-[14px] leading-[21px] text-ellipsis
