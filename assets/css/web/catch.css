@@ -4,7 +4,7 @@
   @apply w-full flex pt-5
 }
 .web_TodayIssue .racing{
-  @apply flex flex-col w-[830px]
+  @apply flex flex-col w-[830px] bg-[#151722]
 }
 .web_TodayIssue .racing .top{
   @apply flex w-full justify-between p-[10px_20px] h-[50px] bg-black items-end relative
@@ -50,6 +50,9 @@
  .web_TodayIssue .issue .top{
   @apply h-[50px] w-full flex justify-center items-center text-[18px] font-bold text-white bg-[#1F2130]
  }
+ .web_TodayIssue .issue .top strong{
+  @apply font-bold
+ }
  .web_TodayIssue .issue .issueContent{
   @apply w-full py-5 h-[360px] flex flex-col gap-[15px]
  }
@@ -83,7 +86,7 @@
   @apply w-full h-[126px] line-clamp-6 text-[14px] leading-[21px] text-ellipsis
 }
 .web_TodayIssue .issue .issueContent > button{
-  @apply w-[calc(100%-40px)] mx-auto h-10 rounded-[6px] bg-white py-2 flex justify-center items-center gap-2
+  @apply w-[calc(100%-40px)] mx-auto h-10 rounded-[6px] bg-[#F1F3FF] py-2 flex justify-center items-center gap-2
 }
 .web_TodayIssue .issue .issueContent > button span{
   @apply text-[16px] text-black font-medium leading-6

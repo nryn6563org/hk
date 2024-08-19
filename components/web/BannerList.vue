@@ -66,6 +66,10 @@ export default {
 
     script.onload = () => {
       const swiperBnr = new Swiper('.Sbnr', {
+        autoplay: {
+          delay: 3200,
+          disableOnInteraction: false
+        },
         pagination: {
           el: '.swiper-pagination',
           clickable: true

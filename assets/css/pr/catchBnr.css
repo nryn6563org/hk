@@ -1,0 +1,48 @@
+.w-catch{
+  @apply pb-10
+}
+.w-catch .sec_tit{
+  @apply pt-10 w-full flex flex-col gap-4 items-center px-[30px]
+}
+.w-catch .sec_tit strong{
+  @apply leading-7 text-[20px] text-black font-bold
+}
+.w-catch .sec_tit span{
+  @apply w-full text-[14px] text-[#666] leading-5 text-center
+}
+.w-catch .sec_tit span em{
+  @apply text-[#3954ff] not-italic font-medium
+}
+
+.bnrLst{
+  @apply pt-5 px-2.5 w-full
+}
+
+.bnrLst .swiper-slide{
+  @apply w-full bg-[#f0f2fd] rounded-[12px] flex flex-col p-[0_15px_20px] justify-between
+}
+.bnrLst .swiper-slide .top{
+  @apply w-full flex flex-col
+}
+.bnrLst .swiper-slide .top strong{
+  @apply text-center text-[22px] text-[#141414] font-bold leading-7
+}
+.bnrLst .swiper-slide .top strong em{
+  @apply text-[#3954ff] not-italic
+}
+.bnrLst .swiper-slide .top span{
+  @apply text-[14px] text-[#3954ff] leading-5 text-center
+}
+.bnrLst .swiper-slide .bnr-img{
+  @apply pt-[15px]
+}
+
+.bnrLst .swiper-pagination{
+  @apply static p-0 m-[15px_0_0] w-full flex justify-center gap-2.5
+}
+.bnrLst .swiper-pagination span{
+  @apply w-2 h-2 rounded-full bg-[#d9d9d9] opacity-100 p-0 !m-0
+}
+.bnrLst .swiper-pagination span.swiper-pagination-bullet-active{
+  @apply bg-[#666D7E]
+}

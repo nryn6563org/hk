@@ -147,6 +147,10 @@ export default {
     script.onload = () => {
       const swiperSignal = new Swiper('.Slist', {
         slidesPerView: 'auto',
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        },
         spaceBetween: 20,
         slideToClickedSlide: true,
         loop: true,

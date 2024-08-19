@@ -1,0 +1,52 @@
+.todayIsu{
+  @apply p-[30px_20px_40px] w-full
+}
+
+.todayIsu .top{
+  @apply flex flex-col w-full gap-[5px]
+}
+.todayIsu .top span{
+  @apply text-[14px] leading-5 text-[#5368ff]
+}
+.todayIsu .top strong{
+  @apply leading-6 text-[18px] text-[#292929] font-bold
+}
+.todayIsu .top strong em{
+  @apply text-[#5368ff] not-italic
+}
+
+.issueTab{
+  @apply w-full py-5
+}
+.issueTab > .isuTab > .swiper-wrapper > button.swiper-slide{
+  @apply w-fit p-[12px_14px] rounded-[8px] bg-[#f0f0f0] text-[14px] text-[#646464]
+}
+.issueTab > .isuTab > .swiper-wrapper > button.swiper-slide.active{
+  @apply bg-[#5368ff] text-white font-bold
+}
+
+.issueContent{
+  @apply w-full mb-5
+}
+.issueContent .isuCont{
+  @apply flex flex-col gap-4 p-5 bg-[#F8F8F8] rounded-[4px]
+}
+.issueContent .isuCont strong{
+  @apply leading-6 text-[#333] text-[16px] font-bold line-clamp-2
+}
+.issueContent .isuCont span{
+  @apply leading-6 text-[16px] text-[#333] line-clamp-5
+}
+
+.todayIsu > button{
+  @apply flex w-full h-[50px] rounded-[8px] gap-2 justify-center items-center bg-[#F1F3FF]
+}
+.todayIsu > button span{
+  @apply text-[16px] text-[#564DF4] tracking-[-0.24px]
+}
+.todayIsu > button span em{
+  @apply font-bold not-italic
+}
+.todayIsu > button svg{
+  @apply ml-1
+}

@@ -1,0 +1,72 @@
+.favSignalAlarm .sec_tit{
+  @apply pt-10 w-full flex flex-col gap-4 items-center px-[30px]
+}
+.favSignalAlarm .sec_tit strong{
+  @apply leading-7 text-[20px] text-black font-bold
+}
+.favSignalAlarm .sec_tit span{
+  @apply w-full text-[14px] text-[#666] leading-5
+}
+.favSignalAlarm .sec_tit span em{
+  @apply text-[#3954ff] not-italic
+}
+
+.AlmLstBox{
+  @apply p-[20px_10px_60px] w-full
+}
+.AlmLstBox .swiper-slide{
+  @apply w-full h-[507px] bg-white rounded-[12px] shadow-web p-[20px_15px]
+}
+.AlmLstBox .swiper-slide .bullet{
+  @apply flex w-[80px] h-9 justify-center items-center rounded-full text-[20px] text-white font-bold bg-[#3954ff] mx-auto
+}
+.AlmLstBox .swiper-slide .tit{
+  @apply w-full py-4 text-center text-[20px] text-black font-bold leading-6
+}
+.AlmLstBox .swiper-slide .tit em{
+  @apply text-[#E82A39] not-italic
+}
+.AlmLstBox .swiper-slide .alarm{
+  @apply w-full h-[44px] p-0 rounded-[8px] bg-black flex justify-between items-center px-2.5
+}
+.AlmLstBox .swiper-slide .alarm span{
+  @apply text-[14px] text-white font-medium tracking-[-0.28px]
+}
+.AlmLstBox .swiper-slide .alarm span em{
+  @apply font-bold text-[#f3eb21] not-italic
+}
+.AlmLstBox .swiper-slide .alarm button{
+  @apply w-[40px] h-[24px] rounded-full bg-[#656565] relative
+  after:content-[''] after:w-5 after:h-5 after:absolute after:top-[2px] after:left-[2px] after:bg-[#ababab] after:rounded-full
+}
+.AlmLstBox .swiper-slide .alarm button.active{
+  @apply bg-[#5368ff]
+  after:left-[18px] after:bg-white
+}
+.AlmLstBox .swiper-slide .lst-w{
+  @apply w-full flex flex-col gap-[6px] py-5
+}
+.AlmLstBox .swiper-slide .lst-w .lst{
+  @apply w-full border-[1px] border-[#ebebeb] rounded-[8px] h-[44px] px-2.5 flex justify-between items-center gap-1
+}
+.AlmLstBox .swiper-slide .lst-w .lst .obj{
+  @apply w-[103px] text-[14px] text-[#141414] font-medium truncate
+}
+.AlmLstBox .swiper-slide .lst-w .lst .info{
+  @apply w-[calc(100%-171px)] text-[12px] text-[#5539d1] tracking-[-0.24px]
+}
+.AlmLstBox .swiper-slide .lst-w .lst .blt{
+  @apply w-[60px] h-[24px] border-[1px] border-[#666] text-[12px] font-medium rounded-full text-center leading-6
+}
+.AlmLstBox .swiper-slide > button{
+  @apply w-full h-[44px] border-[1px] border-[#3954ff] rounded-[8px] flex justify-center items-center font-medium text-[16px] text-[#3954ff]
+}
+.AlmLstBox .swiper-pagination{
+  @apply static p-0 m-[15px_0_0] w-full flex justify-center gap-2.5
+}
+.AlmLstBox .swiper-pagination span{
+  @apply w-2 h-2 rounded-full bg-[#d9d9d9] opacity-100 p-0 !m-0
+}
+.AlmLstBox .swiper-pagination span.swiper-pagination-bullet-active{
+  @apply bg-[#666D7E]
+}

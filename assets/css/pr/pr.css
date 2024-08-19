@@ -1,0 +1,40 @@
+.prModal{
+  @apply px-2.5
+}
+.prModal .modal-content{
+  @apply bg-[#f2f6ff] border-[1px] border-[#ababbf] rounded-[16px] overflow-auto
+}
+.prModal .modal-content .modal-header{
+  @apply absolute top-0 left-0 w-full flex justify-end p-[12px_18px_0]
+}
+.prModal .modal-content .modal-body{
+  @apply pt-9 w-full px-4
+}
+.prModal .modal-content .modal-body .top{
+  @apply w-full flex flex-col items-center
+}
+.prModal .modal-content .modal-body .top strong{
+  @apply text-[18px] text-black font-bold leading-7 pb-3
+}
+.prModal .modal-content .modal-body .top span{
+  @apply leading-5 text-[15px] text-[#333] pb-1 text-center
+}
+.prModal .modal-content .modal-body .top span em{
+  @apply text-[#4D0FFF] font-medium not-italic
+}
+.prModal .modal-content .modal-body .img{
+  @apply pt-2 w-full
+}
+.prModal .modal-content .modal-footer{
+  @apply px-4 py-5 w-full
+}
+.prModal .modal-content .modal-footer button{
+  @apply w-full h-[55px] flex flex-col items-center justify-center bg-[#5368ff] rounded-[6px]
+}
+.prModal .modal-content .modal-footer button span{
+  @apply leading-5 text-[14px] text-white
+}
+.prModal .modal-content .modal-footer button strong{
+  @apply leading-6 text-[16px] text-[#f3eb21] font-bold
+
+}

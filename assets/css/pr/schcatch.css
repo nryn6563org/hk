@@ -1,0 +1,43 @@
+.schCatch{
+  @apply pb-10 bg-[#f4f4f4]
+}
+.schCatch .sec_tit{
+  @apply pt-10 w-full flex flex-col gap-4 items-center px-[30px]
+}
+.schCatch .sec_tit strong{
+  @apply leading-7 text-[20px] text-black font-bold
+}
+.schCatch .sec_tit strong em{
+  @apply text-[#3954ff] not-italic
+}
+.schCatch .sec_tit span{
+  @apply w-full text-[14px] text-[#666] leading-5 text-center
+}
+.schCatch .sec_tit span em{
+  @apply text-[#3954ff] not-italic font-medium
+}
+
+.schLst{
+  @apply w-full pt-5 px-[50px]
+}
+.schLst .swiper-slide{
+  @apply w-full p-[20px_30px] rounded-[16px] bg-white flex flex-col items-center
+}
+.schLst .swiper-slide .bullet{
+  @apply w-[30px] h-[30px] rounded-full bg-[#41455f] flex justify-center items-center text-[16px] text-white font-bold
+}
+.schLst .swiper-slide .txt{
+  @apply w-full pt-2 text-[14px] leading-5 text-center
+}
+.schLst .swiper-slide .img{
+  @apply w-full pt-[30px]
+}
+.schLst .swiper-pagination{
+  @apply static p-0 m-[15px_0_0] w-full flex justify-center gap-2.5
+}
+.schLst .swiper-pagination span{
+  @apply w-2 h-2 rounded-full bg-[#d9d9d9] opacity-100 p-0 !m-0
+}
+.schLst .swiper-pagination span.swiper-pagination-bullet-active{
+  @apply bg-[#666D7E]
+}
