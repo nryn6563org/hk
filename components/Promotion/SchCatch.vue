@@ -79,6 +79,10 @@ export default {
       const swiperSchCatch = new Swiper('.s-lstw', {
         slidesPerView: 1,
         spaceBetween: 20,
+        autoplay: {
+          delay: 3600,
+          disableOnInteraction: false
+        },
         loop: true,
         pagination: {
           el: '.swiper-pagination',

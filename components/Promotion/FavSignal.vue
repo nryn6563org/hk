@@ -438,6 +438,10 @@ export default {
       const swiperFsignal = new Swiper('.almlst', {
         slidesPerView: 1,
         spaceBetween: 20,
+        autoplay: {
+          delay: 3300,
+          disableOnInteraction: false
+        },
         loop: true,
         pagination: {
           el: '.swiper-pagination',

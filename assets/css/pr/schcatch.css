@@ -27,13 +27,13 @@
   @apply w-[30px] h-[30px] rounded-full bg-[#41455f] flex justify-center items-center text-[16px] text-white font-bold
 }
 .schLst .swiper-slide .txt{
-  @apply w-full pt-2 text-[14px] leading-5 text-center
+  @apply w-full h-[68px] pt-2 text-[14px] leading-5 text-center
 }
 .schLst .swiper-slide .img{
-  @apply w-full pt-[30px]
+  @apply w-full pt-2
 }
 .schLst .swiper-pagination{
-  @apply static p-0 m-[15px_0_0] w-full flex justify-center gap-2.5
+  @apply static p-0 m-[15px_0_0_0] w-full flex justify-center gap-2.5
 }
 .schLst .swiper-pagination span{
   @apply w-2 h-2 rounded-full bg-[#d9d9d9] opacity-100 p-0 !m-0
