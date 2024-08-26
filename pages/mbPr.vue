@@ -1,5 +1,8 @@
 <template>
   <div id="wrap">
+    <iframe src="https://img.wowtv.co.kr/thinkpool/hkwowtv_ai_catch_header_m.html" frameborder="0" class="w-full h-[170px]"></iframe>
+    <!-- header -->
+
     <TopIssue />
     <!-- section -->
 
@@ -19,6 +22,9 @@
       <a href="#"><img src="~/assets/img/pr/bnr5.png" alt="정기결제 배너"></a>
     </section>
     <!-- section -->
+
+    <iframe src="https://img.wowtv.co.kr/thinkpool/hkwowtv_ai_catch_footer_m.html" frameborder="0" class="w-full h-[160px]"></iframe>
+    <!-- footer -->
   </div>
 </template>
 
