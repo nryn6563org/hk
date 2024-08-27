@@ -1,7 +1,7 @@
 <template>
   <section class="schCatch">
     <div class="sec_tit">
-      <strong>주식창에서 <em>AI캐치</em> 찾기</strong>
+      <strong><em>AI캐치</em> 신청하기</strong>
       <span>
         대한민국 대표 <br><em>AI주식매매 알고리즘</em>
       </span>

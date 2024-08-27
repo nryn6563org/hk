@@ -342,7 +342,7 @@
       <template #body>
         <div class="webModal">
           <div class="top">
-            <strong>실시간 이슈와 주도주 확인하기</strong>
+            <strong>AI종목 신호 알림</strong>
             <span>
               주식창앱에서 <em>딱! 좋은 종목을 실시간 <br>감시해서 매수신호 </em>신청이 가능합니다.
             </span>

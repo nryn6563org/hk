@@ -1,8 +1,8 @@
 <template>
   <div id="wrap">
-    <iframe src="https://img.wowtv.co.kr/thinkpool/hkwowtv_ai_catch_header_m.html" frameborder="0" class="w-full h-[170px]"></iframe>
+    <iframe src="https://img.wowtv.co.kr/thinkpool/hkwowtv_ai_catch_header_m.html" frameborder="0" class="w-full h-[185px]"></iframe>
     <!-- header -->
-
+    <div class="h-0"></div>
     <TopIssue />
     <!-- section -->
 

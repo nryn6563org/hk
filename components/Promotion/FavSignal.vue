@@ -1,7 +1,7 @@
 <template>
   <section class="favSignalAlarm">
     <div class="sec_tit">
-      <strong>딱! 좋은 종목 신호받기</strong>
+      <strong>AI종목 신호 알림</strong>
       <span>
         AI가 5가지 종목군을 <em>선별하고</em> 감시해서, <em>정확한 매수 타이밍</em>이 포착된 종목을 PUSH로 알려드립니다.
         종목도, 타이밍도 고민할 필요 없는 세상에서 <em class="font-medium">가장 간편한 AI 매매신호 서비스</em>입니다.

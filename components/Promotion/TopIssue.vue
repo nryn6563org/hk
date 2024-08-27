@@ -1,7 +1,7 @@
 <template>
   <section class="topissue">
       <div class="sec_tit">
-        <strong>지금! 주목 받는 이슈</strong>
+        <strong>종별 AI캐치</strong>
         <span>
           오늘 시장에서 주목하는 이슈를 알려드립니다. <br>
           누구나 <em>시장의 흐름을 한눈에 파악</em>할 수 있습니다.
