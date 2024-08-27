@@ -359,7 +359,7 @@
       <template #footer>
         <button>
           <span>주식창 앱에서</span>
-          <em>실시간 이슈와 주도주 확인하기</em>
+          <em>AI종목 신호 알림 확인하기</em>
         </button>
       </template>
     </Modal>
