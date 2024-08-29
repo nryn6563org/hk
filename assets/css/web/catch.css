@@ -61,7 +61,7 @@
  }
 
 .swiper.issueList{
-  @apply flex flex-col px-5 h-[30px]
+  @apply flex flex-col px-5 h-[30px] w-full
 }
 .issueList .swiper-wrapper{}
 .issueList .swiper-wrapper .swiper-slide{
