@@ -134,72 +134,72 @@
           <div class="cont">
             <div class="swiper issueList">
               <div class="swiper-wrapper">
-                <button
+                <span
                   :class="{ active: activeTab === 'tab1' }"
                   class="swiper-slide"
                   @click="showTab('tab1')"
                 >
                   원전
-                </button>
-                <button
+                </span>
+                <span
                   :class="{ active: activeTab === 'tab2' }"
                   class="swiper-slide"
                   @click="showTab('tab2')"
                 >
                   화장품
-                </button>
-                <button
+                </span>
+                <span
                   :class="{ active: activeTab === 'tab3' }"
                   class="swiper-slide"
                   @click="showTab('tab3')"
                 >
                   아이폰
-                </button>
-                <button
+                </span>
+                <span
                   :class="{ active: activeTab === 'tab4' }"
                   class="swiper-slide"
                   @click="showTab('tab4')"
                 >
                   갤럭시
-                </button>
-                <button
+                </span>
+                <span
                   :class="{ active: activeTab === 'tab5' }"
                   class="swiper-slide"
                   @click="showTab('tab5')"
                 >
                   암호화폐
-                </button>
-                <button
+                </span>
+                <span
                   :class="{ active: activeTab === 'tab6' }"
                   class="swiper-slide"
                   @click="showTab('tab6')"
                 >
                   은행
-                </button>
+                </span>
 
-                <button
+                <span
                   :class="{ active: activeTab === 'tab6' }"
                   class="swiper-slide"
                   @click="showTab('tab6')"
                 >
                   은행
-                </button>
+                </span>
 
-                <button
+                <span
                   :class="{ active: activeTab === 'tab6' }"
                   class="swiper-slide"
                   @click="showTab('tab6')"
                 >
                   은행
-                </button>
+                </span>
 
-                <button
+                <span
                   :class="{ active: activeTab === 'tab6' }"
                   class="swiper-slide"
                   @click="showTab('tab6')"
                 >
                   은행
-                </button>
+                </span>
               </div>
               <!--  -->
               <div class="swiper-pagination"></div>

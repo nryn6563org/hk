@@ -65,7 +65,7 @@
 }
 .issueList .swiper-wrapper{}
 .issueList .swiper-wrapper .swiper-slide{
-  @apply w-fit p-[5px_10px] rounded-[4px] text-[14px] text-[#333] h-[30px] flex items-center bg-white
+  @apply w-fit p-[5px_10px] rounded-[4px] text-[14px] text-[#333] h-[30px] flex items-center bg-white cursor-pointer
 }
 .issueList .swiper-wrapper .swiper-slide.active{
   @apply bg-[#5368ff] text-white
