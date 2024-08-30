@@ -553,12 +553,12 @@
 
           <div class="price">
             <div>
-              <span>단건결제 : 198,000원/월</span>
+              <span>단건결제 : 220,000원/월</span>
               <span>정기결제 : <em>50%할인</em></span>
             </div>
             <!--  -->
             <div>
-              <span> <em>99,000</em>원/월 </span>
+              <span> <em>110,000</em>원/월 </span>
             </div>
             <!--  -->
           </div>
