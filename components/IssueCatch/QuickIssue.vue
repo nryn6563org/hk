@@ -627,12 +627,12 @@
 
           <div class="price">
             <div>
-              <span>단건결제 : 198,000원/월</span>
+              <span>단건결제 : 220,000원/월</span>
               <span>정기결제 : <em>50%할인</em></span>
             </div>
             <!--  -->
             <div>
-              <span> <em>99,000</em>원/월 </span>
+              <span> <em>110,000</em>원/월 </span>
             </div>
             <!--  -->
           </div>
@@ -852,8 +852,8 @@
                 <div>
                   <div class="top">매월 정기결제<em>(50%할인)</em></div>
                   <div class="prc">
-                    <del>198,000원</del>
-                    <em>99,000원/월</em>
+                    <del>220,000원</del>
+                    <em>110,000원/월</em>
                     (VAT포함)
                   </div>
                 </div>
@@ -866,7 +866,7 @@
                 <div>
                   <div class="top">1개월 단건 결제</div>
                   <div class="prc">
-                    <span>198,000원/월</span>
+                    <span>220,000원/월</span>
                     (VAT포함)
                   </div>
                 </div>
@@ -1026,7 +1026,7 @@
           <div class="priceMonth">
             <div>
               <span>1개월</span>
-              <em>198,000원/월</em>
+              <em>220,000원/월</em>
               (VAT포함)
             </div>
             <button>1개월 결제하기</button>
